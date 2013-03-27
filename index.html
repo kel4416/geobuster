@@ -4,72 +4,69 @@
 		<meta charset="utf-8">
 		<title>GeoBuster</title>
 		<link href="css/ui-darkness/jquery-ui-1.10.2.custom.css" rel="stylesheet">
+		<link href="style.css" media="screen" rel="stylesheet" type="text/css" />
 		<script src="js/jquery-1.9.1.js"></script>
 		<script src="js/jquery-ui-1.10.2.custom.js"></script>
-		<script src="http://d3js.org/d3.v3.min.js"></script>
+		<script src="js/d3.v3/d3.v3.min.js"></script>
+		<script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
+		<script src="http://d3js.org/topojson.v0.min.js"></script>
 		<script>
 			$(document).ready(function() {
 				//whatever functions you want to do with jquery here
 			});
 		</script>
-<style>
-.background {
-  fill: none;
-  pointer-events: all;
-}     
-#country {
-	fill: #aaa;
-  	stroke: #fff;
-  	stroke-width: .5px;
-}
-
-</style>  
 	</head>
 	<body>
-		<table border="1" align="center" width="90%">
-			<thead>
-				<tr>
-					<th colspan="2"><h1>GeoBuster</h1></th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td id="MainGraph">
-					<br>
-					<script type="text/javascript">
-						var width = 900, height = 400;
+		<table border="1" align="center" width="80%">
+			<tr>
+				<td id="map" align="center" width="80%">								
+				<script type="text/javascript">
+					var width = 960, height = 500;
 
-						var projection = d3.geo.mercator().scale(150);
+					//var projection = d3.geo.naturalEarth().translate([width / 2, height / 2]).scale(150 / 900 * width);
+					var projection = d3.geo.mercator().translate([0, 0]).scale(width / 2 / Math.PI);
 
-						var path = d3.geo.path().projection(projection);
+					var zoom = d3.behavior.zoom().scaleExtent([1, 8]).on("zoom", move);
 
-						var zoom = d3.behavior.zoom().translate(projection.translate()).scale(projection.scale()).scaleExtent([height, 8 * height]).on("zoom", zoom);
+					var path = d3.geo.path().projection(projection);
 
-						var svg = d3.select("#MainGraph").append("svg").attr("width", width).attr("height", height);
+					var svg = d3.select("#map").append("svg").attr("width", width).attr("height", height).append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")").call(zoom);
 
-						var g = svg.append("g").attr("id", "country").call(zoom);
+					var g = svg.append("g");
 
-						g.append("rect").attr("class", "background").attr("width", width).attr("height", height);
+					svg.append("rect").attr("class", "overlay").attr("x", -width / 2).attr("y", -height / 2).attr("width", width).attr("height", height);
 
-						d3.json("data/countries.geojson", function(json) {
-							g.selectAll("path").data(json.features).enter().append("path").attr("d", path);
-						});
+					d3.json("data/world-110m.json", function(error, world) {
+						g.append("path").datum(topojson.object(world, world.objects.countries)).attr("class", "land").attr("d", path);
 
-						function zoom() {
-							projection.translate(d3.event.translate).scale(d3.event.scale);
-							states.selectAll("path").attr("d", path);
-						}
-					</script>
-					</td>
-					<td> Panel for Selecting Visualisation </td>
-				</tr>
-				<tr>
-					<td> Supplementary Graph </td>
+						g.append("path").datum(topojson.mesh(world, world.objects.countries, function(a, b) {
+							return a !== b;
+						})).attr("class", "boundary").attr("d", path);
+					});
 
-					<td> Statistics DashBoard </td>
-				</tr>
-			</tbody>
+					d3.json('data/tectonics.json', function(error, data) {
+
+						g.insert("path", ".graticule").datum(topojson.object(data, data.objects.tec)).attr("class", "tectonic").attr("d", path);
+
+					});
+
+					function move() {
+						var t = d3.event.translate, s = d3.event.scale;
+						t[0] = Math.min(width / 2 * (s - 1), Math.max(width / 2 * (1 - s), t[0]));
+						t[1] = Math.min(height / 2 * (s - 1) + 230 * s, Math.max(height / 2 * (1 - s) - 230 * s, t[1]));
+						zoom.translate(t);
+						g.style("stroke-width", 1 / s).attr("transform", "translate(" + t + ")scale(" + s + ")");
+					}
+
+				</script>
+				</td>
+				<td valign="top"> Panel for Selecting Visualisation </td>
+			</tr>
+			<tr>
+				<td> Supplementary Graph </td>
+
+				<td> Statistics DashBoard </td>
+			</tr>
 		</table>
-
 	</body>
 </html>
