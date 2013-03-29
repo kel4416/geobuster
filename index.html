@@ -35,6 +35,10 @@
 							
 						});
 						
+						g.selectAll(".volcano-label").attr("visibility",function(d){
+							return d.properties.TYPE === selectedValue ? "visible" : "hidden";
+							
+						});	
 					}
 
 

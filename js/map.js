@@ -45,13 +45,18 @@ d3.json('data/tectonics.json', function(error, data) {
 });
 
 d3.json("data/volcano.geojson", function(collection) {
-	g.selectAll("path") 		
-		.data(collection.features)
-		.enter().append("path")
-		.attr("class", "volcano")	
-		.attr("d", path);																				       																	    														        
-});		
+	g.selectAll("path").data(collection.features).enter().append("path").attr("class", "volcano").attr("d", path);
+});
 
+d3.json("data/volcano.geojson", function(collection) {
+g.selectAll(".volcano-label")
+    .data(collection.features)
+  .enter().append("text")
+    .attr("class", "volcano-label")
+    .attr("transform", function(d) { return "translate(" + projection(d.geometry.coordinates) + ")"; })
+    .attr("dy", ".35em")
+    .text(function(d) { return d.properties.NAME; });
+ });   
 function move() {
 	var t = d3.event.translate, s = d3.event.scale;
 	t[0] = Math.min(width / 2 * (s - 1), Math.max(width / 2 * (1 - s), t[0]));
