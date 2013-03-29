@@ -14,8 +14,7 @@ var svg = d3.select("#map")
 		.attr("transform", "translate(" + width / 2 + "," + height / 2 + ")")
 		.call(zoom);
 
-var g = svg.append("g");											
-var volcanos = svg.append("g").attr("id","volcano");
+var g = svg.append("g");
 
 svg.append("rect")
 	.attr("class", "overlay")
@@ -46,7 +45,7 @@ d3.json('data/tectonics.json', function(error, data) {
 });
 
 d3.json("data/volcano.geojson", function(collection) {
-	volcanos.selectAll("path") 		
+	g.selectAll("path") 		
 		.data(collection.features)
 		.enter().append("path")
 		.attr("class", "volcano")	

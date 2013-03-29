@@ -30,7 +30,7 @@
 						//alert(this.value);
 						//var filtered json =
 						var selectedValue = this.value;
-						volcanos.selectAll(".volcano").attr("visibility",function(d){
+						g.selectAll(".volcano").attr("visibility",function(d){
 							return d.properties.TYPE === selectedValue ? "visible" : "hidden";
 							
 						});
