@@ -16,7 +16,7 @@ var svg = d3.select("#map")
 
 var g = svg.append("g");
 
-svg.append("rect")
+g.append("rect")
 	.attr("class", "overlay")
 	.attr("x", -width / 2)
 	.attr("y", -height / 2)
@@ -45,26 +45,24 @@ d3.json('data/tectonics.json', function(error, data) {
 });
 
 d3.json("data/volcano.geojson", function(collection) {
-	g.selectAll("path")
-		.data(collection.features)
-		.enter().append("path")
-		.attr("class",function(d){
-			var tempyear = d.properties.YEAR; 
-			return '_'+tempyear+" volcano";
-		})
-		.attr("d", path);
-});
+	g.selectAll("path").data(collection.features).enter().append("path").attr("class", function(d) {
+		var tempyear = d.properties.YEAR;
+		return '_' + tempyear + " volcano";
+	}).attr("d", path).append("svg:title").text(function(d){return d.properties.NAME;});
 
-d3.json("data/volcano.geojson", function(collection) {
-	g.selectAll(".volcano-label")
-	    .data(collection.features)
-	  .enter().append("text")
-	    .attr("class", "volcano-label")
-	    .attr("transform", function(d) { return "translate(" + projection(d.geometry.coordinates) + ")"; })
-	    .attr("dy", ".35em")
-	    .text(function(d) { return d.properties.NAME; });
-});   
- 
+}); 
+
+// d3.json("data/volcano.geojson", function(collection) {
+	// g.selectAll(".volcano-label")
+	    // .data(collection.features)
+	  // .enter().append("text")
+	    // .attr("class", "volcano-label")
+	    // .attr("transform", function(d) { return "translate(" + projection(d.geometry.coordinates) + ")"; })
+	    // .attr("dy", ".35em")
+	    // .text(function(d) { return d.properties.NAME; });
+ // }); 
+//  
+
 function move() {
 	var t = d3.event.translate, s = d3.event.scale;
 	t[0] = Math.min(width / 2 * (s - 1), Math.max(width / 2 * (1 - s), t[0]));

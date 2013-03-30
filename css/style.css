@@ -1,5 +1,41 @@
+html{
+	height:85%;
+}
 body {
 	font: 10px sans-serif;
+	height: 100%;
+	background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #C4BB27), color-stop(1, #782B04));
+}
+
+table{
+	vertical-align:top;
+	height:100%;
+	border:solid 1px #FFFFFF;
+	border-collapse: collapse;
+	background-color: white;
+	width:90%;
+}
+
+td{
+	vertical-align: top;
+}
+.header{
+	color:black;
+	font:25px Helvetica, sans-serif;
+	background-color:white;
+	width:100%;
+	padding-left: 2px;
+}
+select{
+	margin-left:20%;
+}
+.slider{
+	width:90%;
+	margin-left:5%;
+}
+
+option{
+	font: 15px Helvetica, sans-serif;
 }
 
 .tectonic {
