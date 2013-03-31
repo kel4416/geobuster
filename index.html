@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="utf-8">
 		<title>GeoBuster</title>
-		
 
 		<script src="js/jquery-1.9.1.js"></script>
 		<script src="js/jquery-ui-1.10.2.custom.js"></script>
@@ -14,7 +13,7 @@
 		<script src="http://d3js.org/topojson.v0.min.js"></script>
 
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-		
+
 		<link href="css/ui-darkness/jquery-ui-1.10.2.custom.css" rel="stylesheet">
 		<link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
 		<link href="css/tipsy.css" media="screen" rel="stylesheet" type="text/css"/>
@@ -23,20 +22,21 @@
 		<table align="center">
 			<tr>
 				<td align="center" width="80%"><div id="map"></div><script src="js/map.js"></script></td>
-				<td align="left" valign="top" style="color: white;background-color:#302217">
-					<img src="img/GeoLogo.png" width="100%" alt="logo"/>
-					<br/>
-					<br/>
-					<div class="header" align="center">Volcano Type</div>
-							<br/>
-					<div id="volcano_type"></div>
+				<td align="left" valign="top" style="color: white;background-color:#302217"><img src="img/GeoLogo.png" width="100%" alt="logo"/>
+				<br/>
+				<br/>
+				<div class="header" align="center">
+					Volcano Type
+				</div>
+				<br/>
+				<div id="volcano_type" align="center"></div>
 				<script>
 					$(document).ready(function() {
 						$('svg title').parent().tipsy({
-							gravity: 'w'
+							gravity : 'w'
 						});
 					});
-					
+
 					function change(d) {
 						//alert(this.value);
 						var selectedValue = this.value;
@@ -47,19 +47,30 @@
 
 
 					d3.json("data/volcano.geojson", function(collection) {
-						d3.select("#volcano_type").append("select")
-							.on("change", change)
-						.selectAll("option").data(collection.features)
-						.enter().append("option").attr("value", function(d) {
-							return d.properties.TYPE;
+						var unique_volcano_type = new Array();
+						for ( i = 0; i < collection.features.length; i++) {
+
+							if (unique_volcano_type.indexOf(collection.features[i].properties.TYPE) > -1) {
+								//alert(collection.features[i].properties.TYPE);
+							} else {
+								var item = collection.features[i].properties.TYPE;
+								unique_volcano_type.push(item);
+							}
+						}
+
+						d3.select("#volcano_type").append("select").on("change", change).selectAll("option").data(unique_volcano_type).enter().append("option").attr("value", function(d) {
+							return d;
 						}).text(function(d) {
-							return d.properties.TYPE;
+							return d;
 						});
 					});
 
-				</script><br /><br /><div class="header" align="center">Eruption Frequency</div>
+				</script>
 				<br/>
-				
+				<div class="header" align="center">
+					Eruption Frequency
+				</div>
+				<br/>
 				<div id="scale" class="slider"></div>
 				<p id="slidertext" style="margin-left:10%">
 					All eruptions During -8500 - 2012
@@ -80,7 +91,7 @@
 							} else {
 
 								g.selectAll('.volcano').style("display", "none");
-							
+
 								$tempvalue = '' + years[ui.value];
 								$tempvalueclass = '._' + $tempvalue;
 
