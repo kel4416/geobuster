@@ -42,18 +42,15 @@
 						var selectedValue = this.value;
 						g.selectAll(".volcano").attr("visibility", function(d) {
 							return d.properties.TYPE === selectedValue ? "visible" : "hidden";
-
-						});
-
-						g.selectAll(".volcano-label").attr("visibility", function(d) {
-							return d.properties.TYPE === selectedValue ? "visible" : "hidden";
-
 						});
 					}
 
 
 					d3.json("data/volcano.geojson", function(collection) {
-						d3.select("#volcano_type").append("select").on("change", change).selectAll("option").data(collection.features).enter().append("option").attr("value", function(d) {
+						d3.select("#volcano_type").append("select")
+							.on("change", change)
+						.selectAll("option").data(collection.features)
+						.enter().append("option").attr("value", function(d) {
 							return d.properties.TYPE;
 						}).text(function(d) {
 							return d.properties.TYPE;
@@ -63,33 +60,33 @@
 				</script><br /><br /><div class="header" align="center">Eruption Frequency</div>
 				<br/>
 				
-				<div id="slider" class="slider"></div>
+				<div id="scale" class="slider"></div>
 				<p id="slidertext" style="margin-left:10%">
-					Eruptions During -8000 - 2012
+					All eruptions During -8500 - 2012
 				</p>
 				<script>
-					$("#slider").slider({
+					$("#scale").slider({
 						min : 0,
-						max : 8000,
+						max : 11,
 						value : 0, //default slider value
 						step : 1, // step is the allow increments the slider can move. 1 = 1000 years
 						slide : function(event, ui) {
-							var years = [-8000, -7000, -6000, -5000, -4000, -3000, -2000, -1000, 0, 1000, 2000, 2012];
+							var years = [-9000, -8000, -7000, -6000, -5000, -4000, -3000, -2000, -1000, 1000, 2000];
 
 							if (ui.value == 0) {
 								g.selectAll('.volcano').style("display", "block");
 
-								d3.select("#slidertext").text('Eruptions During -8000 - 2012');
+								d3.select("#slidertext").text("All eruptions During -8500 - 2012");
 							} else {
 
 								g.selectAll('.volcano').style("display", "none");
-
+							
 								$tempvalue = '' + years[ui.value];
 								$tempvalueclass = '._' + $tempvalue;
 
 								g.selectAll($tempvalueclass).style("display", "block");
 
-								d3.select("#slidertext").text('Eruptions During ' + $tempvalue);
+								d3.select("#slidertext").text('All eruptions During ' + $tempvalue);
 							}
 						}
 					});

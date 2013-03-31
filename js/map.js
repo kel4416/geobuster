@@ -45,10 +45,11 @@ d3.json('data/tectonics.json', function(error, data) {
 });
 
 d3.json("data/volcano.geojson", function(collection) {
-	g.selectAll("path").data(collection.features).enter().append("path").attr("class", function(d) {
-		var tempyear = d.properties.YEAR;
-		return '_' + tempyear + " volcano";
-	}).attr("d", path).append("svg:title").text(function(d){return d.properties.NAME;});
+	g.selectAll("path").data(collection.features).enter().append("path")			
+		.attr("class", function(d) {
+			var tempyear = d.properties.YEAR;
+			return "_" + tempyear + " volcano" ;})
+		.attr("d", path).append("svg:title").text(function(d){return d.properties.NAME;});
 
 }); 
 
