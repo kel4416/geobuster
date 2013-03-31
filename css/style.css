@@ -5,6 +5,8 @@ body {
 	font: 10px sans-serif;
 	height: 100%;
 	background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #C4BB27), color-stop(1, #782B04));
+	background-image: -moz-radial-gradient(center, circle farthest-corner, #C4BB27 0%, #782B04 100%);
+
 }
 
 table{
@@ -27,7 +29,7 @@ td{
 	padding-left: 2px;
 }
 select{
-	margin-left:20%;
+	margin-left:15%;
 }
 .slider{
 	width:90%;
