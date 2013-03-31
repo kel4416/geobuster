@@ -3,10 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>GeoBuster</title>
-		<link href="css/ui-darkness/jquery-ui-1.10.2.custom.css" rel="stylesheet">
-
-		<link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
-		<link href="css/tipsy.css" media="screen" rel="stylesheet" type="text/css"/>
+		
 
 		<script src="js/jquery-1.9.1.js"></script>
 		<script src="js/jquery-ui-1.10.2.custom.js"></script>
@@ -17,6 +14,10 @@
 		<script src="http://d3js.org/topojson.v0.min.js"></script>
 
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+		
+		<link href="css/ui-darkness/jquery-ui-1.10.2.custom.css" rel="stylesheet">
+		<link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="css/tipsy.css" media="screen" rel="stylesheet" type="text/css"/>
 	</head>
 	<body>
 		<table align="center">
@@ -26,10 +27,15 @@
 					<img src="img/GeoLogo.png" width="100%" alt="logo"/>
 					<br/>
 					<br/>
-					<div class="header">Volcano Type</div>
+					<div class="header" align="center">Volcano Type</div>
 							<br/>
 					<div id="volcano_type"></div>
 				<script>
+					$(document).ready(function() {
+						$('svg title').parent().tipsy({
+							gravity: 'w'
+						});
+					});
 					
 					function change(d) {
 						//alert(this.value);
@@ -54,7 +60,7 @@
 						});
 					});
 
-				</script><br /><br /><div class="header">Eruption Frequency</div>
+				</script><br /><br /><div class="header" align="center">Eruption Frequency</div>
 				<br/>
 				
 				<div id="slider" class="slider"></div>

@@ -24,9 +24,8 @@ td{
 .header{
 	color:black;
 	font:25px Helvetica, sans-serif;
-	background-color:white;
+	background-color:#F58400;
 	width:100%;
-	padding-left: 2px;
 }
 select{
 	margin-left:15%;
