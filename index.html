@@ -41,6 +41,9 @@
 						//alert(this.value);
 						var selectedValue = this.value;
 						g.selectAll(".volcano").attr("visibility", function(d) {
+							if(selectedValue === "Select All"){
+								return "visible";
+							}
 							return d.properties.TYPE === selectedValue ? "visible" : "hidden";
 						});
 					}
@@ -48,6 +51,7 @@
 
 					d3.json("data/volcano.geojson", function(collection) {
 						var unique_volcano_type = new Array();
+						unique_volcano_type.push("Select All");
 						for ( i = 0; i < collection.features.length; i++) {
 
 							if (unique_volcano_type.indexOf(collection.features[i].properties.TYPE) > -1) {
@@ -71,36 +75,57 @@
 					Eruption Frequency
 				</div>
 				<br/>
+				<button id="slider-switch" style="margin-left:20px">Activate Slider</button>
+				<script>
+					$("#slider-switch").button();
+					$("#slider-switch").click(function(){
+						if ( $( "#slider-switch" ).button( "option", "label" ) === "Activate Slider"){
+						$("#scale").slider("enable");
+						$("#slider-switch").button( "option", "label", "Deactivate Slider" );
+						}else{
+							$("#scale").slider("disable");
+							$("#slider-switch").button( "option", "label", "Activate Slider" );
+						}
+					});
+				</script>
+				<br/>
+				<br/>
 				<div id="scale" class="slider"></div>
 				<p id="slidertext" style="margin-left:10%">
-					All eruptions During -8500 - 2012
+					All eruptions During -6000 to -2000
 				</p>
 				<script>
 					$("#scale").slider({
+						range: true,
 						min : 0,
-						max : 11,
-						value : 0, //default slider value
+						max : 10,
+						values : [3,7], //default slider value
 						step : 1, // step is the allow increments the slider can move. 1 = 1000 years
 						slide : function(event, ui) {
 							var years = [-9000, -8000, -7000, -6000, -5000, -4000, -3000, -2000, -1000, 1000, 2000];
+							var slider1Value = ui.values[0];
+							var slider2Value = ui.values[1];
+							// if (slider1Value == 0 && slider2Value == 0) {
+								// g.selectAll('.volcano').style("display", "block");
+// 
+								// d3.select("#slidertext").text("All eruptions During -8500 - 2012");
+							// } else {
 
-							if (ui.value == 0) {
-								g.selectAll('.volcano').style("display", "block");
-
-								d3.select("#slidertext").text("All eruptions During -8500 - 2012");
-							} else {
-
-								g.selectAll('.volcano').style("display", "none");
-
-								$tempvalue = '' + years[ui.value];
+							g.selectAll('.volcano').style("display", "none");
+							for(i = years[slider1Value] ; i < years[slider2Value] ; i++){
+								$tempvalue = '' + i;
 								$tempvalueclass = '._' + $tempvalue;
 
 								g.selectAll($tempvalueclass).style("display", "block");
 
-								d3.select("#slidertext").text('All eruptions During ' + $tempvalue);
+								
 							}
+							d3.select("#slidertext").text('All eruptions During ' + years[slider1Value] + ' to ' + years[slider2Value]);
+							//}
 						}
 					});
+					
+					$("#scale").slider("disable");
 				</script></td>
 			</tr>
 			<tr>
