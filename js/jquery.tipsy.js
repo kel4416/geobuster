@@ -12,7 +12,7 @@
 // behavior. This is useful when you wish to keep a parent tipsy open while
 // its child is still active.
 (function($) {
-
+	
 	function maybeCall(thing, ctx) {
 		return ( typeof thing == 'function') ? (thing.call(ctx)) : thing;
 	}
