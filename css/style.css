@@ -12,7 +12,6 @@ body {
 
 table{
 	vertical-align:top;
-	height:100%;
 	/*border:solid 1px #FFFFFF;*/
 	border-collapse: collapse;
 	background-color: white;
@@ -28,7 +27,7 @@ td{
 	color:#F58400;
 	text-align:left;
 	font-weight:bold;
-	font:17px Helvetica, sans-serif;
+	font:18px Helvetica, sans-serif;
 	border-style:solid;
 	border-top: 1px #F58400;
 	border-left: 1px #F58400;

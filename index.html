@@ -37,16 +37,33 @@
 					"bLengthChange" : false,
 					"sPaginationType" : "full_numbers"
 				});
-
-				$("select").selectbox({
-					onChange: function(val,inst){
-						g.selectAll(".volcano").attr("visibility", function(d) {
-							if (val === "Select All") {
-								return "visible";
-							}
-							return d.properties.TYPE === val ? "visible" : "hidden";
-						});
-					}
+				//$("#selectType").selectbox();
+				//$("#selectLocation").selectbox();
+				//$("#selectStatus").selectbox();
+				
+				$("#submitButton").button();
+				$("#submitButton").click(function() {
+					g.selectAll(".volcano").attr("visibility", function(d) {
+						var typeSelected = $("#selectType").val();
+						var locationSelected = $("#selectType").val();
+						var statusSelected = $("#selectType").val();
+						return "visible";	
+					});
+				});
+				
+				$("#tectonicSwitch").button();
+				$("#tectonicSwitch").click(function() {
+					g.selectAll(".tectonic").attr("visibility",function(d){
+						
+						if ($("#tectonicSwitch").button("option", "label") === "Hide Tectonic"){
+							$("#tectonicSwitch").button("option", "label", "Show Tectonic");
+							return "hidden";
+						}else{
+							$("#tectonicSwitch").button("option", "label", "Hide Tectonic");
+							return "visible";
+						}
+						
+					});
 				});
 			});
 		</script>
@@ -55,7 +72,7 @@
 
 		<table align="center">
 			<tr height="330px">
-				<td align="center" bgcolor="black" style="padding-right: 20px"><div id="map"></div>
+				<td align="center" bgcolor="black" style="padding-right: 20px;font-size:10px"><div id="map"></div>
 				<p style="color:white;">
 					*hovering over volcano points will show volcano by types
 				</p><script src="js/map.js"></script></td>
@@ -66,7 +83,13 @@
 					Search
 				</div>
 				<br/>
-				Volcano Type: <div id="volcano_type" align="left"></div>
+				<table style="background-color: black;color: white;text-align: center">
+					<tr>
+						<td align="center"> Volcano Type: <div id="volcano_type" align="center"></div></td>
+						<td align="center"> Volcano location: <div id="volcano_location" align="center"></div></td>
+						<td align="center"> Volcano Status: <div id="volcano_status" align="center"></div></td>
+					</tr>
+				</table>
 				<script>
 					function change(d) {
 						//alert(this.value);
@@ -78,12 +101,15 @@
 							return d.properties.TYPE === selectedValue ? "visible" : "hidden";
 						});
 					}
-					
 
 
 					d3.json("data/volcano.geojson", function(collection) {
 						var unique_volcano_type = new Array();
+						var unique_volcano_location = new Array();
+						var unique_volcano_status = new Array();
 						unique_volcano_type.push("Select All");
+						unique_volcano_location.push("Select All");
+						unique_volcano_status.push("Select All");
 						for ( i = 0; i < collection.features.length; i++) {
 
 							if (unique_volcano_type.indexOf(collection.features[i].properties.TYPE) > -1) {
@@ -92,13 +118,40 @@
 								var item = collection.features[i].properties.TYPE;
 								unique_volcano_type.push(item);
 							}
+
+							if (unique_volcano_location.indexOf(collection.features[i].properties.LOCATION) > -1) {
+								//alert(collection.features[i].properties.TYPE);
+							} else {
+								var item = collection.features[i].properties.LOCATION;
+								unique_volcano_location.push(item);
+							}
+
+							if (unique_volcano_status.indexOf(collection.features[i].properties.STATUS) > -1) {
+								//alert(collection.features[i].properties.TYPE);
+							} else {
+								var item = collection.features[i].properties.STATUS;
+								unique_volcano_status.push(item);
+							}
 						}
 
-						d3.select("#volcano_type").append("select").on("change", change).selectAll("option").data(unique_volcano_type).enter().append("option").attr("value", function(d) {
+						d3.select("#volcano_type").append("select").attr("id", "selectType")./*on("change", change).*/selectAll("option").data(unique_volcano_type).enter().append("option").attr("value", function(d) {
 							return d;
 						}).text(function(d) {
 							return d;
 						});
+
+						d3.select("#volcano_location").append("select").attr("id", "selectLocation")./*on("change", change).*/selectAll("option").data(unique_volcano_location).enter().append("option").attr("value", function(d) {
+							return d;
+						}).text(function(d) {
+							return d;
+						});
+
+						d3.select("#volcano_status").append("select").attr("id", "selectStatus")./*on("change", change).*/selectAll("option").data(unique_volcano_status).enter().append("option").attr("value", function(d) {
+							return d;
+						}).text(function(d) {
+							return d;
+						});
+
 					});
 
 				</script>
@@ -167,18 +220,23 @@
 						// }
 					});
 				</script>
+				<button id="submitButton">Get me my volcanos!</button>
+				<br/>
+				<br/>
 				<div class="header" align="center">
-					Tetonic Switch
-				</div></td>
+					Tectonic Switch
+				</div>
+				<br/>
+				<button id="tectonicSwitch">Hide Tectonic</button>
+				<br/>
+				<br/></td>
+				
 			</tr>
 			<tr>
 				<td id="supplementary_graph" style="font: 10px sans-serif;color:white;background-color:black" align="center">
 				<div class="header">
-					Number of Volcano Eruptions per Year
-				</div>
-				<script src="js/bar.js">					
-
-				</script></td>
+					Frequency of Volcano Eruptions
+				</div><script src="js/bar.js"></script></td>
 				<td style="font: 12px sans-serif;background-color:black">
 				<div class="header">
 					Volcano Details
