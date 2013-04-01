@@ -6,6 +6,7 @@
 		<script src="js/jquery-1.9.1.js"></script>
 		<script src="js/jquery-ui-1.10.2.custom.js"></script>
 		<script src="js/jquery.tipsy.js"></script>
+		<script src="js/jquery.selectbox-0.2.min.js"></script>
 		<script src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
 
 		<script src="js/d3.v3.js"></script>
@@ -15,18 +16,49 @@
 		<link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
 		<link href="css/tipsy.css" media="screen" rel="stylesheet" type="text/css"/>
 		<link href="css/pop-table.css" media="screen" rel="stylesheet" type="text/css"/>
+		<link href="css/jquery.selectbox.css" media="screen" rel="stylesheet" type="text/css"/>
+		<script>
+			$(document).ready(function() {
+				$('svg title').parent().tipsy({
+					gravity : $.fn.tipsy.autoNS,
+					interactive : true,
+					html : true,
+					delayOut : 5,
+					title : function() {
+						var d = this.__data__;
+						return '<a href="http://www.volcano.si.edu/world/list.cfm?searchtext=' + d.properties.NAME + '">' + d.properties.NAME + '</a>' + '<p>Location: ' + d.properties.LOCATION + '</p>' + '<p>Status: ' + d.properties.STATUS + '</p>' + '<p>Elevation: ' + d.properties.ELEV + '</p>' + '<p>Type: ' + d.properties.TYPE + '</p>' + '<p>Year Erupted: ' + d.properties.YEAR + '</p>';
+					}
+				});
+
+				$('#dynamic-table').dataTable({
+					"bJQueryUI" : true,
+					"iDisplayLength" : 5,
+					"bPaginate" : true,
+					"bLengthChange" : false,
+					"sPaginationType" : "full_numbers"
+				});
+
+				$("select").selectbox({
+					onChange: function(val,inst){
+						g.selectAll(".volcano").attr("visibility", function(d) {
+							if (val === "Select All") {
+								return "visible";
+							}
+							return d.properties.TYPE === val ? "visible" : "hidden";
+						});
+					}
+				});
+			});
+		</script>
 	</head>
 	<body>
 
 		<table align="center">
 			<tr height="330px">
-				<td align="center" bgcolor="black" style="padding-right: 20px">
-					<div id="map"></div>
-					<p style="color:white;">
+				<td align="center" bgcolor="black" style="padding-right: 20px"><div id="map"></div>
+				<p style="color:white;">
 					*hovering over volcano points will show volcano by types
-					</p>
-					<script src="js/map.js"></script>
-				</td>
+				</p><script src="js/map.js"></script></td>
 				<td align="left" valign="top" style="color: white;background-color:black"><img src="img/GeoLogo.png" width="50%" alt="logo"/>
 				<br/>
 				<br/>
@@ -34,30 +66,8 @@
 					Search
 				</div>
 				<br/>
-				Volcano Type: 
-				<span id="volcano_type" align="left"></span>
+				Volcano Type: <div id="volcano_type" align="left"></div>
 				<script>
-					$(document).ready(function() {
-						$('svg title').parent().tipsy({
-							gravity : $.fn.tipsy.autoNS,
-							interactive : true,
-							html : true,
-							delayOut : 5,
-							title : function() {
-								var d = this.__data__;
-								return '<a href="http://www.volcano.si.edu/world/list.cfm?searchtext=' + d.properties.NAME + '">' + d.properties.NAME + '</a>' + '<p>Location: ' + d.properties.LOCATION + '</p>' + '<p>Status: ' + d.properties.STATUS + '</p>' + '<p>Elevation: ' + d.properties.ELEV + '</p>' + '<p>Type: ' + d.properties.TYPE + '</p>' + '<p>Year Erupted: ' + d.properties.YEAR + '</p>';
-							}
-						});
-
-						$('#dynamic-table').dataTable({
-							"bJQueryUI" : true,
-							"iDisplayLength" : 5,
-							"bPaginate" : true,
-							"bLengthChange" : false,
-							"sPaginationType" : "full_numbers"
-						});
-						
-					});
 					function change(d) {
 						//alert(this.value);
 						var selectedValue = this.value;
@@ -68,6 +78,7 @@
 							return d.properties.TYPE === selectedValue ? "visible" : "hidden";
 						});
 					}
+					
 
 
 					d3.json("data/volcano.geojson", function(collection) {
@@ -97,33 +108,32 @@
 				<br/>
 				<br/>
 				<!-- <button id="slider-switch">
-					Activate Slider
+				Activate Slider
 				</button>
 				<script>
-					$("#slider-switch").button();
-					$("#slider-switch").click(function() {
-						if ($("#slider-switch").button("option", "label") === "Activate Slider") {
-							$("#scale").slider("enable");
-							$("#slider-switch").button("option", "label", "Deactivate Slider");
+				$("#slider-switch").button();
+				$("#slider-switch").click(function() {
+				if ($("#slider-switch").button("option", "label") === "Activate Slider") {
+				$("#scale").slider("enable");
+				$("#slider-switch").button("option", "label", "Deactivate Slider");
 
-							g.selectAll('.volcano').style("display", "none");
-							var slider_current_values = $("#scale").slider("values");
-							var years = [-9000, -8000, -7000, -6000, -5000, -4000, -3000, -2000, -1000, 1000, 2000];
+				g.selectAll('.volcano').style("display", "none");
+				var slider_current_values = $("#scale").slider("values");
+				var years = [-9000, -8000, -7000, -6000, -5000, -4000, -3000, -2000, -1000, 1000, 2000];
 
-							for ( i = years[slider_current_values[0]]; i < years[slider_current_values[1]]; i++) {
-								$tempvalue = '' + i;
-								$tempvalueclass = '._' + $tempvalue;
+				for ( i = years[slider_current_values[0]]; i < years[slider_current_values[1]]; i++) {
+				$tempvalue = '' + i;
+				$tempvalueclass = '._' + $tempvalue;
 
-								g.selectAll($tempvalueclass).style("display", "block");
-							}
-						} else {
-							$("#scale").slider("disable");
-							$("#slider-switch").button("option", "label", "Activate Slider");
-							g.selectAll('.volcano').style("display", "block");
-						}
-					});
-				</script> -->
-				<div id="scale" class="slider" style="margin-left: 10%"></div>
+				g.selectAll($tempvalueclass).style("display", "block");
+				}
+				} else {
+				$("#scale").slider("disable");
+				$("#slider-switch").button("option", "label", "Activate Slider");
+				g.selectAll('.volcano').style("display", "block");
+				}
+				});
+				</script> --><div id="scale" class="slider" style="margin-left: 10%"></div>
 				<p id="slidertext" align="center">
 					Eruptions during -6000 to -2000
 				</p>
@@ -135,25 +145,25 @@
 						values : [3, 7], //default slider value
 						step : 1, // step is the allow increments the slider can move. 1 = 1000 years
 						// slide : function(event, ui) {
-							// var years = [-9000, -8000, -7000, -6000, -5000, -4000, -3000, -2000, -1000, 1000, 2000];
-							// var slider1Value = ui.values[0];
-							// var slider2Value = ui.values[1];
-							// // if (slider1Value == 0 && slider2Value == 0) {
-							// // g.selectAll('.volcano').style("display", "block");
-							// //
-							// // d3.select("#slidertext").text("All eruptions During -8500 - 2012");
-							// // } else {
-// 
-							// g.selectAll('.volcano').style("display", "none");
-							// for ( i = years[slider1Value]; i < years[slider2Value]; i++) {
-								// $tempvalue = '' + i;
-								// $tempvalueclass = '._' + $tempvalue;
-// 
-								// g.selectAll($tempvalueclass).style("display", "block");
-// 
-							// }
-							// d3.select("#slidertext").text('Eruptions during ' + years[slider1Value] + ' to ' + years[slider2Value]);
-							// }
+						// var years = [-9000, -8000, -7000, -6000, -5000, -4000, -3000, -2000, -1000, 1000, 2000];
+						// var slider1Value = ui.values[0];
+						// var slider2Value = ui.values[1];
+						// // if (slider1Value == 0 && slider2Value == 0) {
+						// // g.selectAll('.volcano').style("display", "block");
+						// //
+						// // d3.select("#slidertext").text("All eruptions During -8500 - 2012");
+						// // } else {
+						//
+						// g.selectAll('.volcano').style("display", "none");
+						// for ( i = years[slider1Value]; i < years[slider2Value]; i++) {
+						// $tempvalue = '' + i;
+						// $tempvalueclass = '._' + $tempvalue;
+						//
+						// g.selectAll($tempvalueclass).style("display", "block");
+						//
+						// }
+						// d3.select("#slidertext").text('Eruptions during ' + years[slider1Value] + ' to ' + years[slider2Value]);
+						// }
 						// }
 					});
 				</script>
