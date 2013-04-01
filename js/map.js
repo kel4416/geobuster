@@ -1,4 +1,4 @@
-var width = 760, height = width / 2.5;
+var width = 680, height = width / 2.5;
 				
 var projection = d3.geo.mercator().translate([0, 0]).scale(width / 2 / Math.PI);
 
@@ -59,15 +59,25 @@ d3.json("data/volcano.geojson", function(collection) {
 		var type = d.properties.TYPE;
 		g.selectAll(".volcano").style("fill", function(d){
 			if (d.properties.TYPE  === type){
-				return "red";
+				//return "red";
 			}else{
-				return "white";
+				return "none";
+			}
+		}).style("stroke", function(d){
+			if (d.properties.TYPE  === type){
+				//return "red";
+			}else{
+				return "none";
 			}
 		});
 		
 	}).on("mouseout",function(d){
 		var type = d.properties.TYPE;
-		g.selectAll(".volcano").style("fill", "red");
+		g.selectAll(".volcano").style("fill", function(d){
+			return "red";
+		}).style("stroke", function(d){
+			return "black";
+		});
 		
 	}).attr("class", function(d) {
 			var tempyear = d.properties.YEAR;
@@ -92,5 +102,4 @@ function move() {
 	t[1] = Math.min(height / 2 * (s - 1) + 230 * s, Math.max(height / 2 * (1 - s) - 230 * s, t[1]));
 	zoom.translate(t);
 	g.style("stroke-width", 1 / s).attr("transform", "translate(" + t + ")scale(" + s + ")");
-}	
-			
+}

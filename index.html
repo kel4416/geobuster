@@ -1,19 +1,16 @@
-<!doctype html>
-<html lang="en">
+<html>
 	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta charset="utf-8">
 		<title>GeoBuster</title>
 
 		<script src="js/jquery-1.9.1.js"></script>
 		<script src="js/jquery-ui-1.10.2.custom.js"></script>
+		<script  type="text/javascript" src="js/jquery.tipsy.js"></script>
 		<script src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
-		<script src="js/jquery.tipsy.js"></script>
 
 		<script src="js/d3.v3.js"></script>
-		<script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
-		<script src="http://d3js.org/topojson.v0.min.js"></script>
-
-		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+		<script src="js/topojson.js"></script>
 
 		<link href="css/ui-darkness/jquery-ui-1.10.2.custom.css" rel="stylesheet">
 		<link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
@@ -29,6 +26,19 @@
 					"bLengthChange" : false,
 					"sPaginationType" : "full_numbers"
 				});
+				
+				$('div').tipsy();
+				
+				$('svg title').parent().tipsy({
+					gravity : $.fn.tipsy.autoNS,
+					interactive : true,
+					html : true,
+					delayOut : 5,
+					title : function() {
+						var d = this.__data__;
+						return '<a href="http://www.volcano.si.edu/world/list.cfm?searchtext=' + d.properties.NAME + '">' + d.properties.NAME + '</a>' + '<p>Location: ' + d.properties.LOCATION + '</p>' + '<p>Status: ' + d.properties.STATUS + '</p>' + '<p>Elevation: ' + d.properties.ELEV + '</p>' + '<p>Type: ' + d.properties.TYPE + '</p>' + '<p>Year Erupted: ' + d.properties.YEAR + '</p>';
+					}
+				});
 
 			});
 		</script>
@@ -37,34 +47,17 @@
 
 		<table align="center">
 			<tr height="330px">
-				<td align="center" bgcolor="black"><div id="map"></div><script src="js/map.js"></script></td>
-				<td align="left" valign="top" style="color: white;background-color:#302217"><img src="img/GeoLogo.png" width="50%" alt="logo"/>
+				<td align="center" bgcolor="black" style="padding-right: 20px"><div id="map"></div><script src="js/map.js"></script></td>
+				<td align="left" valign="top" style="color: white;background-color:black"><img src="img/GeoLogo.png" width="50%" alt="logo"/>
 				<br/>
 				<br/>
-				<div class="header" align="center">
+				<div class="header" align="center" title="The type of volcano that can be sorted">
 					Volcano Type
 				</div>
-				<br/>
-				<div id="volcano_type" align="center"></div>
+				<p>
+					*hovering over volcano points will show volcano by types
+				</p><div id="volcano_type" align="center"></div>
 				<script>
-					$(document).ready(function() {
-						$('svg title').parent().tipsy({
-							gravity : $.fn.tipsy.autoNS,
-							interactive : true,
-							html : true,
-							delayOut : 3,
-							title : function() {
-								var d = this.__data__;
-								return '<a href="http://www.volcano.si.edu/world/list.cfm?searchtext=' + d.properties.NAME + '">' +  d.properties.NAME + '</a>'
-							+ '<p>Location: ' + d.properties.LOCATION + '</p>'
-							+ '<p>Status: ' + d.properties.STATUS + '</p>'
-							+ '<p>Elevation: ' + d.properties.ELEV + '</p>'
-							+ '<p>Type: ' + d.properties.TYPE + '</p>'
-							+ '<p>Year Erupted: ' + d.properties.YEAR + '</p>';
-							}
-						});
-					});
-	
 					function change(d) {
 						//alert(this.value);
 						var selectedValue = this.value;
@@ -170,7 +163,7 @@
 				</script> </div> </td>
 			</tr>
 			<tr>
-				<td id="supplementary_graph" style="font: 10px sans-serif;color:white;background-color:#302217" align="center">
+				<td id="supplementary_graph" style="font: 10px sans-serif;color:white;background-color:black" align="center">
 				<div class="header">
 					Population Demographic
 				</div>
@@ -253,7 +246,7 @@
 					});
 
 				</script></td>
-				<td style="font: 10px sans-serif;background-color:#302217">
+				<td style="font: 12px sans-serif;background-color:black">
 				<div class="header">
 					Volcano Details
 				</div>
@@ -266,9 +259,13 @@
 							<th align="left" width="20%">Name</th>
 							<th align="left">Location</th>
 							<th align="left">Status</th>
-							<th align="left">Elevation<br/>(m)</th>
+							<th align="left">Elevation
+							<br/>
+							(m)</th>
 							<th align="left" width="20%">Type</th>
-							<th align="left">Year <br/>Erupted</th>
+							<th align="left">Year
+							<br/>
+							Erupted</th>
 
 						</tr>
 					</thead>

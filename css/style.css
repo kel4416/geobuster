@@ -4,15 +4,16 @@ html{
 body {
 	font: 10px sans-serif;
 	height: 100%;
-	background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #C4BB27), color-stop(1, #782B04));
-	background-image: -moz-radial-gradient(center, circle farthest-corner, #C4BB27 0%, #782B04 100%);
+	/*background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #C4BB27), color-stop(1, #782B04));
+	background-image: -moz-radial-gradient(center, circle farthest-corner, #C4BB27 0%, #782B04 100%);*/
+	background-color: black;
 
 }
 
 table{
 	vertical-align:top;
 	height:100%;
-	border:solid 1px #FFFFFF;
+	/*border:solid 1px #FFFFFF;*/
 	border-collapse: collapse;
 	background-color: white;
 	width:90%;
@@ -20,13 +21,18 @@ table{
 
 td{
 	vertical-align: top;
-	border:solid 2px #FFFFFF;
+	/*border:solid 2px #FFFFFF;*/
 }
 
 .header{
-	color:black;
-	font:20px Helvetica, sans-serif;
-	background-color:#F58400;
+	color:#F58400;
+	text-align:left;
+	font-weight:bold;
+	font:17px Helvetica, sans-serif;
+	border-style:solid;
+	border-top: 1px #F58400;
+	border-left: 1px #F58400;
+	border-right: 1px #F58400;
 	width:100%;
 }
 
