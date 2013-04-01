@@ -20,16 +20,22 @@
 
 		<table align="center">
 			<tr height="330px">
-				<td align="center" bgcolor="black" style="padding-right: 20px"><div id="map"></div><script src="js/map.js"></script></td>
+				<td align="center" bgcolor="black" style="padding-right: 20px">
+					<div id="map"></div>
+					<p style="color:white;">
+					*hovering over volcano points will show volcano by types
+					</p>
+					<script src="js/map.js"></script>
+				</td>
 				<td align="left" valign="top" style="color: white;background-color:black"><img src="img/GeoLogo.png" width="50%" alt="logo"/>
 				<br/>
 				<br/>
 				<div class="header" align="center" title="The type of volcano that can be sorted">
-					Volcano Type
+					Search
 				</div>
-				<p>
-					*hovering over volcano points will show volcano by types
-				</p><div id="volcano_type" align="center"></div>
+				<br/>
+				Volcano Type: 
+				<span id="volcano_type" align="left"></span>
 				<script>
 					$(document).ready(function() {
 						$('svg title').parent().tipsy({
@@ -50,6 +56,7 @@
 							"bLengthChange" : false,
 							"sPaginationType" : "full_numbers"
 						});
+						
 					});
 					function change(d) {
 						//alert(this.value);
@@ -85,11 +92,11 @@
 
 				</script>
 				<br/>
-				<div class="header" align="center">
-					Eruption Year Range
-				</div>
 				<br/>
-				<button id="slider-switch">
+				Eruption Year Range:
+				<br/>
+				<br/>
+				<!-- <button id="slider-switch">
 					Activate Slider
 				</button>
 				<script>
@@ -115,11 +122,9 @@
 							g.selectAll('.volcano').style("display", "block");
 						}
 					});
-				</script>
-				<br/>
-				<br/>
-				<div id="scale" class="slider"></div>
-				<p id="slidertext" style="margin-left:10%">
+				</script> -->
+				<div id="scale" class="slider" style="margin-left: 10%"></div>
+				<p id="slidertext" align="center">
 					Eruptions during -6000 to -2000
 				</p>
 				<script>
@@ -129,36 +134,37 @@
 						max : 10,
 						values : [3, 7], //default slider value
 						step : 1, // step is the allow increments the slider can move. 1 = 1000 years
-						slide : function(event, ui) {
-							var years = [-9000, -8000, -7000, -6000, -5000, -4000, -3000, -2000, -1000, 1000, 2000];
-							var slider1Value = ui.values[0];
-							var slider2Value = ui.values[1];
-							// if (slider1Value == 0 && slider2Value == 0) {
-							// g.selectAll('.volcano').style("display", "block");
-							//
-							// d3.select("#slidertext").text("All eruptions During -8500 - 2012");
-							// } else {
-
-							g.selectAll('.volcano').style("display", "none");
-							for ( i = years[slider1Value]; i < years[slider2Value]; i++) {
-								$tempvalue = '' + i;
-								$tempvalueclass = '._' + $tempvalue;
-
-								g.selectAll($tempvalueclass).style("display", "block");
-
-							}
-							d3.select("#slidertext").text('Eruptions during ' + years[slider1Value] + ' to ' + years[slider2Value]);
-							//}
-						}
+						// slide : function(event, ui) {
+							// var years = [-9000, -8000, -7000, -6000, -5000, -4000, -3000, -2000, -1000, 1000, 2000];
+							// var slider1Value = ui.values[0];
+							// var slider2Value = ui.values[1];
+							// // if (slider1Value == 0 && slider2Value == 0) {
+							// // g.selectAll('.volcano').style("display", "block");
+							// //
+							// // d3.select("#slidertext").text("All eruptions During -8500 - 2012");
+							// // } else {
+// 
+							// g.selectAll('.volcano').style("display", "none");
+							// for ( i = years[slider1Value]; i < years[slider2Value]; i++) {
+								// $tempvalue = '' + i;
+								// $tempvalueclass = '._' + $tempvalue;
+// 
+								// g.selectAll($tempvalueclass).style("display", "block");
+// 
+							// }
+							// d3.select("#slidertext").text('Eruptions during ' + years[slider1Value] + ' to ' + years[slider2Value]);
+							// }
+						// }
 					});
-
-					$("#scale").slider("disable");
-				</script></td>
+				</script>
+				<div class="header" align="center">
+					Tetonic Switch
+				</div></td>
 			</tr>
 			<tr>
 				<td id="supplementary_graph" style="font: 10px sans-serif;color:white;background-color:black" align="center">
 				<div class="header">
-					Population Demographic
+					Number of Volcano Eruptions per Year
 				</div>
 				<script>
 					var margin = {
