@@ -1,15 +1,22 @@
 .tipsy {
-	font-size: 10px;
+	font-size: 20px;
 	position: absolute;
 	padding: 5px;
 	z-index: 100000;
 }
 .tipsy-inner {
-	background-color: #000;
-	color: #FFF;
+	background-color: #B8B8B8  ;
+	color: #000;
 	max-width: 200px;
 	padding: 5px 8px 4px 8px;
 	text-align: center;
+}
+.tipsy-inner p{
+	color: #000;
+	text-align:left;
+	font-size: 15px;
+	font:Helvetica;
+	font-weight:bold;
 }
 
 /* Rounded corners */

@@ -1,5 +1,5 @@
 html{
-	height:85%;
+	height:80%;
 }
 body {
 	font: 10px sans-serif;
@@ -20,7 +20,9 @@ table{
 
 td{
 	vertical-align: top;
+	border:solid 2px #FFFFFF;
 }
+
 .header{
 	color:black;
 	font:20px Helvetica, sans-serif;
@@ -38,7 +40,8 @@ option{
 
 .tectonic {
 	fill: none;
-	stroke: #000;
+	stroke: #FFF;
+	stroke-width:1px;
 	opacity: 0.5;
 }
 
