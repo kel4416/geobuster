@@ -32,7 +32,7 @@
 			<tr height="330px">
 				<td align="center" bgcolor="black" style="padding-right: 20px;"><div id="map"></div>
 				<p style="color:white;">
-					*hovering over volcano points will show volcano by types
+					*The map will show volcanos of the same type as the one being hovered over. Try putting your mouse over one volcano point!
 				</p><script src="js/map.js"></script></td>
 				<td align="left" valign="top" style="color: white;background-color:black;font-size: 11px"><img src="img/GeoLogo.png" width="50%" alt="logo"/>
 				<br/>
@@ -154,12 +154,17 @@
 									return 'hidden';
 								}
 								
-								if((d.properties.YEAR < yearEruptedSelected[0] || d.properties.YEAR > yearEruptedSelected[1]) &&  !$( "#scale" ).slider( "option", "disabled" )){
+								if((d.properties.YEAR === 'unknown' || d.properties.YEAR < yearEruptedSelected[0] || d.properties.YEAR > yearEruptedSelected[1]) &&  !$( "#scale" ).slider( "option", "disabled")){
 									return 'hidden';
 								}
 								
 								return "visible";
 							});
+						});
+
+						$("#showAllButton").button();
+						$("#showAllButton").click(function() {
+							g.selectAll(".volcano").attr("visibility", "visible");
 						});
 						
 						 $( "#searchByName" ).autocomplete({
@@ -198,30 +203,15 @@
 				<script>
 					$("#scale").slider({
 						range : true,
-						min : -8000,
+						min : -8500,
 						max : 2013,
 						values : [-6000, 1000], //default slider value
 						step : 100, // step is the allow increments the slider can move. 1 = 1000 years
 						slide : function(event, ui) {
-						// var years = [-9000, -8000, -7000, -6000, -5000, -4000, -3000, -2000, -1000, 1000, 2000];
 							var slider1Value = ui.values[0];
 							var slider2Value = ui.values[1];
-						// // if (slider1Value == 0 && slider2Value == 0) {
-						// // g.selectAll('.volcano').style("display", "block");
-						// //
-						// // d3.select("#slidertext").text("All eruptions During -8500 - 2012");
-						// // } else {
-						//
-						// g.selectAll('.volcano').style("display", "none");
-						// for ( i = years[slider1Value]; i < years[slider2Value]; i++) {
-						// $tempvalue = '' + i;
-						// $tempvalueclass = '._' + $tempvalue;
-						//
-						// g.selectAll($tempvalueclass).style("display", "block");
-						//
-						// }
+	
 							d3.select("#slidertext").text('Eruptions during ' + slider1Value.toString() + ' to ' + slider2Value.toString());
-						// }
 						}
 					});
 					
@@ -229,6 +219,9 @@
 				</script>
 				<button id="submitButton">
 					Get me my volcanos!
+				</button>
+				<button id="showAllButton">
+					Show all volcanos!
 				</button>
 				<br/>
 				<br/>
