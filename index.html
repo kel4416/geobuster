@@ -30,24 +30,23 @@
 
 		<table align="center">
 			<tr height="330px">
-				<td align="center" bgcolor="black" style="padding-right: 20px;font-size:10px"><div id="map"></div>
+				<td align="center" bgcolor="black" style="padding-right: 20px;"><div id="map"></div>
 				<p style="color:white;">
 					*hovering over volcano points will show volcano by types
 				</p><script src="js/map.js"></script></td>
-				<td align="left" valign="top" style="color: white;background-color:black"><img src="img/GeoLogo.png" width="50%" alt="logo"/>
+				<td align="left" valign="top" style="color: white;background-color:black;font-size: 11px"><img src="img/GeoLogo.png" width="50%" alt="logo"/>
 				<br/>
 				<br/>
 				<div class="header" align="center" title="The type of volcano that can be sorted">
 					Search
 				</div>
 				<br/>
-				<br/>
-				<label for="searchByName">Search by Name: </label>
+				Search by Name:
 				<br/>
 					<input id="searchByName" />
 				<br/>
 				<br/>
-				<table style="background-color: black;color: white;text-align: center">
+				<table style="background-color: black;color: white;text-align: center;font-size:15px">
 					<tr>
 						<td align="center"> Volcano Type: <div id="volcano_type" align="center"></div></td>
 						<td align="center"> Volcano location: <div id="volcano_location" align="center"></div></td>
@@ -139,7 +138,7 @@
 							var yearEruptedSelected = $('#scale').slider('values');
 							
 							g.selectAll(".volcano").attr("visibility", function(d) {
-								if(volcanoName != d.properties.NAME ){
+								if(volcanoName != "" && volcanoName != d.properties.NAME ){
 									return 'hidden';
 								}
 								
