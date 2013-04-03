@@ -1,9 +1,14 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<meta charset="utf-8">
+		<meta charset="utf-8" />
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<title>GeoBuster</title>
 
-		<script src="js/jquery-1.9.1.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 		<script src="js/jquery-ui-1.10.2.custom.js"></script>
 		<script src="js/jquery.tipsy.js"></script>
 		<script src="js/jquery.selectbox-0.2.min.js"></script>
@@ -17,56 +22,7 @@
 		<link href="css/tipsy.css" media="screen" rel="stylesheet" type="text/css"/>
 		<link href="css/pop-table.css" media="screen" rel="stylesheet" type="text/css"/>
 		<link href="css/jquery.selectbox.css" media="screen" rel="stylesheet" type="text/css"/>
-		<script>
-			$(document).ready(function() {
-				$('svg title').parent().tipsy({
-					gravity : $.fn.tipsy.autoNS,
-					interactive : true,
-					html : true,
-					delayOut : 5,
-					title : function() {
-						var d = this.__data__;
-						return '<a href="http://www.volcano.si.edu/world/list.cfm?searchtext=' + d.properties.NAME + '">' + d.properties.NAME + '</a>' + '<p>Location: ' + d.properties.LOCATION + '</p>' + '<p>Status: ' + d.properties.STATUS + '</p>' + '<p>Elevation: ' + d.properties.ELEV + '</p>' + '<p>Type: ' + d.properties.TYPE + '</p>' + '<p>Year Erupted: ' + d.properties.YEAR + '</p>';
-					}
-				});
 
-				$('#dynamic-table').dataTable({
-					"bJQueryUI" : true,
-					"iDisplayLength" : 5,
-					"bPaginate" : true,
-					"bLengthChange" : false,
-					"sPaginationType" : "full_numbers"
-				});
-				//$("#selectType").selectbox();
-				//$("#selectLocation").selectbox();
-				//$("#selectStatus").selectbox();
-				
-				$("#submitButton").button();
-				$("#submitButton").click(function() {
-					g.selectAll(".volcano").attr("visibility", function(d) {
-						var typeSelected = $("#selectType").val();
-						var locationSelected = $("#selectType").val();
-						var statusSelected = $("#selectType").val();
-						return "visible";	
-					});
-				});
-				
-				$("#tectonicSwitch").button();
-				$("#tectonicSwitch").click(function() {
-					g.selectAll(".tectonic").attr("visibility",function(d){
-						
-						if ($("#tectonicSwitch").button("option", "label") === "Hide Tectonic"){
-							$("#tectonicSwitch").button("option", "label", "Show Tectonic");
-							return "hidden";
-						}else{
-							$("#tectonicSwitch").button("option", "label", "Hide Tectonic");
-							return "visible";
-						}
-						
-					});
-				});
-			});
-		</script>
 	</head>
 	<body>
 
@@ -152,6 +108,20 @@
 							return d;
 						});
 
+						$("#selectType").selectbox();
+						$("#selectLocation").selectbox();
+						$("#selectStatus").selectbox();
+
+						$("#submitButton").button();
+						$("#submitButton").click(function() {
+							g.selectAll(".volcano").attr("visibility", function(d) {
+								var typeSelected = $("#selectType").val();
+								var locationSelected = $("#selectType").val();
+								var statusSelected = $("#selectType").val();
+								return "visible";
+							});
+						});
+
 					});
 
 				</script>
@@ -220,17 +190,22 @@
 						// }
 					});
 				</script>
-				<button id="submitButton">Get me my volcanos!</button>
+				<button id="submitButton">
+					Get me my volcanos!
+				</button>
 				<br/>
 				<br/>
 				<div class="header" align="center">
 					Tectonic Switch
 				</div>
 				<br/>
-				<button id="tectonicSwitch">Hide Tectonic</button>
+				<button id="tectonicSwitch">
+					Hide Tectonic
+				</button>
 				<br/>
-				<br/></td>
-				
+				<br/>
+				</td>
+
 			</tr>
 			<tr>
 				<td id="supplementary_graph" style="font: 10px sans-serif;color:white;background-color:black" align="center">
@@ -274,5 +249,6 @@
 				</script></td>
 			</tr>
 		</table>
+		<script src="js/power.js"></script>
 	</body>
 </html>

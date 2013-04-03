@@ -83,6 +83,18 @@ d3.json("data/volcano.geojson", function(collection) {
 			var tempyear = d.properties.YEAR;
 			return "_" + tempyear + " volcano" ;})
 		.attr("d", path).append("svg:title").text(function(d){return d.properties.NAME;});
+		
+	$('svg title').parent().tipsy({
+	gravity : $.fn.tipsy.autoNS,
+	interactive : true,
+	html : true,
+	delayOut : 5,
+	title : function() {
+		var d = this.__data__;
+		return '<a href="http://www.volcano.si.edu/world/list.cfm?searchtext=' + d.properties.NAME + '">' + d.properties.NAME + '</a>' + '<p>Location: ' + d.properties.LOCATION + '</p>' + '<p>Status: ' + d.properties.STATUS + '</p>' + '<p>Elevation: ' + d.properties.ELEV + '</p>' + '<p>Type: ' + d.properties.TYPE + '</p>' + '<p>Year Erupted: ' + d.properties.YEAR + '</p>';
+	}
+}); 
+
 }); 
 
 // d3.json("data/volcano.geojson", function(collection) {
@@ -103,3 +115,5 @@ function move() {
 	zoom.translate(t);
 	g.style("stroke-width", 1 / s).attr("transform", "translate(" + t + ")scale(" + s + ")");
 }
+
+
