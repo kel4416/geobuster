@@ -88,7 +88,7 @@ d3.json("data/volcano.geojson", function(collection) {
 	gravity : $.fn.tipsy.autoNS,
 	interactive : true,
 	html : true,
-	delayOut : 5,
+	delayOut : 1000,
 	title : function() {
 		var d = this.__data__;
 		return '<a href="http://www.volcano.si.edu/world/list.cfm?searchtext=' + d.properties.NAME + '">' + d.properties.NAME + '</a>' + '<p>Location: ' + d.properties.LOCATION + '</p>' + '<p>Status: ' + d.properties.STATUS + '</p>' + '<p>Elevation: ' + d.properties.ELEV + '</p>' + '<p>Type: ' + d.properties.TYPE + '</p>' + '<p>Year Erupted: ' + d.properties.YEAR + '</p>';
