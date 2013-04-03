@@ -23,7 +23,7 @@
 		<link href="css/tipsy.css" media="screen" rel="stylesheet" type="text/css"/>
 		<link href="css/pop-table.css" media="screen" rel="stylesheet" type="text/css"/>
 		<link href="css/jquery.selectbox.css" media="screen" rel="stylesheet" type="text/css"/>
-		
+
 	</head>
 	<body>
 
@@ -108,20 +108,33 @@
 						}).text(function(d) {
 							return d;
 						});
-						
-						$("#selectType").selectbox();
-$("#selectLocation").selectbox();
-$("#selectStatus").selectbox();
 
-$("#submitButton").button();
-$("#submitButton").click(function() {
-	g.selectAll(".volcano").attr("visibility", function(d) {
-		var typeSelected = $("#selectType").val();
-		var locationSelected = $("#selectType").val();
-		var statusSelected = $("#selectType").val();
-		return "visible";
-	});
-});
+						$("#selectType").selectbox();
+						$("#selectLocation").selectbox();
+						$("#selectStatus").selectbox();
+
+						$("#submitButton").button();
+						$("#submitButton").click(function() {
+							var typeSelected = $("#selectType").val();
+							var locationSelected = $("#selectLocation").val();
+							var statusSelected = $("#selectStatus").val();
+							alert(typeSelected + locationSelected + statusSelected);
+							g.selectAll(".volcano").attr("visibility", function(d) {
+								
+								if(typeSelected != 'Select All' && d.properties.TYPE != typeSelected){
+									return 'hidden';
+								}
+								
+								if(locationSelected != 'Select All' && d.properties.LOCATION != locationSelected){
+									return 'hidden';
+								}
+								
+								if(statusSelected != 'Select All' && d.properties.STATUS != statusSelected){
+									return 'hidden';
+								}
+								return "visible";
+							});
+						});
 
 					});
 
@@ -157,21 +170,21 @@ $("#submitButton").click(function() {
 				g.selectAll('.volcano').style("display", "block");
 				}
 				});
-				</script> --><div id="scale" class="slider" style="margin-left: 10%"></div>
+				</script> --><div id="scale" class="slider"></div>
 				<p id="slidertext" align="center">
-					Eruptions during -6000 to -2000
+					Eruptions during -6000 to -1000
 				</p>
 				<script>
 					$("#scale").slider({
 						range : true,
-						min : 0,
-						max : 10,
-						values : [3, 7], //default slider value
-						step : 1, // step is the allow increments the slider can move. 1 = 1000 years
-						// slide : function(event, ui) {
+						min : -8000,
+						max : 2013,
+						values : [-6000, 1000], //default slider value
+						step : 100, // step is the allow increments the slider can move. 1 = 1000 years
+						slide : function(event, ui) {
 						// var years = [-9000, -8000, -7000, -6000, -5000, -4000, -3000, -2000, -1000, 1000, 2000];
-						// var slider1Value = ui.values[0];
-						// var slider2Value = ui.values[1];
+							var slider1Value = ui.values[0];
+							var slider2Value = ui.values[1];
 						// // if (slider1Value == 0 && slider2Value == 0) {
 						// // g.selectAll('.volcano').style("display", "block");
 						// //
@@ -186,22 +199,27 @@ $("#submitButton").click(function() {
 						// g.selectAll($tempvalueclass).style("display", "block");
 						//
 						// }
-						// d3.select("#slidertext").text('Eruptions during ' + years[slider1Value] + ' to ' + years[slider2Value]);
+							d3.select("#slidertext").text('Eruptions during ' + slider1Value.toString() + ' to ' + slider2Value.toString());
 						// }
-						// }
+						}
 					});
 				</script>
-				<button id="submitButton">Get me my volcanos!</button>
+				<button id="submitButton">
+					Get me my volcanos!
+				</button>
 				<br/>
 				<br/>
 				<div class="header" align="center">
 					Tectonic Switch
 				</div>
 				<br/>
-				<button id="tectonicSwitch">Hide Tectonic</button>
+				<button id="tectonicSwitch">
+					Hide Tectonic
+				</button>
 				<br/>
-				<br/></td>
-				
+				<br/>
+				</td>
+
 			</tr>
 			<tr>
 				<td id="supplementary_graph" style="font: 10px sans-serif;color:white;background-color:black" align="center">
