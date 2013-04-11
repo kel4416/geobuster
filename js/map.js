@@ -98,8 +98,11 @@ d3.json("data/volcano.geojson", function(collection) {
 
 function move() {
 	var t = d3.event.translate, s = d3.event.scale;
+	
 	t[0] = Math.min(width / 2 * (s - 1), Math.max(width / 2 * (1 - s), t[0]));
 	t[1] = Math.min(height / 2 * (s - 1) + 230 * s, Math.max(height / 2 * (1 - s) - 230 * s, t[1]));
 	zoom.translate(t);
 	g.style("stroke-width", 1 / s).attr("transform", "translate(" + t + ")scale(" + s + ")");
+
+	g.selectAll(".volcano").attr("d",d3.geo.path().projection(projection).pointRadius(500/(width / 2 * (s - 1))));
 }
