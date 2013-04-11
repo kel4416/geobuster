@@ -4,7 +4,8 @@ var projection = d3.geo.mercator().translate([0, 0]).scale(width / 2 / Math.PI);
 
 var zoom = d3.behavior.zoom().scaleExtent([1, 8]).on("zoom", move);
 
-var path = d3.geo.path().projection(projection);
+//set the radius of the points plotted on the map
+var path = d3.geo.path().projection(projection).pointRadius(1.5);
 
 var svg = d3.select("#map")
 	.append("svg")
@@ -83,6 +84,18 @@ d3.json("data/volcano.geojson", function(collection) {
 			var tempyear = d.properties.YEAR;
 			return "_" + tempyear + " volcano" ;})
 		.attr("d", path).append("svg:title").text(function(d){return d.properties.NAME;});
+		
+	$('svg title').parent().tipsy({
+	gravity : $.fn.tipsy.autoNS,
+	interactive : true,
+	html : true,
+	delayOut : 750,
+	title : function() {
+		var d = this.__data__;
+		return '<a href="http://www.volcano.si.edu/world/list.cfm?searchtext=' + d.properties.NAME + '">' + d.properties.NAME + '</a>' + '<p>Location: ' + d.properties.LOCATION + '</p>' + '<p>Status: ' + d.properties.STATUS + '</p>' + '<p>Elevation: ' + d.properties.ELEV + '</p>' + '<p>Type: ' + d.properties.TYPE + '</p>' + '<p>Year Erupted: ' + d.properties.YEAR + '</p>';
+	}
+}); 
+
 }); 
 
 // d3.json("data/volcano.geojson", function(collection) {
@@ -106,3 +119,5 @@ function move() {
 
 	g.selectAll(".volcano").attr("d",d3.geo.path().projection(projection).pointRadius(500/(width / 2 * (s - 1))));
 }
+
+

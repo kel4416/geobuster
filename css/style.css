@@ -53,7 +53,7 @@ option{
 .volcano {
 	fill: red;
 	stroke: black;
-	stroke-width: 1px;
+	stroke-width: 0.3px;
 	opacity: 0.5;
 }
 
