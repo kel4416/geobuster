@@ -5,7 +5,7 @@ var projection = d3.geo.mercator().translate([0, 0]).scale(width / 2 / Math.PI);
 var zoom = d3.behavior.zoom().scaleExtent([1, 8]).on("zoom", move);
 
 //set the radius of the points plotted on the map
-var path = d3.geo.path().projection(projection).pointRadius(1.5);
+var path = d3.geo.path().projection(projection).pointRadius(5);
 
 var svg = d3.select("#map")
 	.append("svg")
@@ -117,7 +117,11 @@ function move() {
 	zoom.translate(t);
 	g.style("stroke-width", 1 / s).attr("transform", "translate(" + t + ")scale(" + s + ")");
 
-	g.selectAll(".volcano").attr("d",d3.geo.path().projection(projection).pointRadius(500/(width / 2 * (s - 1))));
+	var widthOfPoints = 5;
+	if(700/(width / 2 * (s - 1)) < 5){
+		widthOfPoints = 700/(width / 2 * (s - 1)) ;
+	}
+	g.selectAll(".volcano").attr("d",d3.geo.path().projection(projection).pointRadius(widthOfPoints));
 }
 
 
