@@ -118,8 +118,8 @@ function move() {
 	g.style("stroke-width", 1 / s).attr("transform", "translate(" + t + ")scale(" + s + ")");
 
 	var widthOfPoints = 5;
-	if(700/(width / 2 * (s - 1)) < 5){
-		widthOfPoints = 700/(width / 2 * (s - 1)) ;
+	if(1000/(width / 2 * (s - 1)) < 5){
+		widthOfPoints = 1000/(width / 2 * (s - 1)) ;
 	}
 	g.selectAll(".volcano").attr("d",d3.geo.path().projection(projection).pointRadius(widthOfPoints));
 }
