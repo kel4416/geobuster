@@ -39,28 +39,29 @@ d3.csv("data/eruption-count.csv", function(error, data) {
 	}).attr("height", function(d) {
 		return height - y(d.frequency);
 	}).on("mouseover", function(d) {
-		if (d.range.indexOf('/') > -1) {
-			var yearLimits = d.range.split("/");
-			yearLimits[0] = yearLimits[0] * 100;
-			yearLimits[1] = yearLimits[1] * 100;
+		if (d.range !="<1500") {
+			var yearLimits = d.range
+			yearLimits1 = yearLimits;
+			yearLimits2 = parseInt(yearLimits) + 25;
 
 			d3.selectAll('.volcano').attr("display", function(d) {
 				if(d.properties.YEAR === 'unknown'){
 					return "none";
 				}
-				if (d.properties.YEAR >= yearLimits[0] && d.properties.YEAR <= yearLimits[1]) {
+				if (d.properties.YEAR >= yearLimits1 && d.properties.YEAR <= yearLimits2) {
 					return "block";
 				} else {
 					return "none";
 				}
 			});
 		} else {
-			var year = d.range;
+			var year = parseInt(d.range.substring(1));
+			
 			d3.selectAll('.volcano').attr("display", function(d) {
 				if(d.properties.YEAR === 'unknown'){
 					return "none";
 				}
-				if (d.properties.YEAR >= year) {
+				if (d.properties.YEAR <= year) {
 					return "block";
 				} else {
 					return "none";
@@ -72,11 +73,9 @@ d3.csv("data/eruption-count.csv", function(error, data) {
 		d3.selectAll('.volcano').attr("display", "block");
 
 	}).append("svg:title").text(function(d) {
-		if (d.range.indexOf('/') > -1) {
-			var yearLimits = d.range.split("/");
-			yearLimits[0] = yearLimits[0] * 100;
-			yearLimits[1] = yearLimits[1] * 100;
-			return '<b>Year:</b> ' + yearLimits[0] + ' to ' + yearLimits[1] + '<br/><br/> <b>Number of Volcano Eruption:</b> ' + d.frequency;
+		if (d.range != "<1500") {
+			var yearLimits = d.range;
+			return '<b>Year:</b> ' + yearLimits + ' to ' + (parseInt(yearLimits) + 25) + '<br/><br/> <b>Number of Volcano Eruption:</b> ' + d.frequency;
 		}
 		return 'Year: ' + d.range + ' Number of Volcano Eruption: ' + d.frequency;
 	});
