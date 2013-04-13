@@ -1,4 +1,4 @@
-var width = 680, height = width / 1.5;
+var width = 680, height = width / 2;
 				
 var projection = d3.geo.mercator().translate([0, 0]).scale(width / 2 / Math.PI);
 
@@ -49,7 +49,7 @@ d3.json("data/volcano.geojson", function(collection) {
 	g.selectAll("path").data(collection.features).enter().append("path")
 	.on("click",function(d){
 		 $('#dynamic-table').dataTable().fnAddData( [
-		 	d.properties.NAME,
+		 	'<a href="http://www.volcano.si.edu/world/list.cfm?searchtext=' + d.properties.NAME + '" target="_blank">' + d.properties.NAME + '</a>',
 		 	d.properties.LOCATION,
 		 	d.properties.STATUS,
 		 	d.properties.ELEV,
@@ -92,7 +92,7 @@ d3.json("data/volcano.geojson", function(collection) {
 	delayOut : 750,
 	title : function() {
 		var d = this.__data__;
-		return '<a href="http://www.volcano.si.edu/world/list.cfm?searchtext=' + d.properties.NAME + '">' + d.properties.NAME + '</a>' + '<p>Location: ' + d.properties.LOCATION + '</p>' + '<p>Status: ' + d.properties.STATUS + '</p>' + '<p>Elevation: ' + d.properties.ELEV + '</p>' + '<p>Type: ' + d.properties.TYPE + '</p>' + '<p>Year Erupted: ' + d.properties.YEAR + '</p>';
+		return '<a href="http://www.volcano.si.edu/world/list.cfm?searchtext=' + d.properties.NAME + '" target="_blank">' + d.properties.NAME + '</a>' + '<p>Location: ' + d.properties.LOCATION + '</p>' + '<p>Status: ' + d.properties.STATUS + '</p>' + '<p>Elevation: ' + d.properties.ELEV + '</p>' + '<p>Type: ' + d.properties.TYPE + '</p>' + '<p>Year Erupted: ' + d.properties.YEAR + '</p>';
 	}
 }); 
 

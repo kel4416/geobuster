@@ -21,4 +21,9 @@ $(document).ready(function() {
 
 		});
 	});
+
+	$("#tabs").tabs();
+	$('#tabs').css('width','650px');
+	$('#tabs').css('height','120px');
+
 });

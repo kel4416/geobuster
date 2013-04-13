@@ -41,182 +41,212 @@
 					Search
 				</div>
 				<br/>
-				Search by Name:
-				<br/>
-					<input id="searchByName" />
-				<br/>
-				<br/>
-				<table style="background-color: black;color: white;text-align: center;font-size:15px">
-					<tr>
-						<td align="center"> Volcano Type: <div id="volcano_type" align="center"></div></td>
-						<td align="center"> Volcano location: <div id="volcano_location" align="center"></div></td>
-						<td align="center"> Volcano Status: <div id="volcano_status" align="center"></div></td>
-					</tr>
-				</table>
-				<script>
-					function change(d) {
-						//alert(this.value);
-						var selectedValue = this.value;
-						g.selectAll(".volcano").attr("visibility", function(d) {
-							if (selectedValue === "Select All") {
-								return "visible";
-							}
-							return d.properties.TYPE === selectedValue ? "visible" : "hidden";
-						});
-					}
-
-
-					d3.json("data/volcano.geojson", function(collection) {
-						var unique_volcano_type = new Array();
-						var unique_volcano_location = new Array();
-						var unique_volcano_status = new Array();
-						var volcanoNames = new Array();
-						
-						for ( i = 0; i < collection.features.length; i++) {
-
-							if (unique_volcano_type.indexOf(collection.features[i].properties.TYPE) > -1) {
-								//alert(collection.features[i].properties.TYPE);
-							} else {
-								var item = collection.features[i].properties.TYPE;
-								unique_volcano_type.push(item);
-							}
-
-							if (unique_volcano_location.indexOf(collection.features[i].properties.LOCATION) > -1) {
-								//alert(collection.features[i].properties.TYPE);
-							} else {
-								var item = collection.features[i].properties.LOCATION;
-								unique_volcano_location.push(item);
+				<div id="tabs" width="500px">
+					<ul>
+						<li>
+							<a href="#tabs-1">Name</a>
+						</li>
+						<li>
+							<a href="#tabs-2">Categories</a>
+						</li>
+						<li>
+							<a href="#tabs-3">Year of Eruption</a>
+						</li>
+					</ul>
+					<div id="tabs-1" width="500px">
+						Search by Name:
+						<br/>
+						<input id="searchByName" />
+						<br/>
+						<br/>
+					</div>
+					<div id="tabs-2" width="500px">
+						<table style="background-color: black;color: white;text-align: center;font-size:15px">
+							<tr>
+								<td align="center"> Volcano Type: <div id="volcano_type" align="center"></div></td>
+								<td align="center"> Volcano location: <div id="volcano_location" align="center"></div></td>
+								<td align="center"> Volcano Status: <div id="volcano_status" align="center"></div></td>
+							</tr>
+						</table>
+					</div>
+					<div id="tabs-3" width="500px">
+						<script>
+							function change(d) {
+								//alert(this.value);
+								var selectedValue = this.value;
+								g.selectAll(".volcano").attr("visibility", function(d) {
+									if (selectedValue === "Select All") {
+										return "visible";
+									}
+									return d.properties.TYPE === selectedValue ? "visible" : "hidden";
+								});
 							}
 
-							if (unique_volcano_status.indexOf(collection.features[i].properties.STATUS) > -1) {
-								//alert(collection.features[i].properties.TYPE);
-							} else {
-								var item = collection.features[i].properties.STATUS;
-								unique_volcano_status.push(item);
-							}
-							
-							var item = collection.features[i].properties.NAME;
-							volcanoNames.push(item);
-						}
-						
-						unique_volcano_type.sort();
-						unique_volcano_location.sort();
-						unique_volcano_status.sort(); 
-						
-						unique_volcano_type.splice(0,0,"Select All");
-						unique_volcano_location.splice(0,0,"Select All");
-						unique_volcano_status.splice(0,0,"Select All");
 
-						d3.select("#volcano_type").append("select").attr("id", "selectType")./*on("change", change).*/selectAll("option").data(unique_volcano_type).enter().append("option").attr("value", function(d) {
-							return d;
-						}).text(function(d) {
-							return d;
-						});
+							d3.json("data/volcano.geojson", function(collection) {
+								var unique_volcano_type = new Array();
+								var unique_volcano_location = new Array();
+								var unique_volcano_status = new Array();
+								var volcanoNames = new Array();
 
-						d3.select("#volcano_location").append("select").attr("id", "selectLocation")./*on("change", change).*/selectAll("option").data(unique_volcano_location).enter().append("option").attr("value", function(d) {
-							return d;
-						}).text(function(d) {
-							return d;
-						});
+								for ( i = 0; i < collection.features.length; i++) {
 
-						d3.select("#volcano_status").append("select").attr("id", "selectStatus")./*on("change", change).*/selectAll("option").data(unique_volcano_status).enter().append("option").attr("value", function(d) {
-							return d;
-						}).text(function(d) {
-							return d;
-						});
+									if (unique_volcano_type.indexOf(collection.features[i].properties.TYPE) > -1) {
+										//alert(collection.features[i].properties.TYPE);
+									} else {
+										var item = collection.features[i].properties.TYPE;
+										unique_volcano_type.push(item);
+									}
 
-						$("#selectType").selectbox();
-						$("#selectLocation").selectbox();
-						$("#selectStatus").selectbox();
+									if (unique_volcano_location.indexOf(collection.features[i].properties.LOCATION) > -1) {
+										//alert(collection.features[i].properties.TYPE);
+									} else {
+										var item = collection.features[i].properties.LOCATION;
+										unique_volcano_location.push(item);
+									}
 
-						$("#submitButton").button();
-						$("#submitButton").click(function() {
-							var volcanoName = $("#searchByName").val();
-							var typeSelected = $("#selectType").val();
-							var locationSelected = $("#selectLocation").val();
-							var statusSelected = $("#selectStatus").val();
-							var yearEruptedSelected = $('#scale').slider('values');
-							
-							g.selectAll(".volcano").attr("visibility", function(d) {
-								if(volcanoName != "" && volcanoName != d.properties.NAME ){
-									return 'hidden';
+									if (unique_volcano_status.indexOf(collection.features[i].properties.STATUS) > -1) {
+										//alert(collection.features[i].properties.TYPE);
+									} else {
+										var item = collection.features[i].properties.STATUS;
+										unique_volcano_status.push(item);
+									}
+
+									var item = collection.features[i].properties.NAME;
+									volcanoNames.push(item);
 								}
-								
-								if(typeSelected != 'Select All' && d.properties.TYPE != typeSelected){
-									return 'hidden';
-								}
-								
-								if(locationSelected != 'Select All' && d.properties.LOCATION != locationSelected){
-									return 'hidden';
-								}
-								
-								if(statusSelected != 'Select All' && d.properties.STATUS != statusSelected){
-									return 'hidden';
-								}
-								
-								if((d.properties.YEAR === 'unknown' || d.properties.YEAR < yearEruptedSelected[0] || d.properties.YEAR > yearEruptedSelected[1]) &&  !$( "#scale" ).slider( "option", "disabled")){
-									return 'hidden';
-								}
-								
-								return "visible";
+
+								unique_volcano_type.sort();
+								unique_volcano_location.sort();
+								unique_volcano_status.sort();
+
+								unique_volcano_type.splice(0, 0, "Select All");
+								unique_volcano_location.splice(0, 0, "Select All");
+								unique_volcano_status.splice(0, 0, "Select All");
+
+								d3.select("#volcano_type").append("select").attr("id", "selectType")./*on("change", change).*/selectAll("option").data(unique_volcano_type).enter().append("option").attr("value", function(d) {
+									return d;
+								}).text(function(d) {
+									return d;
+								});
+
+								d3.select("#volcano_location").append("select").attr("id", "selectLocation")./*on("change", change).*/selectAll("option").data(unique_volcano_location).enter().append("option").attr("value", function(d) {
+									return d;
+								}).text(function(d) {
+									return d;
+								});
+
+								d3.select("#volcano_status").append("select").attr("id", "selectStatus")./*on("change", change).*/selectAll("option").data(unique_volcano_status).enter().append("option").attr("value", function(d) {
+									return d;
+								}).text(function(d) {
+									return d;
+								});
+
+								$("#selectType").selectbox();
+								$("#selectLocation").selectbox();
+								$("#selectStatus").selectbox();
+
+								$("#submitButton").button();
+								$("#submitButton").click(function() {
+									var volcanoName = $("#searchByName").val();
+									var typeSelected = $("#selectType").val();
+									var locationSelected = $("#selectLocation").val();
+									var statusSelected = $("#selectStatus").val();
+									var yearEruptedSelected = $('#scale').slider('values');
+
+									g.selectAll(".volcano").attr("visibility", function(d) {
+
+										var active = $("#tabs").tabs("option", "active");
+										
+											
+										if (active == 0) {
+											if (volcanoName != "" && volcanoName != d.properties.NAME) {
+												return 'hidden';
+											}
+										} else if (active == 1) {
+											g.attr("transform", "scale(" + 0 + ")translate(null)");
+											if (typeSelected != 'Select All' && d.properties.TYPE != typeSelected) {
+												return 'hidden';
+											}
+
+											if (locationSelected != 'Select All' && d.properties.LOCATION != locationSelected) {
+												return 'hidden';
+											}
+
+											if (statusSelected != 'Select All' && d.properties.STATUS != statusSelected) {
+												return 'hidden';
+											}
+
+										} else {
+											g.attr("transform", "scale(" + 0 + ")translate(null)");
+											if ((d.properties.YEAR === 'unknown' || d.properties.YEAR < yearEruptedSelected[0] || d.properties.YEAR > yearEruptedSelected[1]) && !$("#scale").slider("option", "disabled")) {
+												return 'hidden';
+											}
+										}
+										
+										if(active == 0){
+											var centroid = [-d.properties.LONGX * 2 , d.properties.LATX * 2.5];
+											g.attr("transform", "scale(" + 2 + ")translate(" +centroid+")");
+											
+										}
+										return "visible";
+									});
+								});
+
+								$("#showAllButton").button();
+								$("#showAllButton").click(function() {
+									g.attr("transform", "scale(" + 0 + ")translate(null)");
+									g.selectAll(".volcano").attr("visibility", "visible");
+								});
+
+								$("#searchByName").autocomplete({
+									source : volcanoNames
+								});
 							});
-						});
 
-						$("#showAllButton").button();
-						$("#showAllButton").click(function() {
-							g.selectAll(".volcano").attr("visibility", "visible");
-						});
-						
-						 $( "#searchByName" ).autocomplete({
-							source: volcanoNames
-						});
-					});
-
-				</script>
-				<br/>
-				<br/>
-				Eruption Year Range:
-				<br/>
-				<br/>
-				<button id="slider-switch">
-				Activate Slider
-				</button>
-				<script>
-					$("#slider-switch").button();
-					$("#slider-switch").click(function() {
+						</script>
+						Eruption Year Range:
+						<br/>
+						<br/>
+						<!-- <button id="slider-switch">
+						Activate Slider
+						</button>
+						<script>
+						$("#slider-switch").button();
+						$("#slider-switch").click(function() {
 						if ($("#slider-switch").button("option", "label") === "Activate Slider") {
-							$("#scale").slider("enable");
-							$("#slider-switch").button("option", "label", "Deactivate Slider");
+						$("#scale").slider("enable");
+						$("#slider-switch").button("option", "label", "Deactivate Slider");
 
 						} else {
-							$("#scale").slider("disable");
-							$("#slider-switch").button("option", "label", "Activate Slider");
+						$("#scale").slider("disable");
+						$("#slider-switch").button("option", "label", "Activate Slider");
 						}
-					});
-				</script>
+						});
+						</script> -->
+						<div id="scale" class="slider"></div>
+						<p id="slidertext" align="center">
+							Eruptions during -6000 to -1000
+						</p>
+						<script>
+							$("#scale").slider({
+								range : true,
+								min : -8500,
+								max : 2013,
+								values : [-6000, 1000], //default slider value
+								step : 100, // step is the allow increments the slider can move. 1 = 1000 years
+								slide : function(event, ui) {
+									var slider1Value = ui.values[0];
+									var slider2Value = ui.values[1];
+
+									d3.select("#slidertext").text('Eruptions during ' + slider1Value.toString() + ' to ' + slider2Value.toString());
+								}
+							});
+						</script>
+					</div>
+				</div>
 				<br/>
 				<br/>
-				<div id="scale" class="slider"></div>
-				<p id="slidertext" align="center">
-					Eruptions during -6000 to -1000
-				</p>
-				<script>
-					$("#scale").slider({
-						range : true,
-						min : -8500,
-						max : 2013,
-						values : [-6000, 1000], //default slider value
-						step : 100, // step is the allow increments the slider can move. 1 = 1000 years
-						slide : function(event, ui) {
-							var slider1Value = ui.values[0];
-							var slider2Value = ui.values[1];
-	
-							d3.select("#slidertext").text('Eruptions during ' + slider1Value.toString() + ' to ' + slider2Value.toString());
-						}
-					});
-					
-					$("#scale").slider( "disable" );
-				</script>
 				<button id="submitButton">
 					Get me my volcanos!
 				</button>
