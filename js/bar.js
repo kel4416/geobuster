@@ -48,7 +48,7 @@ d3.csv("data/eruption-count.csv", function(error, data) {
 				if(d.properties.YEAR === 'unknown'){
 					return "none";
 				}
-				if (d.properties.YEAR >= yearLimits1 && d.properties.YEAR <= yearLimits2) {
+				if (d.properties.YEAR >= yearLimits1 && d.properties.YEAR < yearLimits2) {
 					return "block";
 				} else {
 					return "none";
