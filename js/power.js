@@ -7,17 +7,18 @@ $(document).ready(function() {
 		"sPaginationType" : "full_numbers"
 	});
 
-	$("#tectonicSwitch").button();
-	$("#tectonicSwitch").click(function() {
+	$("#tectonicSwitch").button().click(function() {
+		var label = $("#tectonicSwitch").button("option", "label");
 		g.selectAll(".tectonic").attr("visibility", function(d) {
-
-			if ($("#tectonicSwitch").button("option", "label") === "Hide Tectonic") {
+				
+			if (label === "Hide Tectonic") {
 				$("#tectonicSwitch").button("option", "label", "Show Tectonic");
 				return "hidden";
 			} else {
 				$("#tectonicSwitch").button("option", "label", "Hide Tectonic");
 				return "visible";
 			}
+			
 
 		});
 	});

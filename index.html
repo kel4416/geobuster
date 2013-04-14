@@ -260,9 +260,7 @@
 					Tectonic Switch
 				</div>
 				<br/>
-				<button id="tectonicSwitch">
-					Hide Tectonic
-				</button>
+				<button id="tectonicSwitch">Hide Tectonic</button>
 				<br/>
 				<br/>
 				</td>
@@ -302,14 +300,20 @@
 				<button id="clear-table">
 					Clear Table
 				</button>
+				<div id="dialog-confirm" title="Volcano Data already added">
+  					<p>Do you still wish to add this volcano data into the data table?</p>
+				</div>
 				<script>
 					$("#clear-table").button();
 					$("#clear-table").click(function() {
 						$('#dynamic-table').dataTable().fnClearTable();
+						
 					});
 				</script></td>
 			</tr>
 		</table>
+		
 		<script src="js/power.js"></script>
+		
 	</body>
 </html>

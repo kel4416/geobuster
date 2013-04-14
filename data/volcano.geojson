@@ -1,4 +1,4 @@
-{
+﻿{
 "type": "FeatureCollection",
                                                                                 
 "features": [
@@ -2468,7 +2468,7 @@
 ,
 { "type": "Feature", "id": 1233, "properties": { "NUMBER": "1504-03=", "NAME": "Supply Reef", "LOCATION": "Mariana is-C Pacific", "STATUS": "Hydrophonic", "LATX": 20.13333333, "LONGX": 145.1, "ELEV": -8, "TYPE": "Submarine volcano", "YEAR": "1989" }, "geometry": { "type": "Point", "coordinates": [ 145.1, 20.13333333 ] } }
 ,
-{ "type": "Feature", "id": 1234, "properties": { "NUMBER": "1504-04=", "NAME": "Suretamatai", "LOCATION": "Vanuatu-SW Pacific", "STATUS": "Historical", "LATX": -13.8, "LONGX": 167.4666667, "ELEV": 921, "TYPE": "Complex volcano", "YEAR": "196" }, "geometry": { "type": "Point", "coordinates": [ 167.4666667, -13.8 ] } }
+{ "type": "Feature", "id": 1234, "properties": { "NUMBER": "1504-04=", "NAME": "Suretamatai", "LOCATION": "Vanuatu-SW Pacific", "STATUS": "Historical", "LATX": -13.8, "LONGX": 167.4666667, "ELEV": 921, "TYPE": "Complex volcano", "YEAR": "1966" }, "geometry": { "type": "Point", "coordinates": [ 167.4666667, -13.8 ] } }
 ,
 { "type": "Feature", "id": 1235, "properties": { "NUMBER": "1504-05-", "NAME": "Suswa", "LOCATION": "Africa-E", "STATUS": "Holocene", "LATX": -1.175, "LONGX": 36.35, "ELEV": 2356, "TYPE": "Shield volcano", "YEAR": "unknown" }, "geometry": { "type": "Point", "coordinates": [ 36.35, -1.175 ] } }
 ,
