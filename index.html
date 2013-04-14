@@ -197,6 +197,7 @@
 								$("#showAllButton").click(function() {
 									g.attr("transform", "scale(" + 0 + ")translate(null)");
 									g.selectAll(".volcano").attr("visibility", "visible");
+									g.selectAll(".volcano").attr("d",d3.geo.path().projection(projection).pointRadius(5));
 								});
 
 								$("#searchByName").autocomplete({
