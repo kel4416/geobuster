@@ -157,8 +157,7 @@
 									g.selectAll(".volcano").attr("visibility", function(d) {
 
 										var active = $("#tabs").tabs("option", "active");
-										
-											
+
 										if (active == 0) {
 											if (volcanoName != "" && volcanoName != d.properties.NAME) {
 												return 'hidden';
@@ -183,11 +182,11 @@
 												return 'hidden';
 											}
 										}
-										
-										if(active == 0){
-											var centroid = [-d.properties.LONGX * 2 , d.properties.LATX * 2.5];
-											g.attr("transform", "scale(" + 2 + ")translate(" +centroid+")");
-											
+
+										if (active == 0) {
+											var centroid = [-d.properties.LONGX * 2, d.properties.LATX * 2.5];
+											g.attr("transform", "scale(" + 2 + ")translate(" + centroid + ")");
+
 										}
 										return "visible";
 									});
@@ -197,6 +196,7 @@
 								$("#showAllButton").click(function() {
 									g.attr("transform", "scale(" + 0 + ")translate(null)");
 									g.selectAll(".volcano").attr("visibility", "visible");
+									g.selectAll(".volcano").attr("display", "block");
 								});
 
 								$("#searchByName").autocomplete({
@@ -224,25 +224,33 @@
 						}
 						});
 						</script> -->
-						<div id="scale" class="slider"></div>
+						<!-- <div id="scale" class="slider"></div>
 						<p id="slidertext" align="center">
-							Eruptions during -6000 to -1000
+						Eruptions during -6000 to -1000
 						</p>
 						<script>
-							$("#scale").slider({
-								range : true,
-								min : -8500,
-								max : 2013,
-								values : [-6000, 1000], //default slider value
-								step : 100, // step is the allow increments the slider can move. 1 = 1000 years
-								slide : function(event, ui) {
-									var slider1Value = ui.values[0];
-									var slider2Value = ui.values[1];
+						$("#scale").slider({
+						range : true,
+						min : -8500,
+						max : 2013,
+						values : [-6000, 1000], //default slider value
+						step : 100, // step is the allow increments the slider can move. 1 = 1000 years
+						slide : function(event, ui) {
+						var slider1Value = ui.values[0];
+						var slider2Value = ui.values[1];
 
-									d3.select("#slidertext").text('Eruptions during ' + slider1Value.toString() + ' to ' + slider2Value.toString());
-								}
-							});
-						</script>
+						d3.select("#slidertext").text('Eruptions during ' + slider1Value.toString() + ' to ' + slider2Value.toString());
+						}
+						});
+						</script> -->
+						<form action="#">
+							Start Year:
+							<input type="text" placeholder="-8500"/>
+							End Year:
+							<input type="text" placeholder="2000"/>
+							
+							<p style="font-size:10px">*Negative values represents BC years</p>
+						</form>
 					</div>
 				</div>
 				<br/>
@@ -259,7 +267,9 @@
 					Tectonic Switch
 				</div>
 				<br/>
-				<button id="tectonicSwitch">Hide Tectonic</button>
+				<button id="tectonicSwitch">
+					Hide Tectonic
+				</button>
 				<br/>
 				<br/>
 				</td>
@@ -300,19 +310,21 @@
 					Clear Table
 				</button>
 				<div id="dialog-confirm" title="Volcano Data already added">
-  					<p>Do you still wish to add this volcano data into the data table?</p>
+					<p>
+						Do you still wish to add this volcano data into the data table?
+					</p>
 				</div>
 				<script>
 					$("#clear-table").button();
 					$("#clear-table").click(function() {
 						$('#dynamic-table').dataTable().fnClearTable();
-						
+
 					});
 				</script></td>
 			</tr>
 		</table>
-		
+
 		<script src="js/power.js"></script>
-		
+
 	</body>
 </html>

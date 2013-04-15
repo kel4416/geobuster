@@ -69,9 +69,6 @@ d3.csv("data/eruption-count.csv", function(error, data) {
 			});
 
 		}
-	}).on("mouseout", function(d) {
-		d3.selectAll('.volcano').attr("display", "block");
-
 	}).append("svg:title").text(function(d) {
 		if (d.range != "<1500") {
 			var yearLimits = d.range;
