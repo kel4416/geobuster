@@ -1,0 +1,1472 @@
+NUMBER,NAME,LOCATION,STATUS,LATX,LONGX,ELEV,TYPE,YEAR,PLACE
+0100-01-,Abu,Japan,Thermoluminescence,34.5,131.6,641,Shield volcano,-6850,Honshu-Japan
+0100-02-,Acamarachi,Chile,Holocene,-23.3,-67.61666667,6046,Stratovolcano,unknown,Chile-N
+0100-03-,Acatenango,Guatemala,Historical,14.50055556,-90.87583333,3976,Stratovolcano,1972,Guatemala
+0100-04-,Acigol-Nevsehir,Turkey,Anthropology,38.56666667,34.51666667,1689,Caldera,-2080,Turkey
+0101-001,Adams,United States,Tephrochronology,46.20555556,-121.4897222,3742,Stratovolcano,-950,US-Washington
+0101-003,Adams Seamount,Pacific Ocean,Potassium-Argon,-25.36666667,-129.2666667,-39,Submarine volcano,-50,Pacific-C
+0101-004,Adatara,Japan,Historical,37.64416667,140.2861111,1718,Stratovolcano,1996,Honshu-Japan
+0101-01=,Adwa,Ethiopia,Holocene,10.07,40.84,1733,Stratovolcano,unknown,Ethiopia
+0101-02=,Afdera,Ethiopia,Holocene,13.08333333,40.85,1295,Stratovolcano,unknown,Ethiopia
+0101-031,Agrigan,Pacific Ocean,Historical,18.76666667,145.6666667,965,Stratovolcano,1917,Mariana is-C Pacific
+0101-03=,Agua,Guatemala,Holocene,14.46472222,-90.74305556,3760,Stratovolcano,unknown,Guatemala
+0101-041,Agua de Pau,Portugal,Historical,37.76666667,-25.46666667,947,Stratovolcano,1564,Azores
+0101-042,Aguilera,Chile,Radiocarbon,-50.33333333,-73.75,2546,Stratovolcano,-1250,Chile-S
+0101-04=,Agung,Indonesia,Historical,-8.341666667,115.5083333,3142,Stratovolcano,1964,Lesser Sunda Islands
+0101-05=,Ahyi,Pacific Ocean,Seismicity,20.41666667,145.0333333,-137,Submarine volcano,2001,Mariana is-C Pacific
+0101-06=,Akademia Nauk,Russia,Historical,53.98333333,159.45,1180,Stratovolcano,1996,Kamchatka
+0101-071,Akagi,Japan,Holocene,36.55722222,139.1963889,1828,Stratovolcano,1828,Honshu-Japan
+0101-07=,Akan,Japan,Historical,43.38416667,144.0127778,1499,Caldera,2008,Hokkaido-Japan
+0102-02=,Akhtang,Russia,Holocene,55.43333333,158.65,1956,Shield volcano,unknown,Kamchatka
+0102-03=,Akita-Komaga-take,Japan,Historical,39.75833333,140.8027778,1637,Stratovolcano,1971,Honshu-Japan
+0102-04=,Akita-Yake-yama,Japan,Historical,39.96111111,140.7605556,1366,Stratovolcano,1997,Honshu-Japan
+0102-051,Akuseki-jima,Japan,Holocene,29.46138889,129.5969444,584,Stratovolcano,unknown,Ryukyu is
+0102-05=,Akutan,Aleutian Islands,Historical,54.13444444,-165.9861111,1303,Stratovolcano,1894,Aleutian is
+0103-00-,Alaid,Russia,Historical,50.85833333,155.55,2339,Stratovolcano,1996,Kuril is
+0103-001,Alamagan,Pacific Ocean,Radiocarbon,17.6,145.8333333,744,Stratovolcano,-870,Mariana is-C Pacific
+0103-002,Alayta,Ethiopia,Historical,12.88333333,40.56666667,1501,Shield volcano,1915,Ethiopia
+0103-003,Alban Hills,Italy,Holocene,41.73333333,12.7,949,Caldera,unknown,Italy
+0103-004,Alcedo,Galapagos,Historical,-0.433333333,-91.11666667,1130,Shield volcano,1993,Galapagos
+0103-011,Ale Bagu,Ethiopia,Holocene,13.51666667,40.63333333,1031,Stratovolcano,unknown,Ethiopia
+0103-01=,Alid,Ethiopia,Holocene,14.88333333,39.91666667,904,Stratovolcano,unknown,Ethiopia
+0103-021,Alligator Lake,Canada,Holocene,60.41666667,-135.4166667,2217,Volcano field,unknown,Canada
+0103-022,Almolonga,Guatemala,Historical,14.81666667,-91.48333333,3197,Stratovolcano,1818,Guatemala
+0103-02=,Alney-Chashakondzha,Russia,Radiocarbon,56.7,159.65,2598,Stratovolcano,1600,Kamchatka
+0103-03=,Alngey,Russia,Holocene,57.7,160.4,1853,Stratovolcano,unknown,Kamchatka
+0103-04-,Alu,Ethiopia,Holocene,13.825,40.50833333,429,Fissure vent,unknown,Ethiopia
+0103-05-,Alutu,Ethiopia,Radiocarbon,7.766666667,38.78333333,2335,Stratovolcano,-50,Ethiopia
+0104-01-,Amak,Aleutian Islands,Historical,55.42388889,-163.1491667,488,Stratovolcano,1796,Aleutian is
+0104-02-,Amasing,Indonesia,Holocene,-0.533333333,127.4833333,1030,Stratovolcano,unknown,Halmahera-indonesia
+0104-03-,Ambalatungan Group,Philippines,Fumarolic,17.31666667,121.1,2329,Compound volcano,unknown,Luzon-Philippines
+0104-06-,Ambang,Indonesia,Historical,0.75,124.4166667,1795,Complex volcano,1845,Sulawesi-indonesia
+0104-07-,Ambitle,Pacific Ocean,Radiocarbon,-4.083333333,153.65,450,Stratovolcano,-350,New ireland-SW Pacific
+0104-08-,Ambre-Bobaomby,Madagascar,Holocene,-12.6,49.15,1475,Volcano field,unknown,Madagascar
+0104-09-,Ambrym,Pacific Ocean,Historical,-16.25,168.1166667,1334,Pyroclastic shield,2011,Vanuatu-SW Pacific
+0104-10-,Amorong,Philippines,Fumarolic,15.82833333,120.805,376,Lava dome,unknown,Luzon-Philippines
+0201-01=,Amsterdam island,Indian Ocean,Holocene,-37.83333333,77.51666667,881,Stratovolcano,unknown,Indian O.-S
+0201-021,Amukta,Aleutian Islands,Historical,52.5,-171.2522222,1066,Stratovolcano,1997,Aleutian is
+0201-022,Anatahan,Pacific Ocean,Historical,16.35,145.6666667,790,Stratovolcano,2008,Mariana is-C Pacific
+0201-02=,Anaun,Russia,Holocene,56.31666667,158.8333333,1828,Stratovolcano,unknown,Kamchatka
+0201-03=,Andahua-Orcopampa,Peru,Radiocarbon,-15.41666667,-72.33333333,4713,Cinder cone,1490,Peru
+0201-041,Andrus,Antarctica,Holocene,-75.8,-132.3333333,2978,Shield volcano,unknown,Antarctica
+0201-04=,Aneityum,Pacific Ocean,Holocene,-20.2,169.7833333,852,Stratovolcano,unknown,Vanuatu-SW Pacific
+0201-05=,Aniakchak,Alaska,Historical,56.88333333,-158.1666667,1341,Caldera,1931,Alaska Peninsula
+0201-06=,Ankaizina Field,Madagascar,Holocene,-14.3,48.66666667,2878,Cinder cone,unknown,Madagascar
+0201-071,Ankaratra Field,Madagascar,Holocene,-19.4,47.2,2644,Cinder cone,unknown,Madagascar
+0201-07=,Antillanca Group,Chile,Radiocarbon,-40.77083333,-72.15333333,1990,Stratovolcano,-230,Chile-C
+0201-08=,Antipodes island,Pacific Ocean,Holocene,-49.68333333,178.7666667,402,Pyroclastic cone,unknown,Pacific-S
+0201-091,Antisana,Ecuador,Historical,-0.481388889,-78.14083333,5753,Stratovolcano,1802,Ecuador
+0201-09=,Antofagasta de la Sierra,Argentina,Holocene,-26.08333333,-67.5,4000,Scoria cones,unknown,Argentina
+0201-101,Antuco,Chile,Historical,-37.40583333,-71.34916667,2979,Stratovolcano,1869,Chile-C
+0201-102,Aoba,Pacific Ocean,Historical,-15.4,167.8333333,1496,Shield volcano,2011,Vanuatu-SW Pacific
+0201-103,Aoga-shima,Japan,Historical,32.45416667,139.7622222,423,Stratovolcano,1785,izu is-Japan
+0201-104,Apagado,Chile,Holocene,-41.88333333,-72.58333333,1210,Pyroclastic cone,unknown,Chile-S
+0201-105,Apaneca Range,El Salvador,Holocene,13.89083333,-89.78611111,2036,Stratovolcano,unknown,El Salvador
+0201-106,Apastepeque Field,El Salvador,Holocene,13.71666667,-88.76666667,700,Volcano field,unknown,El Salvador
+0201-107,Apo,Philippines,Fumarolic,6.988888889,125.2694444,2938,Stratovolcano,unknown,Mindanao-Philippines
+0201-10=,Apoyeque,Nicaragua,Radiocarbon,12.24166667,-86.34166667,518,Pyroclastic shield,-50,Nicaragua
+0201-111,Aracar,Argentina,Uncertain,-24.25,-67.76666667,6082,Stratovolcano,unknown,Argentina
+0201-112,Aragats,Armenia,Holocene,40.53333333,44.2,4095,Stratovolcano,unknown,Armenia
+0201-113,Aramuaca  Laguna,El Salvador,Holocene,13.42833333,-88.105,181,Maar,unknown,El Salvador
+0201-114,Ararat,Turkey,Historical,39.7,44.3,5165,Stratovolcano,1840,Turkey
+0201-115,Arayat,Philippines,Holocene,15.2,120.7416667,1026,Stratovolcano,unknown,Luzon-Philippines
+0201-116,Ardoukoba,Djibouti,Historical,11.58333333,42.46666667,298,Fissure vent,1978,Djibouti
+0201-11=,Arenal,Costa Rica,Historical,10.46333333,-84.70333333,1670,Stratovolcano,2010,Costa Rica
+0201-120,Arenales,Chile,Historical,-47.2,-73.48333333,3437,Stratovolcano,1979,Chile-S
+0201-121,Arhab  Harra of,Arabia,Historical,15.63333333,44.08333333,3100,Volcano field,-500,Arabia-S
+0201-122,Arjuno-Welirang,Indonesia,Historical,-7.725,112.5833333,3339,Stratovolcano,1952,Java
+0201-123,Arshan,China,Radiocarbon,47.5,120.7,,Cinder cone,150,China-E
+0201-124,Asacha,Russia,Holocene,52.355,157.8266667,1910,Complex volcano,unknown,Kamchatka
+0201-125,Asama,Japan,Historical,36.40333333,138.5261111,2568,Complex volcano,2009,Honshu-Japan
+0201-126,Asavyo,Ethiopia,Holocene,13.06666667,41.6,1200,Shield volcano,unknown,Ethiopia
+0201-12=,Ascension,Atlantic Ocean,Holocene,-7.95,-14.36666667,858,Stratovolcano,unknown,Atlantic-C
+0201-141,Askja,Iceland,Historical,65.03333333,-16.75,1516,Stratovolcano,1961,Iceland-NE
+0201-151,Aso,Japan,Historical,32.88083333,131.1063889,1592,Caldera,2011,Kyushu-Japan
+0201-15=,Assab Volcano Field,Ethiopia,Holocene,12.95,42.43333333,987,Volcano field,unknown,Ethiopia
+0201-16=,Asuncion,Pacific Ocean,Historical,19.67083333,145.4055556,857,Stratovolcano,1906,Mariana is-C Pacific
+0201-171,Atacazo,Ecuador,Radiocarbon,-0.352777778,-78.61694444,4463,Stratovolcano,-320,Ecuador
+0201-172,Atakor Volcano Field,Africa,Holocene,23.33333333,5.833333333,2918,Scoria cones,unknown,Africa-N
+0201-17=,Atitlan,Guatemala,Historical,14.58277778,-91.18638889,3535,Stratovolcano,1853,Guatemala
+0201-18=,Atka,Aleutian Islands,Historical,52.33166667,-174.1366667,1451,Stratovolcano,1987,Aleutian is
+0201-191,Atlin Volcano Field,Canada,Holocene,59.68333333,-133.3166667,1880,Cinder cone,unknown,Canada
+0201-19=,Atlixcos  Los,Mexico,Holocene,19.80888889,-96.52638889,800,Shield volcano,unknown,Mexico
+0201-20-,Atsonupuri,Russia,Historical,44.805,147.135,1206,Stratovolcano,1932,Kuril is
+0201-21-,Atuel  Caldera del,Argentina,Holocene,-34.65,-70.05,5189,Caldera,unknown,Argentina
+0201-22-,Auckland Field,New Zealand,Radiocarbon,-36.9,174.8666667,260,Volcano field,1350,New Zealand
+0201-222,Augustine,Alaska,Historical,59.36333333,-153.4333333,1252,Lava dome,2006,Alaska-SW
+0201-23-,Auquihuato  Cerro,Peru,Holocene,-15.06666667,-73.18333333,4980,Cinder cone,unknown,Peru
+0201-24-,Avachinsky,Russia,Historical,53.255,158.83,2741,Stratovolcano,2001,Kamchatka
+0201-25-,Awu,Indonesia,Historical,3.666666667,125.5,1320,Stratovolcano,2004,Sangihe is-indonesia
+0201-252,Axial Seamount,Pacific Ocean,Historical,45.95,-130,-1410,Submarine volcano,1998,Pacific-NE
+0201-26-,Ayelu,Ethiopia,Holocene,10.08222222,40.70166667,2145,Stratovolcano,unknown,Ethiopia
+0201-27-,Azas Plateau,Russia,Holocene,52.51666667,98.6,2765,Volcano field,unknown,Russia-SE
+0201-28-,Azufral,Colombia,Radiocarbon,1.083333333,-77.68333333,4070,Stratovolcano,-930,Colombia
+0201-29-,Azufre  Cerro del,Chile,Holocene,-21.78722222,-68.2375,5846,Stratovolcano,unknown,Chile-N
+0201-291,Azul  Cerro,Galapagos,Historical,-0.916666667,-91.40833333,1640,Shield volcano,2008,Galapagos
+0201-292,Azul  Cerro,Chile,Historical,-35.65333333,-70.76083333,3788,Stratovolcano,1967,Chile-C
+0201-293,Azul  Volcanoan,Nicaragua,Holocene,12.53333333,-83.86666667,201,Cinder cone,unknown,Nicaragua
+0201-30-,Azuma,Japan,Historical,37.73222222,140.2477778,2035,Stratovolcano,1977,Honshu-Japan
+0201-31-,Babuyan Claro,Philippines,Historical,19.52333333,121.94,1080,Stratovolcano,1924,Luzon-N of
+0201-32-,Bachelor,United States,Tephrochronology,43.97944444,-121.6875,2763,Stratovolcano,-5800,US-Oregon
+0201-33-,Bagana,Pacific Ocean,Historical,-6.14,155.195,1750,Lava cone,2011,Bougainville-SW Pacific
+0202-001,Bakening,Russia,Tephrochronology,53.905,158.0666667,2278,Stratovolcano,-550,Kamchatka
+0202-01=,Baker,United States,Historical,48.77666667,-121.8130556,3285,Stratovolcano,1880,US-Washington
+0202-021,Bal Haf  Harra of,Arabia,Holocene,14.05,48.33333333,233,Volcano field,unknown,Arabia-S
+0202-02=,Balatukan,Philippines,Uncertain,8.766666667,124.9833333,2450,Compound volcano,unknown,Mindanao-Philippines
+0202-03=,Balbi,Pacific Ocean,Holocene,-5.916666667,154.9833333,2715,Stratovolcano,unknown,Bougainville-SW Pacific
+0202-04-,Bald Knoll,United States,Holocene,37.32777778,-112.4077778,2135,Cinder cone,unknown,US-Utah
+0202-05-,Baluan,Pacific Ocean,Holocene,-2.566666667,147.2833333,254,Stratovolcano,unknown,Admiralty is-SW Pacific
+0202-051,Baluran,Indonesia,Holocene,-7.85,114.3666667,1247,Stratovolcano,unknown,Java
+0202-052,Balut,Philippines,Fumarolic,5.4,125.375,862,Stratovolcano,unknown,Mindanao-Philippines
+0202-053,Bam,Papua New Guinea,Historical,-3.6125,144.8183333,685,Stratovolcano,1960,New Guinea-NE of
+0202-054,Bamus,Papua New Guinea,Anthropology,-5.2,151.2333333,2248,Stratovolcano,1886,New Britain-SW Pac
+0202-055,Banahaw,Philippines,Holocene,14.06666667,121.4833333,2158,Complex volcano,unknown,Luzon-Philippines
+0202-056,Banda Api,Indonesia,Historical,-4.525,129.8713889,640,Caldera,1988,Banda Sea
+0202-06=,Bandai,Japan,Historical,37.59805556,140.0755556,1819,Stratovolcano,1888,Honshu-Japan
+0202-071,Banua Wuhu,Indonesia,Historical,3.137777778,125.4905556,-5,Submarine volcano,1919,Sangihe is-indonesia
+0202-07=,Baransky,Russia,Historical,45.09722222,148.0241667,1132,Stratovolcano,1951,Kuril is
+0202-08=,Barcena,Mexico,Historical,19.3,-110.8166667,332,Cinder cone,1953,Mexico-is
+0202-09=,Bardarbunga,Iceland,Historical,64.63333333,-17.53333333,2009,Stratovolcano,1910,Iceland-NE
+0202-10=,Barkhatnaya Sopka,Russia,Tephrochronology,52.82333333,158.2666667,870,Lava dome,-3550,Kamchatka
+0202-11=,Barren island,Andaman Islands,Historical,12.27777778,93.85833333,354,Stratovolcano,2011,Andaman is-Indian O
+0202-12=,Barrier  The,Africa,Historical,2.316666667,36.56666667,1032,Shield volcano,1921,Africa-E
+0202-13=,Baru,Panama,Historical,8.807777778,-82.54277778,3474,Stratovolcano,1550,Panama
+0202-15=,Barva,Costa Rica,Tephrochronology,10.135,-84.1,2906,Complex volcano,-6050,Costa Rica
+0202-161,Bas Dong Nai,Vietnam,Holocene,10.8,107.2,392,Volcano field,unknown,Vietnam
+0202-163,Batur,Indonesia,Historical,-8.241666667,115.375,1717,Caldera,2000,Lesser Sunda Islands
+0202-164,Bayo  Cerro,Chile,Holocene,-25.41666667,-68.58333333,5401,Complex volcano,unknown,Chile-N
+0202-165,Bayonnaise Rocks,Japan,Historical,31.88333333,139.9166667,11,Submarine volcano,1970,izu is-Japan
+0202-166,Bayuda Volcano Field,Africa,Radiocarbon,18.33333333,32.75,670,Cinder cone,-850,Africa-N
+0202-16=,Bazman,Iran,Fumarolic,28.06666667,60,3490,Stratovolcano,unknown,Iran
+0202-17=,Behm Canal-Rudyerd Bay,Alaska,Holocene,55.31666667,-131.05,500,Cinder cone,unknown,Alaska-E
+0203-001,Belenkaya,Russia,Holocene,51.75,157.2666667,892,Stratovolcano,unknown,Kamchatka
+0203-002,Belirang-Beriti,Indonesia,Fumarolic,-2.816666667,102.1833333,1958,Compound volcano,unknown,Sumatra
+0203-003,Belknap,United States,Radiocarbon,44.28527778,-121.8411111,2095,Shield volcano,-480,US-Oregon
+0203-004,Bely,Russia,Holocene,57.88333333,160.5333333,2080,Shield volcano,unknown,Kamchatka
+0203-005,Berlin,Antarctica,Ar/Ar,-76.05,-136,3478,Shield volcano,-8350,Antarctica
+0203-01=,Beru,Ethiopia,Holocene,8.95,39.75,1100,Volcano field,unknown,Ethiopia
+0203-02=,Berutarube,Russia,Holocene,44.45916667,146.9363889,1221,Stratovolcano,unknown,Kuril is
+0203-03=,Besar,Indonesia,Historical,-4.433333333,103.6666667,1899,Stratovolcano,1940,Sumatra
+0203-04-,Bezymianny,Russia,Historical,55.97833333,160.5866667,2882,Stratovolcano,2011,Kamchatka
+0203-05-,Bibinoi,Indonesia,Holocene,-0.766666667,127.7166667,900,Stratovolcano,unknown,Halmahera-indonesia
+0203-06-,Bilate River Field,Ethiopia,Holocene,7.066666667,38.1,1700,Maar,unknown,Ethiopia
+0203-07-,Biliran,Philippines,Historical,11.52333333,124.535,1301,Compound volcano,1939,Philippines-C
+0203-08-,Billy Mitchell,Pacific Ocean,Radiocarbon,-6.091666667,155.225,1544,Pyroclastic shield,1580,Bougainville-SW Pacific
+0204-001,Bir Borhut,Arabia,Holocene,15.55,50.63333333,,Volcano field,unknown,Arabia-S
+0204-002,Birk  Harrat al,Arabia,Holocene,18.36666667,41.63333333,381,Volcano field,unknown,Arabia-W
+0204-003,Bishoftu Volcano Field,Ethiopia,Holocene,8.783333333,38.98333333,1850,Fissure vent,unknown,Ethiopia
+0204-004,Biu Plateau,Africa,Holocene,10.75,12,,Volcano field,unknown,Africa-W
+0204-011,Black Peak,Alaska,Radiocarbon,56.5525,-158.7847222,1032,Stratovolcano,-1900,Alaska Peninsula
+0204-01=,Black Rock Desert,United States,Radiocarbon,38.96666667,-112.5,1800,Volcano field,1290,US-Utah
+0204-02-,Blancas  Lomas,Chile,Holocene,-36.28583333,-71.00944444,2268,Stratovolcano,unknown,Chile-C
+0204-03-,Bliznets,Russia,Holocene,56.96666667,159.7833333,1244,Stratovolcano,unknown,Kamchatka
+0204-04-,Bliznetsy,Russia,Radiocarbon,57.35,161.3666667,265,Lava cone,-1060,Kamchatka
+0204-05-,Blue Lake Crater,United States,Radiocarbon,44.41138889,-121.7738889,1230,Maar,-680,US-Oregon
+0205-001,Blup Blup,Papua New Guinea,Holocene,-3.506666667,144.605,402,Stratovolcano,unknown,New Guinea-NE of
+0205-002,Bobrof,Aleutian Islands,Holocene,51.91,-177.4383333,738,Stratovolcano,unknown,Aleutian is
+0205-003,Bogatyr Ridge,Russia,Holocene,44.83305556,147.3419444,1634,Stratovolcano,unknown,Kuril is
+0205-004,Bogoslof,Aleutian Islands,Historical,53.93333333,-168.0333333,150,Submarine volcano,1992,Aleutian is
+0205-005,Boisa,Papua New Guinea,Holocene,-3.994444444,144.9633333,240,Stratovolcano,unknown,New Guinea-NE of
+0205-006,Bola,Papua New Guinea,Holocene,-5.15,150.0333333,1155,Stratovolcano,unknown,New Britain-SW Pac
+0205-007,Bolshe-Bannaya,Russia,Holocene,52.9,157.7833333,1200,Lava dome,unknown,Kamchatka
+0205-008,Bolshoi Payalpan,Russia,Holocene,55.88333333,157.7833333,1906,Shield volcano,unknown,Kamchatka
+0205-009,Bolshoi Semiachik,Russia,Radiocarbon,54.31666667,160.0166667,1720,Stratovolcano,-4450,Kamchatka
+0205-01=,Bolshoi-Kekuknaysky,Russia,Radiocarbon,56.46666667,157.8,1401,Shield volcano,-5310,Kamchatka
+0205-021,Bombalai,Borneo,Holocene,4.4,117.8833333,531,Pyroclastic cone,unknown,Borneo
+0205-02=,Boomerang Seamount,Indian Ocean,Historical,-37.72083333,77.825,-650,Submarine volcano,1995,Indian O.-S
+0205-03-,Bora-Bericcio,Ethiopia,Holocene,8.266666667,39.03333333,2285,Pumice cone,unknown,Ethiopia
+0205-04-,Borale Ale,Ethiopia,Holocene,13.725,40.6,668,Stratovolcano,unknown,Ethiopia
+0205-05-,Borawli,Ethiopia,Holocene,13.3,40.98333333,812,Stratovolcano,unknown,Ethiopia
+0205-06-,Borawli,Ethiopia,Holocene,11.63333333,41.45,875,Lava dome,unknown,Ethiopia
+0205-07-,Boset-Bericha,Ethiopia,Holocene,8.558333333,39.475,2447,Stratovolcano,unknown,Ethiopia
+0300-01-,Bouvet,Atlantic Ocean,Magnetism,-54.41666667,3.35,780,Shield volcano,-50,Atlantic-S
+0300-03-,Bratan,Indonesia,Holocene,-8.283333333,115.1333333,2276,Caldera,unknown,Lesser Sunda Islands
+0300-05-,Brava,Cape Verde,Holocene,14.85,-24.71666667,900,Stratovolcano,unknown,Cape Verde is
+0300-06-,Bravo  Cerro,Colombia,Radiocarbon,5.091666667,-75.3,4000,Stratovolcano,1720,Colombia
+0301-001,Brennisteinsfjoll,Iceland,Historical,63.91666667,-21.83333333,621,Crater rows,1341,Iceland-SW
+0301-01=,Bridge River Cones,Canada,Holocene,50.8,-123.4,2500,Volcano field,unknown,Canada
+0301-02=,Bridgeman island,Antarctica,Uncertain,-62.05,-56.75,240,Stratovolcano,unknown,Antarctica
+0301-04-,Bristol island,Antarctica,Historical,-59.03333333,-26.58333333,1100,Stratovolcano,1956,Antarctica
+0301-05=,Brothers,New Zealand,Fumarolic,-34.87472222,179.0752778,-1350,Submarine volcano,unknown,New Zealand
+0301-06=,Brushy Butte,United States,Holocene,41.17777778,-121.4433333,1174,Shield volcano,unknown,US-California
+0301-071,Buckle island,Antarctica,Historical,-66.78333333,163.25,1239,Stratovolcano,1899,Antarctica
+0301-072,Bufumbira,Africa,Holocene,-1.233333333,29.71666667,2440,Cinder cone,unknown,Africa-C
+0301-07=,Buldir,Aleutian Islands,Holocene,52.35,175.9105556,656,Stratovolcano,unknown,Aleutian is
+0301-08-,Bulusan,Philippines,Historical,12.77,124.05,1565,Stratovolcano,2011,Luzon-Philippines
+0301-09-,Bunyaruguru,Africa,Holocene,-0.2,30.08333333,1554,Maar,unknown,Africa-C
+0301-10-,Burney  Monte,Chile,Historical,-52.33333333,-73.4,1758,Stratovolcano,1910,Chile-S
+0301-11-,Bus-Obo,Mongolia,Holocene,47.11666667,109.0833333,1162,Cinder cone,unknown,Mongolia
+0301-12-,Butajiri-Silti Field,Ethiopia,Holocene,8.05,38.35,2281,Fissure vent,unknown,Ethiopia
+0301-16-,Buzzard Creek,Alaska,Radiocarbon,64.06666667,-148.4166667,830,Tuff rings,-1050,Alaska-E
+0301-17-,Cabalian,Philippines,Radiocarbon,10.28694444,125.2208333,945,Stratovolcano,1820,Philippines-C
+0301-18-,Caburgua-Huelemolle,Chile,Tephrochronology,-39.25,-71.7,1496,Cinder cone,-5050,Chile-C
+0302-001,Cagua,Philippines,Historical,18.22166667,122.1233333,1133,Stratovolcano,1860,Luzon-Philippines
+0302-002,Caichinque,Chile,Holocene,-23.95,-67.73333333,4450,Stratovolcano,unknown,Chile-N
+0302-01-,Calabozos,Chile,Holocene,-35.55833333,-70.49638889,3508,Caldera,unknown,Chile-C
+0302-02-,Calatrava Volcano Field,Spain,Radiocarbon,38.86666667,-4.016666667,1117,Pyroclastic cone,-3600,Spain
+0302-03-,Calbuco,Chile,Historical,-41.32611111,-72.61444444,2003,Stratovolcano,1972,Chile-S
+0302-05-,Callaqui,Chile,Historical,-37.91666667,-71.45,3164,Stratovolcano,1980,Chile-C
+0302-06-,Cameroon,Africa,Historical,4.203333333,9.17,4095,Stratovolcano,2000,Africa-W
+0302-07-,Camiguin,Philippines,Historical,9.203333333,124.6733333,1552,Stratovolcano,1953,Mindanao-Philippines
+0303-001,Camiguin de Babuyanes,Philippines,Historical,18.83333333,121.86,712,Stratovolcano,1857,Luzon-N of
+0303-011,Campi Flegrei,Italy,Historical,40.82722222,14.13888889,458,Caldera,1538,Italy
+0303-012,Campi Flegrei Mar Sicilia,Italy,Historical,37.1,12.7,-8,Submarine volcano,1867,Italy
+0303-013,Candlemas island,Antarctica,Historical,-57.08333333,-26.66666667,550,Stratovolcano,1911,Antarctica
+0303-014,Carlisle,Aleutian Islands,Historical,52.89388889,-170.0541667,1620,Stratovolcano,1828,Aleutian is
+0303-015,Carran-Los Venados,Chile,Historical,-40.35,-72.06666667,1114,Pyroclastic cone,1979,Chile-C
+0303-01=,Carrizozo,United States,Surface Exposure,33.78333333,-105.9333333,1731,Cinder cone,-3250,US-New Mexico
+0303-02=,Casiri  Nevados,Peru,Holocene,-17.46666667,-69.81333333,5650,Stratovolcano,unknown,Peru
+0304-00-,Cay,Chile,Holocene,-45.05916667,-72.98416667,2090,Stratovolcano,unknown,Chile-S
+0304-001,Cayambe,Ecuador,Historical,0.029166667,-77.98583333,5790,Compound volcano,1786,Ecuador
+0304-002,Cayutue-La Vigueria,Chile,Tephrochronology,-41.25,-72.26666667,506,Pyroclastic cone,-1050,Chile-S
+0304-011,Ceboruco,Mexico,Historical,21.125,-104.5083333,2280,Stratovolcano,1875,Mexico
+0304-01=,Cendres ile des,Vietnam,Historical,10.1575,109.0138889,-20,Submarine volcano,1923,Vietnam
+0304-02=,Central island,Africa,Holocene,3.5,36.04166667,550,Tuff cone,unknown,Africa-E
+0304-03-,Cereme,Indonesia,Historical,-6.891666667,108.4,3078,Stratovolcano,1951,Java
+0304-04-,Chacana,Ecuador,Historical,-0.375,-78.25,4643,Caldera,1773,Ecuador
+0304-05-,Chachani  Nevado,Peru,Holocene,-16.19138889,-71.52972222,6057,Stratovolcano,unknown,Peru
+0304-06-,Chachimbiro,Ecuador,Radiocarbon,0.468055556,-78.28722222,4106,Stratovolcano,-3740,Ecuador
+0304-07-,Chagulak,Aleutian Islands,Holocene,52.57666667,-171.1333333,1142,Stratovolcano,unknown,Aleutian is
+0401-011,Chaîne des Puys,France,Radiocarbon,45.775,2.966666667,1464,Lava dome,unknown,France
+0401-01=,Chaiten,Chile,Historical,-42.83277778,-72.64583333,1122,Caldera,2010,Chile-S
+0401-021,Changbaishan,China,Historical,41.98333333,128.0833333,2744,Stratovolcano,1903,China-E
+0401-02=,Cherny,Russia,Holocene,56.81666667,159.6666667,1778,Stratovolcano,unknown,Kamchatka
+0401-03=,Cherpuk Group,Russia,Radiocarbon,55.55,157.4666667,1868,Pyroclastic cone,-4550,Kamchatka
+0401-04=,Chichinautzin,Mexico,Radiocarbon,19.08333333,-99.13333333,3930,Volcano field,-400,Mexico
+0401-05=,Chichon  El,Mexico,Historical,17.36,-93.22777778,1150,Lava dome,1982,Mexico
+0401-06-,Chiginagak,Alaska,Historical,57.135,-156.99,2221,Stratovolcano,1988,Alaska Peninsula
+0401-061,Chikurachki,Russia,Historical,50.325,155.4583333,1816,Stratovolcano,2008,Kuril is
+0401-07=,Chiliques,Chile,Holocene,-23.58333333,-67.7,5778,Stratovolcano,unknown,Chile-N
+0401-08=,Chillan  Nevados de,Chile,Historical,-36.86333333,-71.37666667,3212,Stratovolcano,2003,Chile-C
+0401-101,Chimborazo,Ecuador,Radiocarbon,-1.463888889,-78.815,6310,Stratovolcano,-550,Ecuador
+0401-102,Chinameca,El Salvador,Holocene,13.47777778,-88.33027778,1300,Stratovolcano,unknown,El Salvador
+0401-10=,Chingo,Guatemala,Holocene,14.11666667,-89.73333333,1775,Stratovolcano,unknown,Guatemala
+0401-11-,Chiquimula Volcano Field,Guatemala,Holocene,14.83333333,-89.55,1192,Cinder cone,unknown,Guatemala
+0401-12-,Chiracha,Ethiopia,Holocene,6.65,38.11666667,1650,Stratovolcano,unknown,Ethiopia
+0401-13-,Chirinkotan,Russia,Historical,48.98333333,153.4833333,724,Stratovolcano,2004,Kuril is
+0401-131,Chirip,Russia,Historical,45.33805556,147.925,1587,Stratovolcano,1860,Kuril is
+0401-14-,Chirpoi,Russia,Historical,46.525,150.875,742,Caldera,1982,Kuril is
+0401-15-,Chokai,Japan,Historical,39.09638889,140.0522222,2233,Stratovolcano,1974,Honshu-Japan
+0402-01=,Ch'uga-ryong,Korea,Holocene,38.33333333,127.3333333,452,Shield volcano,unknown,Korea
+0402-021,Churchill,Alaska,Radiocarbon,61.38333333,-141.75,5005,Stratovolcano,-800,Alaska-E
+0402-022,Chyulu Hills,Africa,Anthropology,-2.683333333,37.88333333,2188,Volcano field,1855,Africa-E
+0402-03=,Ciguatepe  Cerro el,Nicaragua,Holocene,12.53333333,-86.14166667,603,Stratovolcano,unknown,Nicaragua
+0402-05-,Cinnamon Butte,United States,Holocene,43.24111111,-122.1083333,1956,Cinder cone,unknown,US-Oregon
+0403-04=,Cinotepeque  Cerro,El Salvador,Holocene,14.01666667,-89.25,665,Volcano field,unknown,El Salvador
+0403-05=,Clark,New Zealand,Fumarolic,-36.44638889,177.8388889,-860,Submarine volcano,unknown,New Zealand
+0403-061,Clear Lake,United States,Holocene,38.96666667,-122.7666667,1439,Volcano field,unknown,US-California
+0403-06=,Cleft Segment,Pacific Ocean,Historical,44.83333333,-130.3,-2140,Submarine volcano,1986,Pacific-NE
+0403-07=,Cleveland,Aleutian Islands,Historical,52.825,-169.9438889,1730,Stratovolcano,2011,Aleutian is
+0403-08=,Coatepeque Caldera,El Salvador,Holocene,13.86666667,-89.55,746,Caldera,unknown,El Salvador
+0403-09=,CoAxial Segment,Pacific Ocean,Historical,46.51666667,-129.5833333,-2400,Submarine volcano,1993,Pacific-NE
+0403-101,Cobb Segment,Pacific Ocean,Uranium-series,46.88333333,-129.3333333,-2100,Submarine volcano,-1180,Pacific-NE
+0403-102,Cochiquito Volcano Group,Argentina,Holocene,-36.76666667,-69.81666667,1435,Stratovolcano,unknown,Argentina
+0403-10=,Cochons  ile aux,Indian Ocean,Holocene,-46.1,50.23333333,775,Stratovolcano,unknown,Indian O.-S
+0403-11=,Cofre de Perote,Mexico,Radiocarbon,19.49166667,-97.15,4282,Shield volcano,1150,Mexico
+0403-12-,Colachi,Chile,Holocene,-23.23638889,-67.645,5631,Stratovolcano,unknown,Chile-N
+0403-13-,Coleman Seamount,Pacific Ocean,Holocene,-8.833333333,157.1666667,,Submarine volcano,unknown,Solomon is-SW Pacific
+0404-00-,Colima,Mexico,Historical,19.51388889,-103.6166667,3850,Stratovolcano,2011,Mexico
+0404-001,Colo [Una Una],Indonesia,Historical,-0.166666667,121.6083333,507,Stratovolcano,1983,Sulawesi-indonesia
+0404-01=,Comondu-La Purisima,Mexico,Holocene,26,-111.9166667,780,Volcano field,unknown,Mexico
+0404-02-,Concepcion,Nicaragua,Historical,11.53777778,-85.6225,1700,Stratovolcano,2011,Nicaragua
+0404-03-,Conchagua,El Salvador,Uncertain,13.275,-87.845,1225,Stratovolcano,unknown,El Salvador
+0404-04=,Conchaguita,El Salvador,Historical,13.22861111,-87.7675,505,Stratovolcano,1892,El Salvador
+0404-05-,Condor  Cerro el,Argentina,Holocene,-26.61666667,-68.35,6532,Stratovolcano,unknown,Argentina
+0405-01-,Copahue,Chile,Historical,-37.85,-71.16666667,2997,Stratovolcano,2000,Chile-C
+0405-02-,Copiapo,Chile,Uncertain,-27.3,-69.13333333,6052,Stratovolcano,unknown,Chile-N
+0405-03-,Corbetti Caldera,Ethiopia,Holocene,7.183333333,38.43333333,2320,Caldera,unknown,Ethiopia
+0500-01=,Corcovado,Chile,Historical,-43.18333333,-72.8,2300,Stratovolcano,-4920,Chile-S
+0500-02-,Cordon de Puntas Negras,Chile,Holocene,-23.74277778,-67.53416667,5852,Stratovolcano,unknown,Chile-N
+0501-001,Cordon del Azufre,Chile,Holocene,-25.33333333,-68.51666667,5463,Complex volcano,unknown,Chile-N
+0501-002,Coronado,Mexico,Fumarolic,29.08333333,-113.5133333,440,Stratovolcano,unknown,Mexico
+0501-011,Coropuna,Peru,Holocene,-15.51666667,-72.65,6377,Stratovolcano,unknown,Peru
+0501-01=,Corvo,Portugal,Holocene,39.69888889,-31.11083333,718,Stratovolcano,unknown,Azores
+0501-02=,Cosiguina,Nicaragua,Historical,12.98333333,-87.56666667,872,Stratovolcano,1859,Nicaragua
+0501-03=,Coso Volcano Field,United States,Holocene,36.03333333,-117.8166667,2400,Lava dome,unknown,US-California
+0501-041,Cotopaxi,Ecuador,Historical,-0.677222222,-78.43611111,5911,Stratovolcano,1940,Ecuador
+0501-05=,Crater Basalt Volcano Field,Chile,Holocene,-42.01666667,-70.18333333,1359,Cinder cone,unknown,Chile-S/Argentina
+0501-06=,Crater Lake,United States,Radiocarbon,42.93333333,-122.1166667,2487,Caldera,-2850,US-Oregon
+0501-07=,Crater Mountain,New Guinea,Holocene,-6.583333333,145.0833333,3233,Stratovolcano,unknown,New Guinea
+0501-08=,Craters of the Moon,United States,Radiocarbon,43.41666667,-113.5,2005,Cinder cone,-130,US-idaho
+0502-01=,Crow Lagoon,Canada,Holocene,54.7,-130.2333333,335,Pyroclastic cone,unknown,Canada
+0502-021,Cuernos de Negros,Philippines,Fumarolic,9.25,123.1666667,1862,Complex volcano,unknown,Philippines-C
+0502-03=,Cuernos del Diablo,Chile,Holocene,-41.4,-72,1862,Stratovolcano,unknown,Chile-S
+0502-04=,Cuicocha,Ecuador,Radiocarbon,0.308333333,-78.36388889,3246,Caldera,-650,Ecuador
+0502-05=,Cuilapa-Barbarena,Guatemala,Holocene,14.33333333,-90.4,1454,Volcano field,unknown,Guatemala
+0502-06=,Cù-Lao Re Group,Vietnam,Holocene,15.38333333,109.1166667,181,Volcano field,unknown,Vietnam
+0502-071,Cumbal,Colombia,Historical,0.95,-77.86666667,4764,Stratovolcano,1926,Colombia
+0502-07=,Cumbres  Las,Mexico,Radiocarbon,19.15,-97.26666667,3940,Stratovolcano,-3920,Mexico
+0502-08=,Curacoa,Pacific Ocean,Historical,-15.61666667,-173.6666667,-33,Submarine volcano,1938,Tonga-SW Pacific
+0502-09=,Curtis island,New Zealand,Uncertain,-30.54222222,-178.5608333,137,Submarine volcano,unknown,Kermadec is
+0502-10=,Dabbahu,Ethiopia,Historical,12.6,40.48333333,1442,Stratovolcano,2005,Ethiopia
+0502-11=,Dabbayra,Ethiopia,Holocene,12.38333333,40.06666667,1302,Shield volcano,unknown,Ethiopia
+0502-12=,Dacht-i-Navar Group,Afghanistan,Holocene,33.95,67.91666667,3800,Lava dome,unknown,Afghanistan
+0502-13=,Daikoku,Japan,Fumarolic,21.32361111,144.1944444,-323,Submarine volcano,unknown,Japan
+0502-14=,Daisetsu,Japan,Tephrochronology,43.66111111,142.8580556,2290,Stratovolcano,1739,Hokkaido-Japan
+0502-15-,Dakataua,Papua New Guinea,Anthropology,-5.055555556,150.1083333,400,Caldera,1895,New Britain-SW Pac
+0503-00-,Dalaffilla,Ethiopia,Historical,13.79166667,40.55,613,Stratovolcano,2008,Ethiopia
+0503-001,Dallol,Ethiopia,Historical,14.24166667,40.3,-48,Explosion craters,1926,Ethiopia
+0503-002,Dama Ali,Ethiopia,Historical,11.28333333,41.63333333,1068,Shield volcano,1631,Ethiopia
+0503-003,Damavand,Iran,Uranium-series,35.95138889,52.10944444,5670,Stratovolcano,-5350,Iran
+0503-004,Dana,Alaska,Radiocarbon,55.64111111,-161.2138889,1354,Stratovolcano,-1890,Alaska Peninsula
+0503-011,Dar-Alages,Armenia,Anthropology,39.7,45.54166667,3329,Pyroclastic cone,-2000,Armenia
+0503-01=,Dariganga Volcano Field,Mongolia,Holocene,45.33333333,114,1778,Cinder cone,unknown,Mongolia
+0503-021,Darwin,Galapagos,Surface Exposure,-0.183333333,-91.28333333,1330,Shield volcano,1813,Galapagos
+0503-02=,Daun  Bukit,Indonesia,Fumarolic,-3.383333333,102.3666667,2467,Stratovolcano,unknown,Sumatra
+0503-031,Davidof,Aleutian Islands,Holocene,51.96666667,178.3333333,328,Stratovolcano,unknown,Aleutian is
+0503-03=,Davis Lake,United States,Radiocarbon,43.56666667,-121.8166667,2163,Volcano field,-2790,US-Oregon
+0503-041,Dawson Strait Group,D'Entrecasteaux Islands,Hydration Rind,-9.616666667,150.8833333,500,Volcano field,1350,D'Entrecasteaux is
+0503-04=,Deception island,Antarctica,Historical,-62.96666667,-60.65,576,Caldera,1970,Antarctica
+0503-05=,Demon,Russia,Holocene,45.5,148.85,1205,Stratovolcano,unknown,Kuril is
+0503-06=,Dempo,Indonesia,Historical,-4.033333333,103.1333333,3173,Stratovolcano,2009,Sumatra
+0504-01=,Denison,Alaska,Holocene,58.41777778,-154.4491667,2287,Stratovolcano,unknown,Alaska Peninsula
+0504-02=,Descabezado Grande,Chile,Historical,-35.58333333,-70.75,3953,Stratovolcano,1933,Chile-C
+0505-00-,Devils Garden,United States,Holocene,43.51166667,-120.8613889,1698,Volcano field,unknown,US-Oregon
+0505-011,Dhamar  Harras of,Arabia,Historical,14.56666667,44.66666667,3500,Volcano field,1937,Arabia-S
+0505-01=,Diables  Morne aux,British West Indies,Holocene,15.6125,-61.43333333,861,Stratovolcano,unknown,British West Indies
+0505-021,Diablotins  Morne,British West Indies,Holocene,15.50333333,-61.39722222,1430,Stratovolcano,unknown,British West Indies
+0505-02=,Diamond Craters,United States,Holocene,43.1,-118.75,1435,Volcano field,-5450,British West Indies
+0505-03=,Didicas,Philippines,Historical,19.07666667,122.2016667,228,Compound volcano,1978,Luzon-N of
+0505-052,Dieng Volcano Complex,Indonesia,Historical,-7.2,109.9166667,2565,Complex volcano,2009,Java
+0505-053,Diky Greben,Russia,Radiocarbon,51.45,156.9666667,1070,Lava dome,-350,British West Indies
+0505-05=,Dofen,Ethiopia,Holocene,9.35,40.13333333,1151,Stratovolcano,unknown,British West Indies
+0505-062,Doma Peaks,New Guinea,Holocene,-5.9,143.15,3568,Stratovolcano,unknown,British West Indies
+0505-06=,Domuyo,Argentina,Holocene,-36.58333333,-70.41666667,4709,Stratovolcano,unknown,British West Indies
+0505-07=,Don Joao de Castro Bank,Portugal,Historical,38.23333333,-26.63333333,-13,Submarine volcano,1720,Azores
+0506-01=,Doña Juana,Colombia,Historical,1.466666667,-76.91666667,4150,Stratovolcano,1906,British West Indies
+0507-001,Dotsero,United States,Radiocarbon,39.66055556,-107.035,2230,Maar,-2200,British West Indies
+0507-01=,Douglas,Alaska,Holocene,58.85527778,-153.5419444,2140,Stratovolcano,unknown,British West Indies
+0507-021,Doyo Seamount,Japan,Fumarolic,27.68333333,140.8,-860,Submarine volcano,unknown,British West Indies
+0507-02=,Druze  Jabal ad,Syria,Holocene,32.65833333,36.425,1803,Volcano field,unknown,British West Indies
+0507-03=,Dubbi,Ethiopia,Historical,13.58333333,41.80833333,1625,Stratovolcano,1861,British West Indies
+0507-04=,Dukono,Indonesia,Historical,1.683333333,127.8833333,1335,Complex volcano,2011,Halmahera-indonesia
+0507-05=,Duncan Canal,Alaska,Holocene,56.5,-133.1,15,Volcano field,unknown,Alaska-E
+0507-06=,Durango Volcano Field,Mexico,Holocene,24.15,-104.45,2075,Cinder cone,unknown,Mexico
+0507-07=,Dutton,Alaska,Holocene,55.16805556,-162.2716667,1506,Stratovolcano,unknown,Alaska Peninsula
+0507-081,Dzenzursky,Russia,Holocene,53.63666667,158.9216667,2285,Compound volcano,unknown,Kamchatka
+0507-09=,Eagle Lake Field,United States,Holocene,40.63333333,-120.8333333,1652,Fissure vent,unknown,US-California
+0507-10=,East Diamante,Pacific Ocean,Fumarolic,15.93333333,145.6666667,-127,Submarine volcano,unknown,Mariana is-C Pacific
+0507-11-,East Zway,Ethiopia,Holocene,7.95,38.93333333,1889,Fissure vent,unknown,Ethiopia
+0508-001,Easter island,Chile,Holocene,-27.15,-109.3833333,511,Shield volcano,unknown,Chile-is
+0508-01=,Eastern Gemini Seamount,Pacific Ocean,Historical,-20.98333333,170.2833333,-80,Submarine volcano,1996,SW Pacific
+0508-02=,Ebeko,Russia,Historical,50.68333333,156.0166667,1156,Somma volcano,2010,Kuril is
+0509-01-,Ebulobo,Indonesia,Historical,-8.816666667,121.1833333,2124,Stratovolcano,1969,Lesser Sunda Islands
+0600-001,Eburru  Ol Doinyo,Africa,Holocene,-0.65,36.21666667,2856,Complex volcano,unknown,Africa-E
+0600-01=,Ecuador,Galapagos,Surface Exposure,-0.016666667,-91.54583333,790,Shield volcano,1150,Galapagos
+0601-02=,Edgecumbe,Alaska,Radiocarbon,57.05,-135.75,970,Stratovolcano,-2220,Alaska-E
+0601-03=,Edziza,Canada,Radiocarbon,57.71666667,-130.6333333,2786,Stratovolcano,-950,Canada
+0601-05=,Eggella,Russia,Holocene,56.56666667,158.5166667,1046,Shield volcano,unknown,Kamchatka
+0601-07=,Egon,Indonesia,Historical,-8.666666667,122.45,1703,Stratovolcano,2008,Lesser Sunda Islands
+0601-08=,Ekarma,Russia,Historical,48.95833333,153.9333333,1170,Stratovolcano,2010,Kuril is
+0601-09=,Elbrus,Russia,Tephrochronology,43.33333333,42.45,5633,Stratovolcano,-50,Russia-SW
+0601-111,Elmenteita Badlands,Africa,Holocene,-0.516666667,36.26666667,2126,Pyroclastic cone,unknown,Africa-E
+0601-11=,Elovsky,Russia,Tephrochronology,57.55,160.5333333,1381,Shield volcano,-7550,Kamchatka
+0601-121,Emmons Lake,Alaska,Holocene,55.34055556,-162.0786111,1436,Caldera,unknown,Alaska Peninsula
+0601-12=,Emperor of China,Indonesia,Uncertain,-6.616666667,124.2166667,-2850,Submarine volcano,unknown,Banda Sea
+0601-131,Emuruangogolak,Africa,Radiocarbon,1.5,36.33333333,1328,Shield volcano,1910,Africa-E
+0601-13=,Endeavour Ridge,Pacific Ocean,Uranium-series,47.95,-129.1,-2050,Submarine volcano,-3490,Pacific-NE
+0601-14=,Epi,Pacific Ocean,Historical,-16.68333333,168.3666667,833,Stratovolcano,2004,Vanuatu-SW Pacific
+0601-15=,Erciyes Dagi,Turkey,Radiocarbon,38.51666667,35.48333333,3916,Stratovolcano,-6880,Turkey
+0601-16=,Erebus,Antarctica,Historical,-77.53333333,167.1666667,3794,Stratovolcano,2011,Antarctica
+0601-171,Erta Ale,Ethiopia,Historical,13.6,40.66666667,613,Shield volcano,2011,Ethiopia
+0601-172,Es Safa,Syria,Historical,33.25,37.06666667,979,Volcano field,1850,Syria
+0601-17=,E-san,Japan,Historical,41.80222222,141.1697222,618,Stratovolcano,1874,Hokkaido-Japan
+0601-18=,Escanaba Segment,Pacific Ocean,Uranium-series,40.98333333,-127.5,-1700,Submarine volcano,-2260,Pacific-NE
+0601-20=,Escorial  Cerro,Chile,Holocene,-25.08333333,-68.36666667,5447,Stratovolcano,unknown,Chile-N
+0601-21=,Esjufjoll,Iceland,Uncertain,64.26666667,-16.65,1760,Stratovolcano,unknown,Iceland-SE
+0601-22=,Esmeralda Bank,Pacific Ocean,Fumarolic,15,145.25,-43,Submarine volcano,unknown,Mariana is-C Pacific
+0601-23=,Est  ile de l',Indian Ocean,Holocene,-46.43333333,52.2,1090,Stratovolcano,unknown,Indian O.-S
+0601-24=,Esteli,Nicaragua,Holocene,13.16666667,-86.4,899,Fissure vent,unknown,Nicaragua
+0601-251,Etna,Italy,Historical,37.73416667,15.00444444,3330,Stratovolcano,2011,Italy
+0601-25=,Eyjafjallajokull,Iceland,Historical,63.63333333,-19.61666667,1666,Stratovolcano,2010,Iceland-S
+0601-26=,Falcon island,Pacific Ocean,Historical,-20.31666667,-175.4166667,-17,Submarine volcano,1936,Tonga-SW Pacific
+0601-27=,Falso Azufre,Chile,Holocene,-26.8,-68.36666667,5890,Complex volcano,unknown,Chile-N
+0601-28=,Farallon de Pajaros,Pacific Ocean,Historical,20.53805556,144.8958333,360,Stratovolcano,1967,Mariana is-C Pacific
+0601-29=,Fayal,Portugal,Historical,38.6,-28.73333333,1043,Stratovolcano,1958,Azores
+0602-00=,Fedotych,Russia,Holocene,57.13333333,160.4,965,Shield volcano,unknown,Kamchatka
+0603-01=,Fentale,Ethiopia,Historical,8.975,39.93333333,2007,Stratovolcano,1820,Ethiopia
+0603-02=,Fernandina,Galapagos,Historical,-0.366666667,-91.55,1476,Shield volcano,2009,Galapagos
+0603-04=,Fisher,Aleutian Islands,Historical,54.65,-164.4333333,1112,Stratovolcano,1830,Aleutian is
+0603-05=,Flores,Guatemala,Holocene,14.30777778,-89.99222222,1600,Volcano field,unknown,Guatemala
+0603-06=,Flores,Portugal,Radiocarbon,39.46222222,-31.21611111,914,Stratovolcano,-950,Azores
+0603-07=,Fogo,Cape Verde,Historical,14.95,-24.35,2829,Stratovolcano,1995,Cape Verde is
+0603-081,Fonualei,Pacific Ocean,Historical,-18.01666667,-174.325,180,Stratovolcano,1957,Tonga-SW Pacific
+0603-08=,Forecast Seamount,Pacific Ocean,Fumarolic,13.4,143.9166667,,Submarine volcano,unknown,Mariana is-C Pacific
+0603-09=,Fort Portal,Africa,Radiocarbon,0.7,30.25,1615,Tuff cone,-2120,Africa-C
+0603-10=,Fort Selkirk,Canada,Holocene,62.93333333,-137.3833333,1239,Volcano field,unknown,Canada
+0603-11=,Four Craters Lava Field,United States,Holocene,43.36111111,-120.6694444,1501,Volcano field,unknown,US-Oregon
+0603-131,Fournaise  Piton de la,Indian Ocean,Historical,-21.23083333,55.7125,2632,Shield volcano,2010,Indian O.-W
+0603-13=,Fourpeaked,Alaska,Historical,58.77,-153.6722222,2105,Stratovolcano,2006,Alaska Peninsula
+0603-14=,Fremrinamur,Iceland,Tephrochronology,65.43333333,-16.65,939,Stratovolcano,-1200,Iceland-NE
+0603-15=,Frosty,Alaska,Holocene,55.08166667,-162.8138889,2012,Stratovolcano,unknown,Alaska Peninsula
+0603-16=,Fuego,Guatemala,Historical,14.47277778,-90.88027778,3763,Stratovolcano,2011,Guatemala
+0603-17=,Fueguino,Chile,Historical,-54.95,-70.25,150,Lava dome,1820,Chile-S
+0603-18=,Fuerteventura,Canary Islands,Holocene,28.35833333,-14.01666667,529,Fissure vent,unknown,Canary is
+0603-20=,Fuji,Japan,Historical,35.3575,138.7305556,3776,Stratovolcano,1708,Honshu-Japan
+0603-21=,Fukue-jima,Japan,Tephrochronology,32.65305556,128.8511111,317,Shield volcano,-400,Kyushu-Japan
+0603-22=,Fukujin,Japan,Historical,21.93333333,143.4666667,-217,Submarine volcano,1974,Japan
+0603-231,Fukutoku-Okanoba,Japan,Historical,24.28333333,141.485,-14,Submarine volcano,2010,Japan
+0603-23=,Furnas,Portugal,Historical,37.76666667,-25.31666667,805,Stratovolcano,1630,Azores
+0603-24=,Fuss Peak,Russia,Historical,50.26666667,155.25,1772,Stratovolcano,1854,Kuril is
+0603-251,Gabillema,Ethiopia,Holocene,11.08333333,41.26666667,1459,Stratovolcano,unknown,Ethiopia
+0603-25=,Gada Ale,Ethiopia,Holocene,13.975,40.40833333,287,Stratovolcano,unknown,Ethiopia
+0603-26=,Galapagos Rift,Pacific Ocean,Historical,0.791666667,-86.15,-2430,Submarine volcano,1996,Pacific-E
+0603-27=,Galeras,Colombia,Historical,1.216666667,-77.36666667,4276,Complex volcano,2010,Colombia
+0603-281,Gallego,Pacific Ocean,Holocene,-9.35,159.7333333,1000,Volcano field,unknown,Solomon is-SW Pacific
+0603-28=,Galunggung,Indonesia,Historical,-7.25,108.0583333,2168,Stratovolcano,1984,Java
+0603-291,Gamalama,Indonesia,Historical,0.8,127.3333333,1715,Stratovolcano,2003,Halmahera-indonesia
+0603-292,Gamchen,Russia,Tephrochronology,54.97333333,160.7016667,2576,Complex volcano,-550,Kamchatka
+0603-29=,Gamkonora,Indonesia,Historical,1.383333333,127.5333333,1635,Stratovolcano,2007,Halmahera-indonesia
+0603-30=,Garbuna Group,Papua New Guinea,Historical,-5.45,150.0333333,564,Stratovolcano,-150,New Britain-SW Pac
+0603-31=,Gareloi,Aleutian Islands,Historical,51.79027778,-178.7938889,1573,Stratovolcano,1989,Aleutian is
+0603-321,Garibaldi,Canada,Radiocarbon,49.85,-123,2678,Stratovolcano,-8060,Canada
+0603-32=,Garibaldi Lake,Canada,Holocene,49.91666667,-123.0333333,2316,Volcano field,unknown,Canada
+0603-33=,Garove,Papua New Guinea,Holocene,-4.691666667,149.5,368,Stratovolcano,unknown,New Britain-SW Pac
+0603-34=,Garua Harbour,Papua New Guinea,Holocene,-5.3,150.0666667,565,Volcano field,unknown,New Britain-SW Pac
+0603-351,Gaua,Pacific Ocean,Historical,-14.26666667,167.5,797,Stratovolcano,2010,Vanuatu-SW Pacific
+0603-35=,Gedamsa,Ethiopia,Holocene,8.35,39.18333333,1984,Caldera,unknown,Ethiopia
+0604-001,Gede,Indonesia,Historical,-6.783333333,106.9833333,2958,Stratovolcano,1957,Java
+0604-01=,Genovesa,Galapagos,Holocene,0.316666667,-89.95833333,64,Shield volcano,unknown,Galapagos
+0604-02=,Geodesistoy,Russia,Holocene,56.33333333,158.6666667,1170,Shield volcano,unknown,Kamchatka
+0604-03=,Ghegam Ridge,Armenia,Anthropology,40.275,44.75,3597,Volcano field,-1900,Armenia
+0604-04=,Giggenbach,New Zealand,Fumarolic,-30.03583333,-178.7125,-65,Submarine volcano,unknown,Kermadec is
+0604-05=,Girekol Tepe,Turkey,Holocene,39.16666667,43.33333333,,Shield volcano,unknown,Turkey
+0604-06=,Glacier Peak,United States,Tephrochronology,48.11166667,-121.1127778,3213,Stratovolcano,1700,US-Washington
+0604-071,Gloria La,Mexico,Holocene,19.33333333,-97.25,3500,Volcano field,unknown,Mexico
+0604-07=,Golan Heights,Syria,Holocene,33.1,35.96666667,1197,Volcano field,unknown,Syria
+0604-08=,Golaya,Russia,Holocene,52.2625,157.7866667,858,Stratovolcano,unknown,Kamchatka
+0604-09=,Golden Trout Creek,United States,Tephrochronology,36.35833333,-118.3166667,2886,Volcano field,-5550,US-California
+0604-10=,Golets-Tornyi Group,Russia,Holocene,45.25,148.35,442,Pyroclastic cone,unknown,Kuril is
+0604-11=,Gollu Dag,Turkey,Holocene,38.25,34.56666667,2143,Lava dome,unknown,Turkey
+0604-12=,Golovnin,Russia,Historical,43.84111111,145.5086111,543,Caldera,1848,Kuril is
+0604-13=,Goodenough,D'Entrecasteaux Islands,Holocene,-9.483333333,150.35,220,Volcano field,unknown,D'Entrecasteaux is
+0604-14=,Gordon,Alaska,Holocene,62.13333333,-143.0833333,2755,Cinder cone,unknown,Alaska-E
+0604-15=,Gorely,Russia,Historical,52.55833333,158.0333333,1829,Caldera,2010,Kamchatka
+0604-16=,Goriaschaia Sopka,Russia,Historical,46.83333333,151.75,891,Stratovolcano,1914,Kuril is
+0604-17=,Gorny institute,Russia,Radiocarbon,57.33333333,160.2,2125,Stratovolcano,1250,Kamchatka
+0604-18=,Graciosa,Portugal,Holocene,39.01666667,-27.96666667,402,Stratovolcano,unknown,Azores
+0604-20=,Gran Canaria,Canary Islands,Radiocarbon,28,-15.58333333,1950,Fissure vent,-40,Canary is
+0604-22=,Granada,Nicaragua,Holocene,11.91666667,-85.98333333,300,Fissure vent,unknown,Nicaragua
+0604-23=,Great Sitkin,Aleutian Islands,Historical,52.07611111,-176.13,1740,Stratovolcano,1974,Aleutian is
+0604-24=,Griggs,Alaska,Radiocarbon,58.35388889,-155.0916667,2317,Stratovolcano,-1790,Alaska Peninsula
+0604-25=,Grille  La,Indian Ocean,Holocene,-11.46666667,43.33333333,1087,Shield volcano,unknown,Indian O.-W
+0604-26=,Grimsnes,Iceland,Tephrochronology,64.03333333,-20.86666667,214,Crater rows,-3500,Iceland-SW
+0604-27=,Grimsvotn,Iceland,Historical,64.41666667,-17.33333333,1725,Caldera,2011,Iceland-NE
+0604-28=,Groppo,Ethiopia,Holocene,11.73333333,40.25,930,Stratovolcano,unknown,Ethiopia
+0605-01=,Grozny Group,Russia,Historical,45.02611111,147.9219444,1211,Complex volcano,1793,Kuril is
+0605-02=,Guadalupe,Mexico,Holocene,29.06666667,-118.2833333,1100,Shield volcano,unknown,Mexico
+0605-03=,Guagua Pichincha,Ecuador,Historical,-0.170833333,-78.59833333,4784,Stratovolcano,2004,Ecuador
+0605-04=,Guallatiri,Chile,Historical,-18.41666667,-69.09166667,6071,Stratovolcano,1960,Chile-N
+0605-05=,Guayaques,Chile,Holocene,-22.895,-67.56583333,5598,Lava dome,unknown,Chile-N
+0605-06=,Guazapa,El Salvador,Holocene,13.9,-89.11666667,1438,Stratovolcano,unknown,El Salvador
+0605-07=,Gufa,Ethiopia,Holocene,12.55,42.53333333,600,Volcano field,unknown,Ethiopia
+0605-08=,Guguan,Pacific Ocean,Historical,17.30722222,145.8447222,287,Stratovolcano,1883,Mariana is-C Pacific
+0605-09=,Guntur,Indonesia,Historical,-7.143333333,107.8397222,2249,Complex volcano,1847,Java
+0606-01=,Gunungapi Wetar,Indonesia,Historical,-6.641666667,126.65,282,Stratovolcano,1699,Banda Sea
+0606-02=,Hachijo-jima,Japan,Historical,33.13333333,139.7691667,854,Stratovolcano,1606,izu is-Japan
+0606-03=,Hachimantai,Japan,Radiocarbon,39.955,140.8575,1614,Stratovolcano,-5350,Honshu-Japan
+0606-04=,Hainan Dao,China,Historical,19.7,110.1,,Pyroclastic cone,1933,China
+0606-07-,Hakkoda Group,Japan,Radiocarbon,40.65611111,140.8808333,1585,Stratovolcano,1550,Honshu-Japan
+0606-10=,Hakone,Japan,Radiocarbon,35.23,139.0238889,1438,Complex volcano,1170,Honshu-Japan
+0606-11=,Haku-san,Japan,Historical,36.15194444,136.7744444,2702,Stratovolcano,1659,Honshu-Japan
+0606-12=,Haleakala,Hawaii,Anthropology,20.70833333,-156.25,3055,Shield volcano,1750,Hawaiian is
+0606-13=,Halla,Korea,Historical,33.36666667,126.5333333,1950,Shield volcano,1007,Korea
+0607-01=,Hanish,Red Sea,Holocene,13.71666667,42.73333333,422,Shield volcano,unknown,Red Sea
+0607-02=,Hargy,Papua New Guinea,Radiocarbon,-5.333333333,151.1,1148,Stratovolcano,-950,New Britain-SW Pac
+0607-03=,Harrah  Al,Arabia,Holocene,31.08333333,38.41666667,1100,Volcano field,unknown,Arabia-W
+0607-04=,Haruj,Africa,Holocene,27.25,17.5,1200,Volcano field,unknown,Africa-N
+0608-001,Haruna,Japan,Anthropology,36.47388889,138.8813889,1449,Stratovolcano,-550,Honshu-Japan
+0608-01=,Hasan Dagi,Turkey,Holocene,38.13333333,34.16666667,3253,Stratovolcano,unknown,Turkey
+0608-03=,Haut Dong Nai,Vietnam,Holocene,11.6,108.2,1000,Volcano field,unknown,Vietnam
+0608-04=,Hayes,Alaska,Radiocarbon,61.64027778,-152.4113889,3034,Stratovolcano,1200,Alaska-SW
+0608-051,Haylan  Jabal,Arabia,Anthropology,15.43333333,44.78333333,1550,Volcano field,-1200,Arabia-S
+0608-052,Hayli Gubbi,Ethiopia,Holocene,13.5,40.71666667,521,Shield volcano,unknown,Ethiopia
+0608-05=,Healy,New Zealand,Radiocarbon,-35.00361111,178.9725,980,Submarine volcano,1360,New Zealand
+0608-061,Heard,Indian Ocean,Historical,-53.10555556,73.5125,2745,Stratovolcano,2008,Indian O.-S
+0608-062,Heart Peaks,Canada,Holocene,58.6,-131.9666667,2012,Shield volcano,unknown,Canada
+0608-063,Hekla,Iceland,Historical,63.98333333,-19.7,1491,Stratovolcano,2000,Iceland-S
+0608-06=,Helgrindur,Iceland,Holocene,64.86666667,-23.25,647,Pyroclastic cone,unknown,Iceland-W
+0608-071,Hell's Half Acre,United States,Radiocarbon,43.5,-112.45,1631,Shield volcano,-3250,US-idaho
+0608-072,Hengill,Iceland,Historical,64.08333333,-21.31666667,803,Crater rows,-150,Iceland-SW
+0608-073,Herbert,Aleutian Islands,Holocene,52.74222222,-170.1105556,1280,Stratovolcano,unknown,Aleutian is
+0608-07=,Hertali,Ethiopia,Holocene,9.783333333,40.33333333,900,Fissure vent,unknown,Ethiopia
+0610-01-,Hierro,Canary Islands,Radiocarbon,27.73333333,-18.03333333,1500,Shield volcano,-550,Canary is
+0700-01=,Hijiori,Japan,Holocene,38.60583333,140.1783333,516,Caldera,unknown,Honshu-Japan
+0701-011,Hiri,Indonesia,Holocene,0.9,127.3166667,630,Stratovolcano,unknown,Halmahera-indonesia
+0701-01=,Hiuchi,Japan,Historical,36.95194444,139.2886111,2356,Stratovolcano,1544,Honshu-Japan
+0701-02=,Hobicha Caldera,Ethiopia,Holocene,6.783333333,37.83333333,1800,Caldera,unknown,Ethiopia
+0701-031,Hodson,Antarctica,Holocene,-56.7,-27.15,1005,Stratovolcano,unknown,Antarctica
+0701-03=,Hofsjokull,Iceland,Holocene,64.78333333,-18.91666667,1782,Subglacial volcano,unknown,Iceland-SW
+0701-04=,Homa Mountain,Africa,Holocene,-0.383333333,34.5,1751,Complex volcano,unknown,Africa-E
+0701-05=,Home Reef,Pacific Ocean,Historical,-18.99166667,-174.775,-10,Submarine volcano,2006,Tonga-SW Pacific
+0701-061,Honggeertu,China,Holocene,41.46666667,113,1700,Cinder cone,unknown,China-E
+0701-06=,Hood,United States,Historical,45.37361111,-121.6947222,3426,Stratovolcano,1866,US-Oregon
+0701-071,Hoodoo Mountain,Canada,Tephrochronology,56.78333333,-131.2833333,1850,Subglacial volcano,-7050,Canada
+0701-072,Hornopiren,Chile,Holocene,-41.87444444,-72.43138889,1572,Stratovolcano,unknown,Chile-S
+0701-07=,Hromundartindur,Iceland,Holocene,64.07333333,-21.20166667,540,Stratovolcano,unknown,Iceland-S
+0701-08=,Hualalai,Hawaii,Historical,19.69166667,-155.8666667,2523,Shield volcano,1801,Hawaiian is
+0701-09-,Huambo,Peru,Radiocarbon,-15.83333333,-72.13333333,4550,Volcano field,-700,Peru
+0702-01=,Huanquihue Group,Argentina,Radiocarbon,-39.88333333,-71.58333333,2139,Stratovolcano,1750,Argentina
+0702-02=,Huaynaputina,Peru,Historical,-16.60833333,-70.85,4850,Stratovolcano,1600,Peru
+0702-03=,Hudson Mountains,Antarctica,ice Core,-74.33333333,-99.41666667,749,Stratovolcano,-210,Antarctica
+0702-04=,Hudson  Cerro,Chile,Historical,-45.9,-72.96666667,1905,Stratovolcano,1991,Chile-S
+0702-05=,Huequi,Chile,Historical,-42.37666667,-72.57805556,1318,Stratovolcano,1920,Chile-S
+0702-07=,Huila  Nevado del,Colombia,Historical,2.933333333,-76.03333333,5364,Stratovolcano,unknown,Colombia
+0702-08=,Hulubelu,Indonesia,Fumarolic,-5.35,104.6,1040,Caldera,unknown,Sumatra
+0703-01=,Humeros  Los,Mexico,Holocene,19.68333333,-97.45,3150,Caldera,unknown,Mexico
+0703-02=,Hunga Tonga-Hunga Ha'apai,Pacific Ocean,Historical,-20.56666667,-175.3833333,149,Submarine volcano,2009,Tonga-SW Pacific
+0703-031,Hunter island,Pacific Ocean,Historical,-22.4,172.05,297,Stratovolcano,1903,SW Pacific
+0703-03=,Hutapanjang,Indonesia,Holocene,-2.333333333,101.6,2021,Stratovolcano,unknown,Sumatra
+0703-041,Hveravellir,Iceland,Radiocarbon,64.75,-19.98333333,1360,Subglacial volcano,-950,Iceland-SW
+0703-042,Hydrographers Range,New Guinea,Holocene,-9,148.3666667,1915,Stratovolcano,unknown,New Guinea
+0703-044,iamalele,D'Entrecasteaux Islands,Holocene,-9.516666667,150.5333333,200,Lava dome,unknown,D'Entrecasteaux is
+0703-05=,ibu,Indonesia,Historical,1.4875,127.6333333,1325,Stratovolcano,2011,Halmahera-indonesia
+0703-06=,ibusuki Volcano Field,Japan,Historical,31.21666667,130.5666667,922,Caldera,-885,Kyushu-Japan
+0703-07=,ichinsky,Russia,Historical,55.68333333,157.7333333,3621,Stratovolcano,1740,Kamchatka
+0703-081,iettunup,Russia,Holocene,58.4,161.0833333,1340,Shield volcano,unknown,Kamchatka
+0703-082,igwisi Hills,Africa,Holocene,-4.866666667,31.91666667,,Tuff cone,unknown,Africa-E
+0703-083,ijen,Indonesia,Historical,-8.058333333,114.2416667,2799,Stratovolcano,1999,Java
+0703-084,iktunup,Russia,Holocene,58.08333333,160.7666667,2300,Shield volcano,unknown,Kamchatka
+0703-085,iliamna,Alaska,Historical,60.03194444,-153.0902778,3053,Stratovolcano,1876,Alaska-SW
+0703-086,iliboleng,Indonesia,Historical,-8.341666667,123.2583333,1659,Stratovolcano,1993,Lesser Sunda Islands
+0703-087,ililabalekan,Indonesia,Fumarolic,-8.55,123.3833333,1018,Stratovolcano,unknown,Lesser Sunda Islands
+0703-088,ilimuda,Indonesia,Fumarolic,-8.478333333,122.6711111,1100,Stratovolcano,unknown,Lesser Sunda Islands
+0703-08=,iliwerung,Indonesia,Historical,-8.533333333,123.5666667,1018,Complex volcano,1999,Lesser Sunda Islands
+0703-09=,illiniza,Ecuador,Holocene,-0.659444444,-78.71361111,5248,Stratovolcano,unknown,Ecuador
+0704-01=,ilopango,El Salvador,Historical,13.67166667,-89.05333333,450,Caldera,unknown,El Salvador
+0704-02=,ilyinsky,Russia,Historical,51.49,157.2,1578,Stratovolcano,1901,Kamchatka
+0704-03=,imbabura,Ecuador,Radiocarbon,0.2575,-78.18277778,4609,Compound volcano,-5550,Ecuador
+0704-06-,imuruk Lake,Alaska,Radiocarbon,65.6,-163.9166667,610,Shield volcano,-300,Alaska-W
+0705-001,in Ezzane Volcano Field,Africa,Holocene,23,10.83333333,,Volcano field,unknown,Africa-N
+0705-01-,incahuasi  Nevado de,Chile,Holocene,-27.04166667,-68.28333333,6621,Stratovolcano,unknown,Chile-N
+0705-02-,indian Heaven,United States,Radiocarbon,45.93333333,-121.8166667,1806,Shield volcano,-6250,US-Washington
+0705-03-,infiernillo,Argentina,Radiocarbon,-35.14166667,-69.83333333,,Volcano field,-6890,Argentina
+0705-04-,ingakslugwat Hills,Alaska,Holocene,61.43333333,-164.4666667,190,Cinder cone,unknown,Alaska-W
+0705-05-,inielika,Indonesia,Historical,-8.733333333,120.9833333,1559,Complex volcano,2001,Lesser Sunda Islands
+0705-06-,inierie,Indonesia,Radiocarbon,-8.875,120.95,2245,Stratovolcano,-8050,Lesser Sunda Islands
+0705-07-,inyo Craters,United States,Radiocarbon,37.69166667,-119.0166667,2629,Lava dome,1380,US-California
+0705-08-,ioto [iwo-jima],Japan,Historical,24.75361111,141.2902778,161,Caldera,2001,Japan
+0705-09-,ipala,Guatemala,Holocene,14.55,-89.63333333,1650,Stratovolcano,unknown,Guatemala
+0705-10-,iraya,Philippines,Historical,20.46861111,122.0097222,1009,Stratovolcano,1454,Luzon-N of
+0705-11-,irazu,Costa Rica,Historical,9.979166667,-83.8525,3432,Stratovolcano,1994,Costa Rica
+0801-031,iriga,Philippines,Holocene,13.45666667,123.4566667,1196,Stratovolcano,unknown,Luzon-Philippines
+0801-032,iriomote-jima,Japan,Historical,24.55833333,124,-200,Submarine volcano,1924,Ryukyu is
+0801-05=,irruputuncu,Chile,Historical,-20.73333333,-68.55,5163,Stratovolcano,1995,Chile-N
+0802-01=,isabel  isla,Mexico,Holocene,21.84833333,-105.8861111,95,Tuff cone,unknown,Mexico
+0802-021,isanotski,Aleutian Islands,Uncertain,54.765,-163.7225,2446,Stratovolcano,unknown,Aleutian is
+0802-022,isarog,Philippines,Fumarolic,13.65833333,123.3833333,1966,Stratovolcano,unknown,Luzon-Philippines
+0802-02=,ischia,Italy,Historical,40.73333333,13.8975,789,Complex volcano,1302,Italy
+0802-03=,iskut-Unuk River Cones,Canada,Radiocarbon,56.58333333,-130.55,1880,Cinder cone,1800,Canada
+0802-041,isluga,Chile,Historical,-19.15,-68.83333333,5550,Stratovolcano,1913,Chile-N
+0802-043,itasy Volcano Field,Madagascar,Radiocarbon,-19,46.76666667,1800,Scoria cones,-6050,Madagascar
+0802-04=,ithnayn  Harrat,Arabia,Holocene,26.58333333,40.2,1625,Volcano field,unknown,Arabia-W
+0802-05=,ivao Group,Russia,Holocene,45.76666667,149.6833333,1426,Cinder cone,unknown,Kuril is
+0802-06=,iwaki,Japan,Historical,40.65333333,140.3066667,1625,Stratovolcano,1863,Honshu-Japan
+0802-07=,iwate,Japan,Historical,39.84972222,141.0044444,2041,Complex volcano,1919,Honshu-Japan
+0802-081,iwo-Tori-shima,Japan,Historical,27.87722222,128.2244444,212,Complex volcano,1968,Ryukyu is
+0802-08=,ixtepeque,Guatemala,Holocene,14.41666667,-89.68333333,1292,Lava dome,unknown,Guatemala
+0802-091,iya,Indonesia,Historical,-8.896666667,121.645,637,Stratovolcano,1969,Lesser Sunda Islands
+0802-09=,iyang-Argapura,Indonesia,Holocene,-7.966666667,113.5666667,3088,Complex volcano,unknown,Java
+0802-10=,izalco,El Salvador,Historical,13.8125,-89.63277778,1950,Stratovolcano,unknown,El Salvador
+0802-11=,iztaccihuatl,Mexico,Holocene,19.17888889,-98.64166667,5230,Stratovolcano,unknown,Mexico
+0802-12=,izumbwe-Mpoli,Africa,Holocene,-8.933333333,33.4,1568,Pyroclastic cone,unknown,Africa-E
+0802-13=,izu-Tobu,Japan,Historical,34.89972222,139.0977778,1406,Pyroclastic cone,1989,Honshu-Japan
+0803-001,Jailolo,Indonesia,Holocene,1.083333333,127.4166667,1130,Stratovolcano,unknown,Halmahera-indonesia
+0803-002,Jalua,Ethiopia,Holocene,15.04166667,39.81666667,713,Stratovolcano,unknown,Ethiopia
+0803-003,Jan Mayen,Atlantic Ocean,Historical,71.08333333,-8.166666667,2277,Stratovolcano,1985,Atlantic-N-Jan Mayen
+0803-01=,Jaraguay Volcano Field,Mexico,Holocene,29.33333333,-114.5,960,Cinder cone,unknown,Mexico
+0803-02=,Jayu Khota  Laguna,Bolivia,Holocene,-19.45,-67.41666667,3650,Maar,unknown,Bolivia
+0803-031,Jefferson,United States,Varve Count,44.67416667,-121.7997222,3199,Stratovolcano,-950,US-Oregon
+0803-03=,Jingbo,China,Radiocarbon,44.08333333,128.8333333,1000,Volcano field,-520,China-E
+0803-04=,Jocotitlan,Mexico,Radiocarbon,19.73333333,-99.75833333,3900,Stratovolcano,1270,Mexico
+0803-05=,Jolo,Philippines,Historical,6.013333333,121.0566667,811,Pyroclastic cone,1879,Sulu is-Philippines
+0803-06=,Jordan Craters,United States,Radiocarbon,43.14722222,-117.4597222,1473,Volcano field,-1250,US-Oregon
+0803-071,Jumaytepeque,Guatemala,Holocene,14.33555556,-90.26944444,1815,Stratovolcano,unknown,Guatemala
+0803-07=,Kaba,Indonesia,Historical,-3.516666667,102.6166667,1952,Stratovolcano,2000,Sumatra
+0803-08=,Kabargin Oth Group,Georgia,Holocene,42.55,44,3650,Cinder cone,unknown,Georgia
+0803-09=,Kadovar,Papua New Guinea,Holocene,-3.63,144.6305556,365,Stratovolcano,unknown,New Guinea-NE of
+0803-10=,Kagamil,Aleutian Islands,Historical,52.97361111,-169.7166667,893,Stratovolcano,1929,Aleutian is
+0803-11=,Kaguyak,Alaska,Holocene,58.60833333,-154.0277778,901,Lava dome,-3850,Alaska Peninsula
+0803-121,Kaikata Seamount,Japan,Fumarolic,26.66666667,141,-162,Submarine volcano,unknown,Japan
+0803-122,Kaikohe-Bay of islands,New Zealand,Radiocarbon,-35.3,173.9,388,Volcano field,-400,New Zealand
+0803-12=,Kaileney,Russia,Holocene,57.8,160.6666667,1582,Shield volcano,unknown,Kamchatka
+0803-131,Kaitoku Seamount,Japan,Historical,26.12166667,141.1016667,-103,Submarine volcano,1984,Japan
+0803-13=,Kalatungan,Philippines,Holocene,7.95,124.8,2824,Stratovolcano,unknown,Mindanao-Philippines
+0803-141,Kambalny,Russia,Historical,51.3,156.8666667,2156,Stratovolcano,1350,Kamchatka
+0803-142,Kamen,Russia,Holocene,56.01666667,160.5933333,4585,Stratovolcano,unknown,Kamchatka
+0803-143,Kana Keoki,Pacific Ocean,Holocene,-8.75,157.0333333,-700,Submarine volcano,unknown,Solomon is-SW Pacific
+0803-14=,Kanaga,Aleutian Islands,Historical,51.92277778,-177.1677778,1307,Stratovolcano,1995,Aleutian is
+0803-151,Kanlaon,Philippines,Historical,10.41166667,123.1316667,2435,Stratovolcano,2006,Philippines-C
+0803-15=,Kao,Pacific Ocean,Holocene,-19.66666667,-175.0333333,1030,Stratovolcano,unknown,Tonga-SW Pacific
+0803-16=,Karaca Dag,Turkey,Holocene,37.66666667,39.83333333,1957,Shield volcano,unknown,Turkey
+0803-17=,Karaha  Kawah,Indonesia,Fumarolic,-7.116666667,108.0833333,1155,Fumarole field,unknown,Java
+0803-18=,Karang,Indonesia,Holocene,-6.266666667,106.0416667,1778,Stratovolcano,unknown,Java
+0803-191,Karangetang [Api Siau],Indonesia,Historical,2.783333333,125.4,1784,Stratovolcano,2011,Sangihe is-indonesia
+0803-19=,Karapinar Field,Turkey,Holocene,37.66666667,33.65,1302,Cinder cone,unknown,Turkey
+0803-20=,Karisimbi,Africa,Potassium-Argon,-1.5,29.45,4507,Stratovolcano,-8050,Africa-C
+0803-21=,Karkar,Papua New Guinea,Historical,-4.648611111,145.9638889,1839,Stratovolcano,1979,New Guinea-NE of
+0803-22=,Karpinsky Group,Russia,Historical,50.13333333,155.3666667,1345,Cone,1952,Kuril is
+0803-23=,Kars Plateau,Turkey,Holocene,40.75,42.9,3000,Volcano field,unknown,Turkey
+0803-24=,Karthala,Indian Ocean,Historical,-11.75,43.38333333,2361,Shield volcano,2007,Indian O.-W
+0803-25=,Karymsky,Russia,Historical,54.05,159.45,1536,Stratovolcano,2011,Kamchatka
+0803-262,Kasatochi,Aleutian Islands,Historical,52.1775,-175.5083333,314,Stratovolcano,2008,Aleutian is
+0803-26=,Kasbek,Georgia,Tephrochronology,42.7,44.5,5050,Stratovolcano,-750,Georgia
+0803-271,Kasuga,Japan,Historical,21.765,143.71,-598,Submarine volcano,1959,Japan
+0803-27=,Katla,Iceland,Historical,63.63333333,-19.05,1512,Subglacial volcano,2011,Iceland-S
+0803-28=,Katmai,Alaska,Historical,58.27972222,-154.9633333,2047,Stratovolcano,1912,Alaska Peninsula
+0803-29=,Katunga,Africa,Holocene,-0.471388889,30.19083333,1707,Tuff cone,unknown,Africa-C
+0804-011,Katwe-Kikorongo,Africa,Holocene,-0.083333333,29.91666667,1067,Tuff cone,unknown,Africa-C
+0804-01=,Kavachi,Pacific Ocean,Historical,-9.016666667,157.95,-20,Submarine volcano,2007,Solomon is-SW Pacific
+0804-02=,Kawi-Butak,Indonesia,Holocene,-7.916666667,112.45,2651,Stratovolcano,unknown,Java
+0804-03=,Kebeney,Russia,Holocene,57.1,159.9333333,1527,Shield volcano,unknown,Kamchatka
+0804-041,Kekurny,Russia,Holocene,56.4,158.85,1377,Shield volcano,unknown,Kamchatka
+0804-042,Kelimutu,Indonesia,Historical,-8.766666667,121.8166667,1639,Complex volcano,1968,Lesser Sunda Islands
+0804-04=,Kell,Russia,Holocene,51.65,157.35,900,Stratovolcano,unknown,Kamchatka
+0804-05=,Keluo Group,China,Holocene,49.36666667,125.9166667,670,Pyroclastic cone,unknown,China-E
+0804-061,Kelut,Indonesia,Historical,-7.933333333,112.3083333,1731,Stratovolcano,-7690,Java
+0804-06=,Kendang,Indonesia,Holocene,-7.233333333,107.7166667,2608,Stratovolcano,unknown,Java
+0804-07=,Kerguelen islands,Indian Ocean,Holocene,-49.58333333,69.5,1840,Stratovolcano,unknown,Indian O.-S
+0804-08=,Kerinci,Indonesia,Historical,-1.697222222,101.2644444,3800,Stratovolcano,2009,Sumatra
+0804-091,Ketoi,Russia,Historical,47.35,152.475,1172,Stratovolcano,1960,Kuril is
+0804-093,Khangar,Russia,Radiocarbon,54.75,157.3833333,2000,Stratovolcano,1500,Kamchatka
+0804-094,Khanuy Gol,Mongolia,Holocene,48.66666667,102.75,1886,Volcano field,unknown,Mongolia
+0804-095,Kharimkotan,Russia,Historical,49.11666667,154.5083333,1145,Stratovolcano,1933,Kuril is
+0804-096,Khaybar  Harrat,Arabia,Historical,25,39.91666667,2093,Volcano field,-650,Arabia-W
+0804-097,Khodutka,Russia,Radiocarbon,52.0625,157.7033333,2090,Stratovolcano,-300,Kamchatka
+0804-09=,Kialagvik,Alaska,Holocene,57.20277778,-156.7452778,1677,Stratovolcano,unknown,Alaska Peninsula
+0804-10=,Kick 'em Jenny,British West Indies,Historical,12.30027778,-61.64,-185,Submarine volcano,2001,British West Indies
+0804-11=,Kieyo,Africa,Historical,-9.233333333,33.78333333,2175,Stratovolcano,1800,Africa-E
+0804-121,Kikai,Japan,Historical,30.78944444,130.3075,704,Caldera,2004,Ryukyu is
+0804-12=,Kikhpinych,Russia,Radiocarbon,54.48666667,160.2533333,1552,Stratovolcano,1550,Kamchatka
+0804-131,Kilauea,Hawaii,Historical,19.42111111,-155.2866667,1222,Shield volcano,2010,Hawaiian is
+0804-132,Kilimanjaro,Africa,Holocene,-3.066666667,37.35,5895,Stratovolcano,unknown,Africa-E
+0804-133,Kinenin,Russia,Radiocarbon,57.35,160.9666667,583,Maar,-850,Kamchatka
+0804-134,Kirishima,Japan,Historical,31.93083333,130.8638889,1700,Shield volcano,2011,Kyushu-Japan
+0804-135,Kishb  Harrat,Arabia,Holocene,22.8,41.38333333,1475,Volcano field,unknown,Arabia-W
+0804-136,Kiska,Aleutian Islands,Historical,52.10277778,177.6019444,1220,Stratovolcano,1990,Aleutian is
+0804-137,Kita Yatsuga-take,Japan,Radiocarbon,36.1,138.3,2530,Stratovolcano,1200,Honshu-Japan
+0804-13=,Kita-Fukutokutai,Japan,Historical,24.41388889,141.4186111,-73,Submarine volcano,1954,Japan
+0804-141,Kita-iwo-jima,Japan,Historical,25.42361111,141.2838889,792,Stratovolcano,1945,Japan
+0804-142,Kizimen,Russia,Historical,55.13,160.3166667,2376,Stratovolcano,2011,Kamchatka
+0804-143,Klabat,Indonesia,Fumarolic,1.466666667,125.0333333,1995,Stratovolcano,unknown,Sulawesi-indonesia
+0804-14=,Kliuchevskoi,Russia,Historical,56.05666667,160.6383333,4835,Stratovolcano,2011,Kamchatka
+0804-15=,Kogaja-jima,Japan,Holocene,29.87888889,129.6247222,301,Lava dome,unknown,Ryukyu is
+0804-16=,Kolbeinsey Ridge,Iceland,Historical,66.66666667,-18.5,5,Submarine volcano,1755,Iceland-N
+0804-17=,Kolokol Group,Russia,Historical,46.04166667,150.05,1328,Somma volcano,1973,Kuril is
+0804-18=,Komaga-take,Japan,Historical,42.06083333,140.6808333,1131,Stratovolcano,2000,Hokkaido-Japan
+0804-191,Komarov,Russia,Radiocarbon,55.03166667,160.72,2070,Stratovolcano,-950,Kamchatka
+0804-192,Kone,Ethiopia,Historical,8.8,39.69166667,1619,Caldera,1820,Ethiopia
+0804-19=,Koniuji,Aleutian Islands,Ar/Ar,52.21666667,-175.1333333,273,Stratovolcano,-1150,Aleutian is
+0804-201,Kookooligit Mountains,Alaska,Holocene,63.6,-170.4333333,673,Shield volcano,unknown,Alaska-W
+0804-202,Koranga,New Guinea,Holocene,-7.333333333,146.7083333,1500,Maar,unknown,New Guinea
+0804-20=,Korath Range,Ethiopia,Holocene,5.1,35.88333333,912,Tuff cone,unknown,Ethiopia
+0804-211,Koro,Pacific Ocean,Holocene,-17.31666667,179.4,522,Cinder cone,unknown,Fiji is-SW Pacific
+0804-21=,Korosi,Africa,Holocene,0.766666667,36.11666667,1446,Shield volcano,unknown,Africa-E
+0804-22-,Korovin,Aleutian Islands,Historical,52.38111111,-174.1541667,1533,Stratovolcano,2007,Aleutian is
+0804-23-,Koryaksky,Russia,Historical,53.32,158.6883333,3456,Stratovolcano,2009,Kamchatka
+0805-011,Koshelev,Russia,Historical,51.35666667,156.75,1812,Stratovolcano,1690,Kamchatka
+0805-01=,Kostakan,Russia,Holocene,53.83333333,158.05,1150,Cinder cone,1350,Kamchatka
+0805-02=,Koussi  Emi,Africa,Holocene,19.8,18.53333333,3415,Pyroclastic shield,unknown,Africa-N
+0805-031,Kozu-shima,Japan,Historical,34.21611111,139.1563889,572,Lava dome,-838,izu is-Japan
+0805-032,Kozyrevsky,Russia,Holocene,55.58333333,158.3833333,2016,Shield volcano,unknown,Kamchatka
+0805-034,Krafla,Iceland,Historical,65.73333333,-16.78333333,818,Caldera,1984,Iceland-NE
+0805-03=,Krainy,Russia,Holocene,56.36666667,159.0333333,1554,Shield volcano,unknown,Kamchatka
+0805-041,Krakatau,Indonesia,Historical,-6.101666667,105.4227778,813,Caldera,2011,indonesia
+0805-04=,Krasheninnikov,Russia,Radiocarbon,54.59333333,160.2733333,1856,Caldera,1550,Kamchatka
+0805-05=,Krisuvik,Iceland,Historical,63.93333333,-22.1,379,Crater rows,1340,Iceland-SW
+0805-061,Kronotsky,Russia,Historical,54.75333333,160.5266667,3528,Stratovolcano,1923,Kamchatka
+0805-062,Ksudach,Russia,Historical,51.8,157.5333333,1079,Stratovolcano,1907,Kamchatka
+0805-06=,Kuchinoerabu-jima,Japan,Historical,30.43972222,130.2194444,657,Stratovolcano,1980,Ryukyu is
+0805-07=,Kuchino-shima,Japan,Radiocarbon,29.96444444,129.9275,628,Stratovolcano,1190,Ryukyu is
+0805-081,Kueishantao,Taiwan,Historical,24.85,121.9166667,401,Stratovolcano,1785,Taiwan-E of
+0805-082,Kuju,Japan,Historical,33.0825,131.2513889,1791,Stratovolcano,1996,Kyushu-Japan
+0805-08=,Kukak,Alaska,Fumarolic,58.45277778,-154.355,2043,Stratovolcano,unknown,Alaska Peninsula
+0805-09=,Kula,Turkey,Holocene,38.58333333,28.51666667,750,Cinder cone,unknown,Turkey
+0900-01=,Kulkev,Russia,Holocene,56.36666667,158.3666667,915,Shield volcano,unknown,Kamchatka
+0900-021,Kunlun Volcano Group,China,Historical,35.51666667,80.2,5808,Pyroclastic cone,1951,China-W
+0900-02=,Kunyit,Indonesia,Fumarolic,-2.274166667,101.4825,2151,Stratovolcano,unknown,Sumatra
+0900-03=,Kupreanof,Alaska,Historical,56.01111111,-159.7972222,1895,Stratovolcano,1987,Alaska Peninsula
+0900-041,Kurikoma,Japan,Historical,38.95805556,140.7919444,1628,Stratovolcano,1950,Honshu-Japan
+0900-04=,Kurile Lake,Russia,Radiocarbon,51.45,157.1166667,81,Caldera,-6440,Kamchatka
+0900-05=,Kurose Hole,Japan,Holocene,33.4,139.6833333,-107,Submarine volcano,unknown,izu is-Japan
+0900-06-,Kurub,Ethiopia,Holocene,11.88333333,41.20833333,625,Shield volcano,unknown,Ethiopia
+0900-07=,Kusatsu-Shirane,Japan,Historical,36.61972222,138.535,2171,Stratovolcano,-3750,Honshu-Japan
+0900-08=,Kutcharo,Japan,Tephrochronology,43.60777778,144.4425,999,Caldera,1320,Hokkaido-Japan
+0900-091,Kuttara,Japan,Tephrochronology,42.48888889,141.1633333,581,Stratovolcano,1820,Hokkaido-Japan
+0900-09=,Kutum Volcano Field,Africa,Holocene,14.56666667,25.85,,Scoria cones,unknown,Africa-N
+0900-10=,Kuwae,Pacific Ocean,Historical,-16.82916667,168.5361111,-2,Caldera,1974,Vanuatu-SW Pacific
+0900-11-,Kverkfjoll,Iceland,Historical,64.65,-16.71666667,1929,Stratovolcano,1968,Iceland-NE
+0900-111,Kyatwa,Africa,Holocene,0.45,30.25,1430,Tuff cone,unknown,Africa-C
+0900-112,La Palma,Canary Islands,Historical,28.56666667,-17.83333333,2426,Stratovolcano,1971,Canary is
+0900-113,Laguna Caldera,Philippines,Fumarolic,14.41666667,121.2666667,743,Caldera,unknown,Luzon-Philippines
+0900-12=,Lajas  Las,Nicaragua,Holocene,12.3,-85.73333333,926,Shield volcano,unknown,Nicaragua
+0900-15=,Lamington,New Guinea,Historical,-8.95,148.15,1680,Stratovolcano,1956,New Guinea
+0900-161,Lamongan,Indonesia,Historical,-7.979166667,113.3422222,1651,Stratovolcano,1898,Java
+0900-17=,Langila,Papua New Guinea,Historical,-5.525,148.4166667,1330,Complex volcano,2010,New Britain-SW Pac
+0900-18=,Lanin,Chile,Radiocarbon,-39.63277778,-71.49972222,3747,Stratovolcano,-560,Chile-C
+0900-191,Lanzarote,Canary Islands,Historical,29.03333333,-13.63333333,670,Fissure vent,1824,Canary is
+0900-19=,Larderello,Italy,Historical,43.25,10.86666667,500,Explosion craters,1282,Italy
+0900-20=,Lascar,Chile,Historical,-23.36666667,-67.73333333,5592,Stratovolcano,unknown,Chile-N
+0900-211,Lassen Volcano Center,United States,Historical,40.49166667,-121.5083333,3187,Stratovolcano,1917,US-California
+0900-21=,Lastarria,Chile,Holocene,-25.16666667,-68.5,5697,Stratovolcano,unknown,Chile-N
+0900-22=,Late,Pacific Ocean,Historical,-18.80555556,-174.65,540,Stratovolcano,1854,Tonga-SW Pacific
+0900-24=,Latukan,Philippines,Holocene,7.65,124.45,2338,Stratovolcano,unknown,Mindanao-Philippines
+0900-25=,Lautaro,Chile,Historical,-49.01666667,-73.55,3607,Stratovolcano,1979,Chile-S
+0900-26=,Lavic Lake,United States,Holocene,34.75,-116.625,1495,Volcano field,unknown,US-California
+0900-27=,Lawu,Indonesia,Historical,-7.625,111.1916667,3265,Stratovolcano,1885,Java
+0900-29=,Leizhou Bandao,China,Holocene,20.78333333,110.1666667,259,Volcano field,unknown,China
+0900-30=,Lengai  Ol Doinyo,Africa,Historical,-2.763611111,35.91416667,2962,Stratovolcano,2010,Africa-E
+0900-31=,Leonard Range,Philippines,Radiocarbon,7.381666667,126.0466667,1080,Stratovolcano,-120,Mindanao-Philippines
+0900-32=,Leroboleng,Indonesia,Historical,-8.358333333,122.8416667,1117,Complex volcano,2003,Lesser Sunda Islands
+0900-331,Leskov island,Antarctica,Fumarolic,-56.66666667,-28.13333333,190,Stratovolcano,unknown,Antarctica
+0900-34=,Leutongey,Russia,Holocene,57.3,159.8333333,1333,Shield volcano,unknown,Kamchatka
+0900-351,Level Mountain,Canada,Holocene,58.41666667,-131.35,2190,Shield volcano,unknown,Canada
+0900-35=,Lewotobi,Indonesia,Historical,-8.541666667,122.775,1703,Stratovolcano,2003,Lesser Sunda Islands
+0900-36=,Lewotolo,Indonesia,Historical,-8.271666667,123.505,1423,Stratovolcano,1951,Lesser Sunda Islands
+0900-37-,Liado Hayk,Ethiopia,Holocene,9.566666667,40.28333333,878,Maar,unknown,Ethiopia
+0900-38=,Liamuiga,British West Indies,Radiocarbon,17.36666667,-62.8,1156,Stratovolcano,-160,British West Indies
+0900-39=,Licancabur,Chile,Holocene,-22.83333333,-67.88333333,5916,Stratovolcano,unknown,Chile-N
+1000-001,Licto,Ecuador,Holocene,-1.780277778,-78.61333333,3336,Scoria cones,unknown,Ecuador
+1000-01=,Lihir,Pacific Ocean,Holocene,-3.125,152.6416667,700,Compound volcano,unknown,New ireland-SW Pacific
+1000-021,Lipari,Italy,Radiocarbon,38.48333333,14.95,602,Stratovolcano,1230,Italy
+1000-022,Little Sitkin,Aleutian Islands,Historical,51.95,178.5430556,1174,Stratovolcano,1830,Aleutian is
+1000-023,Ljosufjoll,Iceland,Anthropology,64.86666667,-22.23333333,1063,Fissure vent,-960,Iceland-W
+1000-02=,Llaima,Chile,Historical,-38.69166667,-71.72861111,3125,Stratovolcano,2009,Chile-C
+1000-03=,Llullaillaco,Chile,Historical,-24.71666667,-68.53333333,6739,Stratovolcano,unknown,Chile-N
+1000-041,Loihi,Hawaii,Historical,18.91666667,-155.2666667,-975,Submarine volcano,1996,Hawaiian is
+1000-042,Lokon-Empung,Indonesia,Historical,1.358333333,124.7916667,1580,Stratovolcano,2011,Sulawesi-indonesia
+1000-04=,Lolo,Papua New Guinea,Holocene,-5.468055556,150.5069444,805,Stratovolcano,unknown,New Britain-SW Pac
+1000-051,Lolobau,Papua New Guinea,Historical,-4.916666667,151.1583333,858,Caldera,1912,New Britain-SW Pac
+1000-052,Loloru,Pacific Ocean,Radiocarbon,-6.516666667,155.6166667,1887,Pyroclastic shield,-1050,Bougainville-SW Pacific
+1000-053,Lomonosov Group,Russia,Holocene,50.25,155.4333333,1681,Cinder cone,unknown,Kuril is
+1000-054,Long island,Papua New Guinea,Historical,-5.358333333,147.1166667,1280,Complex volcano,1993,New Guinea-NE of
+1000-055,Longavi  Nevado de,Chile,Radiocarbon,-36.19305556,-71.16083333,3242,Stratovolcano,-4890,Chile-C
+1000-056,Longgang Group,China,Radiocarbon,42.33333333,126.5,1000,Cinder cone,-350,China-E
+1000-057,Longonot,Africa,Anthropology,-0.914444444,36.44638889,2776,Stratovolcano,1863,Africa-E
+1000-058,Lonquimay,Chile,Historical,-38.37666667,-71.58333333,2865,Stratovolcano,1990,Chile-C
+1000-059,Lopevi,Pacific Ocean,Historical,-16.50666667,168.3458333,1413,Stratovolcano,2007,Vanuatu-SW Pacific
+1000-05=,Lower Chindwin,Myanmar,Holocene,22.28333333,95.1,385,Volcano field,unknown,Myanmar
+1000-06=,Lubukraya,Indonesia,Holocene,1.477777778,99.20916667,1862,Stratovolcano,unknown,Sumatra
+1000-07=,Lumut Balai  Bukit,Indonesia,Fumarolic,-4.216666667,103.6166667,2055,Stratovolcano,unknown,Sumatra
+1000-082,Lunayyir  Harrat,Arabia,Historical,25.16666667,37.75,1370,Volcano field,1000,Arabia-W
+1000-083,Lurus,Indonesia,Holocene,-7.733333333,113.5833333,539,Complex volcano,unknown,Java
+1000-084,Lvinaya Past,Russia,Radiocarbon,44.60833333,146.9938889,528,Stratovolcano,-7450,Kuril is
+1000-087,Ma Alalta,Ethiopia,Holocene,13.01666667,40.2,1815,Stratovolcano,unknown,Ethiopia
+1000-08=,Maca,Chile,Radiocarbon,-45.1,-73.16666667,2960,Stratovolcano,-410,Chile-S
+1000-09=,Macauley island,New Zealand,Radiocarbon,-30.2,-178.4666667,238,Caldera,-4360,Kermadec is
+1000-10=,Macdonald,Pacific Ocean,Historical,-28.98333333,-140.25,-39,Submarine volcano,1989,Austral is-C Pacific
+1000-11=,Machin,Colombia,Radiocarbon,4.483333333,-75.39166667,2650,Stratovolcano,1180,Colombia
+1000-121,Madeira,Portugal,Radiocarbon,32.73333333,-16.96666667,1862,Shield volcano,-4500,Azores
+1000-122,Maderas,Nicaragua,Holocene,11.44555556,-85.515,1394,Stratovolcano,unknown,Nicaragua
+1000-123,Madilogo,New Guinea,Holocene,-9.2,147.5666667,850,Pyroclastic cone,unknown,New Guinea
+1000-124,Mageik,Alaska,Radiocarbon,58.19472222,-155.2527778,2165,Stratovolcano,-500,Alaska Peninsula
+1000-125,Mahagnao,Philippines,Fumarolic,10.89583333,125.8666667,860,Stratovolcano,unknown,Philippines-C
+1000-12=,Mahawu,Indonesia,Historical,1.358333333,124.8583333,1324,Stratovolcano,1977,Sulawesi-indonesia
+1000-13=,Maipo,Chile,Historical,-34.16055556,-69.83277778,5264,Caldera,1912,Chile-C
+1000-14=,Makaturing,Philippines,Historical,7.646666667,124.3166667,1940,Stratovolcano,1882,Mindanao-Philippines
+1000-15=,Makian,Indonesia,Historical,0.316666667,127.4,1357,Stratovolcano,1988,Halmahera-indonesia
+1000-16-,Makushin,Aleutian Islands,Historical,53.89083333,-166.9227778,1800,Stratovolcano,1995,Aleutian is
+1000-17=,Malabar,Indonesia,Holocene,-7.133333333,107.65,2343,Stratovolcano,unknown,Java
+1000-18=,Malang Plain,Indonesia,Holocene,-8.016666667,112.6833333,680,Maar,unknown,Java
+1000-19=,Malinche  La,Mexico,Radiocarbon,19.23083333,-98.03194444,4461,Stratovolcano,-1170,Mexico
+1000-201,Malindang,Philippines,Holocene,8.216666667,123.6333333,2404,Stratovolcano,unknown,Mindanao-Philippines
+1000-20=,Malindig,Philippines,Hot Springs,13.24,122.0183333,1157,Stratovolcano,unknown,Luzon-Philippines
+1000-21=,Malintang,Indonesia,Holocene,0.466666667,99.66666667,1983,Stratovolcano,unknown,Sumatra
+1000-221,Mallahle,Ethiopia,Holocene,13.26666667,41.65,1875,Stratovolcano,unknown,Ethiopia
+1000-22=,Maly Payalpan,Russia,Holocene,55.81666667,157.9833333,1802,Shield volcano,unknown,Kamchatka
+1000-23=,Maly Semiachik,Russia,Historical,54.13333333,159.6666667,1560,Caldera,1952,Kamchatka
+1000-241,Mammoth Mountain,United States,Radiocarbon,37.63055556,-119.0316667,3369,Lava dome,1260,US-California
+1000-242,Managlase Plateau,New Guinea,Anthropology,-9.083333333,148.3333333,1342,Volcano field,unknown,New Guinea
+1000-24=,Manam,Papua New Guinea,Historical,-4.08,145.0372222,1807,Stratovolcano,2011,New Guinea-NE of
+1000-251,Manda Gargori,Ethiopia,Anthropology,11.75,41.48333333,,Fissure vent,unknown,Ethiopia
+1000-25=,Manda Hararo,Ethiopia,Historical,12.16666667,40.81666667,600,Shield volcano,2009,Ethiopia
+1000-261,Manda-inakir,Ethiopia,Historical,12.38333333,42.2,600,Fissure vent,1928,Ethiopia
+1000-26=,Mandalagan,Philippines,Fumarolic,10.65,123.25,1885,Complex volcano,unknown,Philippines-C
+1000-271,Manengouba,Africa,Holocene,5.033333333,9.833333333,2411,Stratovolcano,unknown,Africa-W
+1000-272,Manuk,Indonesia,Fumarolic,-5.533333333,130.2916667,282,Stratovolcano,unknown,Banda Sea
+1000-273,Manzaz Volcano Field,Africa,Holocene,23.91666667,5.833333333,1672,Scoria cones,unknown,Africa-N
+1000-27=,Marapi,Indonesia,Historical,-0.380555556,100.4733333,2891,Complex volcano,2011,Sumatra
+1000-28=,Marchena,Galapagos,Historical,0.333333333,-90.46666667,343,Shield volcano,1991,Galapagos
+1000-29-,Mare,Indonesia,Holocene,0.566666667,127.4,308,Stratovolcano,unknown,Halmahera-indonesia
+1000-30-,Marha  Jabal el-,Arabia,Holocene,15.245,44.23638889,2506,Tuff cone,unknown,Arabia-S
+1000-31-,Mariñaqui  Laguna,Chile,Holocene,-38.26666667,-71.1,2143,Cinder cone,unknown,Chile-C
+1000-32-,Marion island,Indian Ocean,Historical,-46.9,37.75,1230,Shield volcano,2004,Indian O.-S
+1000-33-,Mariveles,Philippines,Radiocarbon,14.51666667,120.4666667,1388,Stratovolcano,-2050,Luzon-Philippines
+1000-34-,Markagunt Plateau,United States,Dendrochronology,37.58333333,-112.6666667,2840,Volcano field,1050,US-Utah
+1000-35-,Maroa,New Zealand,Tephrochronology,-38.41666667,176.0833333,1156,Caldera,-180,New Zealand
+1000-36-,Marra  Jebel,Africa,Radiocarbon,12.95,24.26666667,3042,Volcano field,-2000,Africa-N
+1000-37-,Marsabit,Africa,Holocene,2.316666667,37.96666667,1707,Shield volcano,unknown,Africa-E
+1000-38-,Martin,Alaska,Historical,58.17222222,-155.3611111,1863,Stratovolcano,1953,Alaska Peninsula
+1000-39-,Masaraga,Philippines,Holocene,13.31666667,123.6,1328,Stratovolcano,unknown,Luzon-Philippines
+1000-40-,Masaya,Nicaragua,Historical,11.98416667,-86.16083333,635,Caldera,2008,Nicaragua
+1000-41-,Mascota Volcano Field,Mexico,Holocene,20.61666667,-104.8333333,2560,Cinder cone,unknown,Mexico
+1000-42-,Mashkovtsev,Russia,Holocene,51.1,156.7166667,503,Stratovolcano,unknown,Kamchatka
+1000-44-,Mashu,Japan,Radiocarbon,43.56972222,144.5652778,855,Caldera,1080,Hokkaido-Japan
+1000-45-,Mat Ala,Ethiopia,Holocene,13.1,41.15,523,Shield volcano,unknown,Ethiopia
+1000-46-,Matthew island,Pacific Ocean,Historical,-22.33333333,171.3166667,177,Stratovolcano,1956,SW Pacific
+1000-47-,Matutum,Philippines,Radiocarbon,6.366666667,125.0666667,2286,Stratovolcano,1290,Mindanao-Philippines
+1000-48-,Maug islands,Pacific Ocean,Fumarolic,20.01666667,145.2166667,227,Stratovolcano,unknown,Mariana is-C Pacific
+1000-49-,Maule  Laguna del,Chile,Holocene,-36.01666667,-70.58333333,3092,Caldera,unknown,Chile-C
+1000-50-,Mauna Kea,Hawaii,Radiocarbon,19.81666667,-155.4666667,4205,Shield volcano,-2460,Hawaiian is
+1000-51-,Mauna Loa,Hawaii,Historical,19.475,-155.6083333,4170,Shield volcano,1984,Hawaiian is
+1000-511,Mayon,Philippines,Historical,13.25666667,123.685,2462,Stratovolcano,2010,Luzon-Philippines
+1000-512,Mayor island,New Zealand,Radiocarbon,-37.28333333,176.25,355,Shield volcano,-5060,New Zealand
+1000-52-,May-ya-moto,Africa,Fumarolic,-0.933333333,29.33333333,950,Fumarole field,unknown,Africa-C
+1000-53-,McDonald islands,Indian Ocean,Historical,-53.03333333,72.6,230,Complex volcano,2005,Indian O.-S
+1000-54-,Meager,Canada,Radiocarbon,50.63333333,-123.5,2680,Complex volcano,-410,Canada
+1000-55-,Medicine Lake,United States,Radiocarbon,41.61111111,-121.5536111,2412,Shield volcano,1080,US-California
+1000-551,Medvezhia,Russia,Historical,45.38666667,148.8425,1125,Somma volcano,1999,Kuril is
+1000-552,Mega Basalt Field,Ethiopia,Holocene,4.083333333,37.41666667,1067,Pyroclastic cone,unknown,Ethiopia
+1000-56-,Megata,Japan,Tephrochronology,39.95,139.7333333,291,Maar,-2050,Honshu-Japan
+1000-57-,Mehetia,Pacific Ocean,Anthropology,-17.86666667,-148.0666667,435,Stratovolcano,unknown,Society is-C Pacific
+1000-58-,Meidob Volcano Field,Africa,Holocene,15.31666667,26.46666667,2000,Scoria cones,-2950,Africa-N
+1000-59-,Melbourne,Antarctica,Tephrochronology,-74.35,164.7,2732,Stratovolcano,1750,Antarctica
+1000-60-,Melimoyu,Chile,Radiocarbon,-44.08333333,-72.88333333,2400,Stratovolcano,-200,Chile-S
+1000-61-,Mendeleev,Russia,Historical,43.97638889,145.7361111,888,Stratovolcano,1880,Kuril is
+1000-62-,Menengai,Africa,Tephrochronology,-0.2,36.06666667,2278,Shield volcano,-6050,Africa-E
+1000-63-,Mentolat,Chile,Historical,-44.7,-73.08333333,1660,Stratovolcano,1710,Chile-S
+1000-64-,Merapi,Indonesia,Historical,-7.541666667,110.4416667,2968,Stratovolcano,2011,Java
+1000-65-,Merbabu,Indonesia,Historical,-7.45,110.4333333,3145,Stratovolcano,1797,Java
+1000-66-,Mere Lava,Pacific Ocean,Holocene,-14.45,168.05,1028,Stratovolcano,unknown,Vanuatu-SW Pacific
+1000-67-,Meru,Africa,Historical,-3.25,36.75,4565,Stratovolcano,1910,Africa-E
+1000-671,Methana,Greece,Historical,37.61527778,23.33555556,760,Lava dome,-258,Greece
+1000-68-,Metis Shoal,Pacific Ocean,Historical,-19.18333333,-174.8666667,43,Submarine volcano,1995,Tonga-SW Pacific
+1000-69-,Mezhdusopochny,Russia,Holocene,57.46666667,160.25,1641,Shield volcano,unknown,Kamchatka
+1000-70-,Michael,Antarctica,Historical,-57.78333333,-26.45,990,Stratovolcano,2006,Antarctica
+1000-71-,Michoacan-Guanajuato,Mexico,Historical,19.85,-101.75,3860,Cinder cone,1952,Mexico
+1000-72-,Middle Gobi,Mongolia,Holocene,45.28333333,106.7,1120,Cinder cone,unknown,Mongolia
+1002-01-,Mikura-jima,Japan,Tephrochronology,33.87111111,139.605,851,Stratovolcano,-4100,izu is-Japan
+1002-03-,Milbanke Sound Group,Canada,Holocene,52.5,-128.7333333,335,Cinder cone,unknown,Canada
+1002-04-,Milne,Russia,Holocene,46.81666667,151.7833333,1540,Somma volcano,unknown,Kuril is
+1002-05-,Milos,Greece,Radiocarbon,36.69861111,24.43888889,751,Stratovolcano,unknown,Greece
+1002-06-,Minami Kasuga,Japan,Holocene,21.6,143.6366667,-274,Submarine volcano,unknown,Japan
+1002-07-,Minami-Hiyoshi,Japan,Historical,23.49666667,141.94,-30,Submarine volcano,1975,Japan
+1003-01-,Minchinmavida,Chile,Historical,-42.79305556,-72.43861111,2404,Stratovolcano,1835,Chile-S
+1003-02-,Miñiques,Chile,Holocene,-23.81666667,-67.76666667,5910,Stratovolcano,unknown,Chile-N
+1003-03-,Miravalles,Costa Rica,Historical,10.74833333,-85.15277778,2028,Stratovolcano,-5050,Costa Rica
+1003-04-,Misti  El,Peru,Historical,-16.29444444,-71.40888889,5822,Stratovolcano,1985,Peru
+1003-05-,Miyake-jima,Japan,Historical,34.07861111,139.5294444,815,Stratovolcano,2010,izu is-Japan
+1004-01-,Mocho-Choshuenco,Chile,Historical,-39.9275,-72.02694444,2422,Stratovolcano,1937,Chile-C
+1004-02-,Moffett,Aleutian Islands,Radiocarbon,51.94388889,-176.7466667,1196,Stratovolcano,-1600,Aleutian is
+1004-03-,Mojanda,Ecuador,Holocene,0.133333333,-78.26666667,4263,Stratovolcano,unknown,Ecuador
+1005-01-,Mokuyo Seamount,Japan,Fumarolic,28.31666667,140.5666667,-920,Submarine volcano,unknown,izu is-Japan
+1005-011,Mombacho,Nicaragua,Holocene,11.82611111,-85.9675,1344,Stratovolcano,unknown,Nicaragua
+1005-02-,Momotombo,Nicaragua,Historical,12.4225,-86.54,1297,Stratovolcano,1905,Nicaragua
+1005-03-,Monaco Bank,Portugal,Historical,37.6,-25.88333333,-197,Submarine volcano,1911,Azores
+1005-04-,Mono Craters,United States,Radiocarbon,37.88333333,-119,2796,Lava dome,1350,US-California
+1005-05-,Mono Lake Volcano Field,United States,Tephrochronology,38,-119.0333333,2121,Cinder cone,1790,US-California
+1005-06-,Monowai Seamount,New Zealand,Historical,-25.8875,-177.1880556,-132,Submarine volcano,2008,Kermadec is
+1006-02-,Montagu island,Antarctica,Historical,-58.41666667,-26.33333333,1370,Shield volcano,2007,Antarctica
+1006-03-,Morning  Mt.,Antarctica,Holocene,-78.5,163.5333333,2723,Shield volcano,unknown,Antarctica
+1006-04-,Moti,Indonesia,Holocene,0.45,127.4,950,Stratovolcano,unknown,Halmahera-indonesia
+1101-01-,Motlav,Pacific Ocean,Holocene,-13.66666667,167.6666667,411,Stratovolcano,unknown,Vanuatu-SW Pacific
+1101-02-,Moua Pihaa,Pacific Ocean,Seismicity,-18.31666667,-148.6666667,-160,Submarine volcano,1970,Society is-C Pacific
+1101-03-,Mousa Alli,Ethiopia,Holocene,12.46666667,42.4,2028,Stratovolcano,unknown,Ethiopia
+1101-04-,Moyuta,Guatemala,Hot Springs,14.03333333,-90.1,1662,Stratovolcano,unknown,Guatemala
+1101-05-,Muhavura,Africa,Holocene,-1.383333333,29.66666667,4127,Stratovolcano,unknown,Africa-C
+1101-06-,Mundua,Papua New Guinea,Holocene,-4.633333333,149.35,179,Complex volcano,unknown,New Britain-SW Pac
+1101-07-,Muria,Indonesia,Holocene,-6.616666667,110.8833333,1625,Stratovolcano,-160,Java
+1101-08-,Musa River,New Guinea,Hot Springs,-9.308333333,148.1333333,808,Hydrothermal field,unknown,New Guinea
+1101-09-,Musuan,Philippines,Historical,7.876666667,125.0683333,646,Lava dome,1886,Mindanao-Philippines
+1101-10-,Mutnovsky,Russia,Historical,52.45333333,158.195,2322,Complex volcano,2000,Kamchatka
+1101-11-,Myojin Knoll,Japan,Holocene,32.1,139.85,360,Submarine volcano,unknown,izu is-Japan
+1101-111,Myoko,Japan,Radiocarbon,36.88833333,138.1166667,2446,Stratovolcano,-750,Honshu-Japan
+1101-12-,Nabro,Ethiopia,Holocene,13.36666667,41.7,2218,Stratovolcano,2011,Ethiopia
+1101-13-,Nabukelevu,Pacific Ocean,Radiocarbon,-19.11666667,177.9833333,805,Lava dome,1660,Fiji is-SW Pacific
+1101-14-,Nakano-shima,Japan,Historical,29.85555556,129.8591667,979,Stratovolcano,1914,Ryukyu is
+1101-15-,Namarunu,Africa,Tephrochronology,1.983333333,36.43333333,817,Shield volcano,-6550,Africa-E
+1101-16-,Nantai,Japan,Radiocarbon,36.76194444,139.4941667,2486,Stratovolcano,unknown,Honshu-Japan
+1101-161,Naolinco Volcano Field,Mexico,Radiocarbon,19.66666667,-96.75,2000,Pyroclastic cone,-1200,Mexico
+1101-18-,Narcondum,Andaman Islands,Holocene,13.43333333,94.28333333,710,Stratovolcano,unknown,Andaman is-Indian O
+1101-19-,Narugo,Japan,Historical,38.73305556,140.7316667,470,Caldera,-837,Honshu-Japan
+1101-20-,Nasu,Japan,Historical,37.12166667,139.9661111,1915,Stratovolcano,1963,Honshu-Japan
+1101-21-,Natib,Philippines,Holocene,14.71666667,120.4,1253,Stratovolcano,unknown,Luzon-Philippines
+1101-22-,Nazko,Canada,Radiocarbon,52.9,-123.7333333,1230,Cinder cone,-5220,Canada
+1101-23-,Ndete Napu,Indonesia,Fumarolic,-8.716666667,121.7833333,750,Fumarole field,unknown,Lesser Sunda Islands
+1101-24-,Negra  Sierra,Galapagos,Historical,-0.833333333,-91.16666667,1124,Shield volcano,2005,Galapagos
+1101-241,Negrillar  El,Chile,Holocene,-24.18333333,-68.25,3500,Pyroclastic cone,unknown,Chile-N
+1101-25-,Negrillar  La,Chile,Holocene,-24.28333333,-68.6,4109,Pyroclastic cone,unknown,Chile-N
+1101-26-,Negro de Mayasquer  Cerro,Colombia,Holocene,0.8275,-77.96444444,4445,Stratovolcano,1936,Colombia
+1101-27-,Negro  Cerro,Nicaragua,Historical,12.50611111,-86.70194444,728,Cinder cone,1999,Nicaragua
+1101-28-,Nejapa-Miraflores,Nicaragua,Tephrochronology,12.11666667,-86.31666667,360,Fissure vent,1060,Nicaragua
+1101-29-,Nemo Peak,Russia,Historical,49.56666667,154.8083333,1018,Caldera,1938,Kuril is
+1101-30-,Nemrut Dagi,Turkey,Historical,38.65,42.23333333,2948,Stratovolcano,1650,Turkey
+1101-31-,Nevada  Sierra,Chile,Holocene,-26.48333333,-68.58333333,6127,Complex volcano,unknown,Chile-N
+1101-32-,Nevis Peak,British West Indies,Holocene,17.15,-62.58333333,985,Stratovolcano,unknown,British West Indies
+1101-34-,Newberry,United States,Radiocarbon,43.72222222,-121.2288889,2434,Shield volcano,-690,US-Oregon
+1101-35-,Newer Volcanos Prov,Australia,Radiocarbon,-37.76666667,142.5,1011,Shield volcano,-2900,Australia
+1101-36-,Ngaoundere Plateau,Africa,Holocene,7.25,13.66666667,,Volcano field,unknown,Africa-W
+1101-37-,Ngozi,Africa,Radiocarbon,-8.966666667,33.56666667,2622,Caldera,1450,Africa-E
+1101-38-,Nicholson  Cerro,Peru,Holocene,-16.25833333,-71.75333333,2520,Cinder cone,unknown,Peru
+1101-39-,Nieuwerkerk,Indonesia,Uncertain,-6.6,124.675,-2285,Submarine volcano,unknown,Banda Sea
+1102-01-,Nightingale island,Atlantic Ocean,Historical,-37.41666667,-12.48333333,365,Stratovolcano,2004,Atlantic-S
+1102-011,Niigata-Yake-yama,Japan,Historical,36.91777778,138.0391667,2400,Lava dome,1998,Honshu-Japan
+1102-02-,Nii-jima,Japan,Historical,34.39333333,139.2733333,432,Lava dome,-886,izu is-Japan
+1102-03-,Nikko,Japan,Fumarolic,23.075,142.3083333,-391,Submarine volcano,unknown,Japan
+1102-04-,Nikko-Shirane,Japan,Historical,36.79555556,139.3791667,2578,Shield volcano,1952,Honshu-Japan
+1102-05-,Nila,Indonesia,Historical,-6.733333333,129.5,781,Stratovolcano,1968,Banda Sea
+1102-051,Nipesotsu-Maruyama,Japan,Historical,43.45333333,143.0361111,2013,Stratovolcano,1898,Hokkaido-Japan
+1102-052,Niseko,Japan,Tephrochronology,42.88333333,140.6333333,1154,Stratovolcano,-4900,Hokkaido-Japan
+1102-053,Nishino-shima,Japan,Historical,27.27416667,140.8822222,38,Caldera,1974,Japan
+1102-06-,Nisyros,Greece,Historical,36.58555556,27.15972222,698,Stratovolcano,1888,Greece
+1102-07-,Niuafo'ou,Pacific Ocean,Historical,-15.6,-175.6333333,260,Shield volcano,1985,Tonga-SW Pacific
+1102-08-,Norikura,Japan,Radiocarbon,36.10333333,137.5566667,3026,Stratovolcano,-50,Honshu-Japan
+1102-09-,North Gorda Ridge,Pacific Ocean,Historical,42.66666667,-126.7833333,-3000,Submarine volcano,1996,Pacific-NE
+1102-10-,North island,Africa,Holocene,4.066666667,36.05,520,Tuff cone,unknown,Africa-E
+1102-11-,North Sister Field,United States,Radiocarbon,44.16666667,-121.7666667,3074,Complex volcano,-440,US-Oregon
+1102-12-,North Vate,Pacific Ocean,Holocene,-17.46666667,168.3533333,594,Stratovolcano,unknown,Vanuatu-SW Pacific
+1102-13-,Northern EPR-Segment RO2,Pacific Ocean,Magnetism,16.55,-105.3166667,-2700,Submarine volcano,-50,Pacific-E
+1102-131,Northern EPR-Segment RO3,Pacific Ocean,Magnetism,15.83333333,-105.4333333,-2300,Submarine volcano,-50,Pacific-E
+1102-14-,Nosy-Be,Madagascar,Holocene,-13.31666667,48.48333333,214,Cinder cone,unknown,Madagascar
+1102-15-,Novarupta,Alaska,Historical,58.26666667,-155.1566667,841,Caldera,1912,Alaska Peninsula
+1102-16-,Nuevo Mundo,Bolivia,Holocene,-19.78333333,-66.48333333,5438,Lava dome,unknown,Bolivia
+1102-17-,Numazawa,Japan,Radiocarbon,37.45027778,139.5788889,1100,Shield volcano,-3400,Honshu-Japan
+1102-18-,Nunivak island,Alaska,Holocene,60.01666667,-166.3333333,511,Shield volcano,unknown,Alaska-W
+1102-19-,NW Eifuku,Japan,Fumarolic,21.48472222,144.0430556,-1535,Submarine volcano,unknown,Japan
+1102-20-,NW Rota-1,Pacific Ocean,Historical,14.60111111,144.7752778,-517,Submarine volcano,2010,Mariana is-C Pacific
+1102-21-,Nyambeni Hills,Africa,Holocene,0.233333333,37.86666667,750,Shield volcano,unknown,Africa-E
+1102-22-,Nyamuragira,Africa,Historical,-1.408333333,29.2,3058,Shield volcano,2010,Africa-C
+1102-23-,Nyiragongo,Africa,Historical,-1.516666667,29.25,3470,Stratovolcano,2011,Africa-C
+1102-25-,Nylgimelkin,Russia,Radiocarbon,57.96666667,160.65,1764,Shield volcano,-3550,Kamchatka
+1102-26-,O'a Caldera,Ethiopia,Holocene,7.466666667,38.58333333,2075,Caldera,unknown,Ethiopia
+1102-27-,Ofu-Olosega,Pacific Ocean,Historical,-14.175,-169.6183333,639,Shield volcano,1866,Samoa-SW Pacific
+1103-01-,Ojos del Salado  Nevados,Chile,Tephrochronology,-27.11666667,-68.55,6887,Stratovolcano,-700,Chile-N
+1103-02-,Oka Plateau,Russia,Holocene,52.7,98.98333333,2077,Cinder cone,unknown,Russia-SE
+1103-03-,Okataina,New Zealand,Historical,-38.11666667,176.5,1111,Lava dome,1981,New Zealand
+1103-04-,Oki-Dogo,Japan,Anthropology,36.17638889,133.3341667,151,Shield volcano,unknown,Honshu-Japan
+1103-05-,Okmok,Aleutian Islands,Historical,53.43333333,-168.1333333,1073,Shield volcano,2008,Aleutian is
+1104-01-,Oku Volcano Field,Africa,Holocene,6.25,10.5,3011,Stratovolcano,unknown,Africa-W
+1104-02-,Ol Kokwe,Africa,Holocene,0.616666667,36.075,1130,Shield volcano,unknown,Africa-E
+1104-03-,Olca-Paruma,Chile,Historical,-20.93333333,-68.48333333,5407,Stratovolcano,1867,Chile-N
+1104-04-,Olkaria,Africa,Radiocarbon,-0.904166667,36.29166667,2434,Pumice cone,1770,Africa-E
+1104-05-,Olkoviy Volcano Group,Russia,Holocene,52.01666667,157.5333333,681,Volcano field,unknown,Kamchatka
+1104-06-,Ollague,Chile,Holocene,-21.3,-68.18333333,5868,Stratovolcano,unknown,Chile-N
+1105-001,Olot Volcano Field,Spain,Holocene,42.16666667,2.533333333,893,Pyroclastic cone,unknown,Spain
+1105-01-,Omanago Group,Japan,Radiocarbon,36.79222222,139.5102778,2367,Lava dome,-3050,Honshu-Japan
+1105-02-,On-take,Japan,Historical,35.88972222,137.4833333,3063,Complex volcano,1980,Honshu-Japan
+1105-021,Opala,Russia,Historical,52.54333333,157.335,2475,Caldera,1776,Kamchatka
+1105-03-,oraefajokull,Iceland,Historical,64,-16.65,2119,Stratovolcano,1728,Iceland-SE
+1105-04-,Orizaba  Pico de,Mexico,Historical,19.03,-97.26805556,5675,Stratovolcano,unknown,Mexico
+1105-05-,Orosi,Costa Rica,Holocene,10.98,-85.47333333,1659,Stratovolcano,unknown,Costa Rica
+1105-06-,Oshima,Japan,Historical,34.72138889,139.3977778,764,Stratovolcano,1990,izu is-Japan
+1105-07-,Oshima-Oshima,Japan,Historical,41.50694444,139.3711111,737,Stratovolcano,1790,Hokkaido-Japan
+1200-01-,Osore-yama,Japan,Historical,41.27583333,141.1236111,879,Stratovolcano,1787,Honshu-Japan
+1200-02-,Osorno,Chile,Historical,-41.1,-72.49305556,2652,Stratovolcano,1869,Chile-S
+1200-03-,Ostanets,Russia,Holocene,52.14583333,157.3216667,719,Shield volcano,unknown,Kamchatka
+1200-031,Ostry,Russia,Holocene,58.18333333,160.8166667,2552,Stratovolcano,-2050,Kamchatka
+1200-04-,Otdelniy,Russia,Holocene,52.22,157.4283333,791,Shield volcano,unknown,Kamchatka
+1200-05-,Overo  Cerro,Chile,Holocene,-23.51666667,-67.66666667,4555,Maar,unknown,Chile-N
+1200-06-,Ozernoy,Russia,Holocene,51.88333333,157.3833333,562,Shield volcano,unknown,Kamchatka
+1200-07-,Pacaya,Guatemala,Historical,14.38083333,-90.60111111,2552,Complex volcano,2010,Guatemala
+1200-08-,Paco,Philippines,Anthropology,9.593333333,125.52,524,Stratovolcano,unknown,Mindanao-Philippines
+1200-09-,Pagan,Pacific Ocean,Historical,18.13333333,145.8,570,Stratovolcano,2010,Mariana is-C Pacific
+1200-10-,Pago,Papua New Guinea,Historical,-5.583333333,150.5166667,742,Caldera,2007,New Britain-SW Pac
+1200-11-,Paka,Africa,Ar/Ar,0.916666667,36.18333333,1697,Shield volcano,-7550,Africa-E
+1200-12-,Palei-Aike Volcano Field,Chile,Anthropology,-52,-70,282,Cinder cone,-5550,Chile-S
+1200-13-,Palena Volcano Group,Chile,Holocene,-43.78333333,-72.46666667,,Cinder cone,unknown,Chile-S
+1200-14-,Palinuro,Italy,Radiocarbon,39.48333333,14.83333333,-70,Submarine volcano,-8040,Italy
+1200-15-,Palomo,Chile,Holocene,-34.60777778,-70.295,4860,Stratovolcano,unknown,Chile-C
+1200-16-,Paluweh,Indonesia,Historical,-8.316666667,121.7083333,875,Stratovolcano,1985,Lesser Sunda Islands
+1200-17-,Pampa Luxsar,Bolivia,Holocene,-20.85,-68.2,5543,Volcano field,unknown,Bolivia
+1200-18-,Panarea,Italy,Historical,38.63333333,15.06666667,421,Stratovolcano,unknown,Italy
+1200-19-,Pantelleria,Italy,Historical,36.76666667,12.01666667,836,Shield volcano,1891,Italy
+1200-20-,Pantoja  Cerro,Chile,Holocene,-40.76666667,-71.95,2024,Stratovolcano,unknown,Chile-C
+1201-01=,Papandayan,Indonesia,Historical,-7.316666667,107.7333333,2665,Stratovolcano,2002,Java
+1201-02-,Papayo,Mexico,Holocene,19.30833333,-98.7,3600,Lava dome,unknown,Mexico
+1201-03-,Parinacota,Chile,Surface Exposure,-18.16666667,-69.15,6348,Stratovolcano,-290,Chile-N
+1201-04-,Parker,Philippines,Historical,6.113333333,124.8916667,1824,Stratovolcano,1641,Mindanao-Philippines
+1201-05-,Patoc,Philippines,Fumarolic,17.14666667,120.98,1865,Stratovolcano,unknown,Luzon-Philippines
+1201-06-,Patuha,Indonesia,Holocene,-7.160277778,107.4,2434,Stratovolcano,unknown,Java
+1201-07-,Paulet,Antarctica,Holocene,-63.58333333,-55.76666667,353,Cinder cone,unknown,Antarctica
+1202-01-,Pavlof,Alaska,Historical,55.41666667,-161.8875,2519,Stratovolcano,2007,Alaska Peninsula
+1202-02-,Pavlof Sister,Alaska,Holocene,55.45277778,-161.8430556,2142,Stratovolcano,unknown,Alaska Peninsula
+1202-03-,Payun Matru,Argentina,Holocene,-36.41666667,-69.2,3680,Shield volcano,unknown,Argentina
+1202-04-,Peinado,Argentina,Holocene,-26.61666667,-68.15,5740,Stratovolcano,unknown,Argentina
+1202-06-,Pelee,British West Indies,Historical,14.81666667,-61.16666667,1397,Stratovolcano,1932,British West Indies
+1202-07-,Penanggungan,Indonesia,Holocene,-7.616666667,112.6333333,1653,Stratovolcano,unknown,Java
+1202-08-,Penguin island,Antarctica,Lichenometry,-62.1,-57.93333333,180,Stratovolcano,1905,Antarctica
+1202-09-,Perbakti-Gagak,Indonesia,Historical,-6.75,106.7,1699,Stratovolcano,1939,Java
+1202-10-,Petacas,Colombia,Holocene,1.566666667,-76.78333333,4054,Lava dome,unknown,Colombia
+1202-11-,Peter i island,Antarctica,Holocene,-68.85,-90.58333333,1640,Shield volcano,unknown,Antarctica
+1202-12-,Peuet Sague,Indonesia,Historical,4.914444444,96.32916667,2801,Complex volcano,2000,Sumatra
+1202-13-,Pico,Portugal,Historical,38.46666667,-28.4,2351,Stratovolcano,1720,Azores
+1202-14-,Picos Volcano System,Portugal,Historical,37.78333333,-25.66666667,350,Pyroclastic cone,1652,Azores
+1202-15-,Piip,Russia,Tephrochronology,55.41666667,167.3333333,-300,Submarine volcano,-5050,Kamchatka-E of
+1202-16-,Pilas  Las,Nicaragua,Historical,12.49472222,-86.68833333,1088,Complex volcano,1954,Nicaragua
+1202-17-,Pinacate,Mexico,Holocene,31.7725,-113.4983333,1200,Cinder cone,unknown,Mexico
+1202-19-,Pinatubo,Philippines,Historical,15.13333333,120.35,1486,Stratovolcano,1993,Luzon-Philippines
+1203-01-,Pinta,Galapagos,Historical,0.583333333,-90.75,780,Shield volcano,1928,Galapagos
+1203-02-,Piratkovsky,Russia,Holocene,52.1125,157.8486111,1322,Stratovolcano,unknown,Kamchatka
+1203-03-,Planchon-Peteroa,Chile,Historical,-35.24,-70.57,4107,Stratovolcano,2011,Chile-C
+1203-04-,Plat Pays  Morne,British West Indies,Radiocarbon,15.255,-61.34083333,940,Stratovolcano,1270,British West Indies
+1203-05-,Platanar,Costa Rica,Holocene,10.3,-84.36583333,2267,Stratovolcano,unknown,Costa Rica
+1203-06-,Pleiades  The,Antarctica,Potassium-Argon,-72.66666667,165.5,3040,Stratovolcano,-1050,Antarctica
+1203-08-,Plosky,Russia,Holocene,55.2,158.4666667,1236,Shield volcano,unknown,Kamchatka
+1203-09-,Plosky,Russia,Holocene,57.83333333,160.25,1255,Shield volcano,unknown,Kamchatka
+1203-10-,Poas,Costa Rica,Historical,10.2,-84.23277778,2708,Stratovolcano,2011,Costa Rica
+1203-11-,Pocdol Mountains,Philippines,Fumarolic,13.05,123.9583333,1102,Compound volcano,unknown,Luzon-Philippines
+1203-12-,Poco Leok,Indonesia,Fumarolic,-8.683333333,120.4833333,1675,Stratovolcano,unknown,Lesser Sunda Islands
+1203-13-,Pogranychny,Russia,Holocene,56.85,159.8,1427,Shield volcano,unknown,Kamchatka
+1203-15-,Popa,Myanmar,Anthropology,20.91666667,95.25,1518,Stratovolcano,-442,Myanmar
+1203-16-,Popocatepetl,Mexico,Historical,19.02333333,-98.62222222,5426,Stratovolcano,unknown,Mexico
+1203-17-,Porak,Armenia,Anthropology,40.01666667,45.78333333,2800,Stratovolcano,-778,Armenia
+1203-18-,Possession  ile de la,Indian Ocean,Holocene,-46.41666667,51.75,934,Stratovolcano,unknown,Indian O.-S
+1203-19-,Prestahnukur,Iceland,Radiocarbon,64.6,-20.58333333,1400,Subglacial volcano,-3350,Iceland-SW
+1203-20-,Prevo Peak,Russia,Historical,47.01666667,152.1166667,1360,Stratovolcano,1825,Kuril is
+1204-01-,Prieto  Cerro,Mexico,Holocene,32.41833333,-115.305,223,Lava dome,unknown,Mexico
+1204-02-,Prince Edward island,Indian Ocean,Holocene,-46.63333333,37.95,672,Shield volcano,unknown,Indian O.
+1204-03-,Protector Shoal,Antarctica,Historical,-55.91666667,-28.08333333,-27,Submarine volcano,1962,Antarctica
+1204-04-,Puesto Cortaderas,Argentina,Holocene,-37.56666667,-69.61666667,970,Pyroclastic cone,unknown,Argentina
+1205-01-,Pular,Chile,Holocene,-24.1875,-68.05416667,6233,Stratovolcano,unknown,Chile-N
+1206-01-,Pulosari,Indonesia,Holocene,-6.341666667,105.975,1346,Stratovolcano,unknown,Java
+1207-01-,Pululagua,Ecuador,Radiocarbon,0.038333333,-78.46333333,3356,Caldera,-290,Ecuador
+1207-03-,Puntiagudo-Cordon Cenizos,Chile,Historical,-40.96944444,-72.26388889,2493,Stratovolcano,1850,Chile-C
+1207-04-,Purace,Colombia,Historical,2.316666667,-76.4,4650,Stratovolcano,1977,Colombia
+1207-05-,Purico Complex,Chile,Holocene,-23,-67.75,5703,Pyroclastic shield,unknown,Chile-N
+1208-01-,Putana,Chile,Historical,-22.55,-67.85,5890,Stratovolcano,1810,Chile-N
+1209-01-,Puyehue-Cordon Caulle,Chile,Historical,-40.59027778,-72.11722222,2236,Stratovolcano,2011,Chile-C
+1209-02-,Puyuhuapi,Chile,Holocene,-44.3,-72.53333333,524,Cinder cone,unknown,Chile-S
+1210-01-,Qal'eh Hasan Ali,Iran,Holocene,29.4,57.56666667,,Maar,unknown,Iran
+1210-02-,Qualibou,British West Indies,Historical,13.83333333,-61.05,777,Caldera,1766,British West Indies
+1301-01-,Quetrupillan,Chile,Historical,-39.5,-71.7,2360,Stratovolcano,1872,Chile-C
+1301-011,Quezaltepeque,Guatemala,Holocene,14.56666667,-89.45,1200,Volcano field,unknown,Guatemala
+1301-02-,Quill  The,British West Indies,Radiocarbon,17.47777778,-62.95972222,601,Stratovolcano,-250,British West Indies
+1301-021,Quilotoa,Ecuador,Radiocarbon,-0.85,-78.9,3914,Caldera,1280,Ecuador
+1301-03-,Quimsachata,Peru,Radiocarbon,-14.2,-71.33333333,3923,Lava dome,-4450,Peru
+1301-031,Rabaul,Papua New Guinea,Historical,-4.270833333,152.2027778,688,Pyroclastic shield,2011,New Britain-SW Pac
+1301-04-,Ragang,Philippines,Historical,7.7,124.5,2815,Stratovolcano,1873,Mindanao-Philippines
+1302-00-,Rahah  Harrat ar,Arabia,Anthropology,27.8,36.16666667,1950,Volcano field,unknown,Arabia-W
+1302-01-,Rahat  Harrat,Arabia,Historical,23.08333333,39.78333333,1744,Volcano field,1256,Arabia-W
+1302-02=,Raikoke,Russia,Historical,48.29166667,153.25,551,Stratovolcano,1924,Kuril is
+1302-03-,Rainier,United States,Historical,46.85277778,-121.7602778,4392,Stratovolcano,1894,US-Washington
+1302-04-,Rajabasa,Indonesia,Fumarolic,-5.783333333,105.625,1281,Stratovolcano,unknown,Sumatra
+1302-06-,Ranakah,Indonesia,Historical,-8.616666667,120.5166667,2350,Lava dome,1991,Lesser Sunda Islands
+1303-01-,Ranau,Indonesia,Holocene,-4.833333333,103.9166667,1881,Caldera,unknown,Sumatra
+1303-02-,Raoul island,New Zealand,Historical,-29.26666667,-177.9166667,516,Stratovolcano,2006,Kermadec is
+1303-03-,Rasshua,Russia,Historical,47.76666667,153.0166667,956,Stratovolcano,1957,Kuril is
+1303-04-,Raung,Indonesia,Historical,-8.125,114.0416667,3332,Stratovolcano,2008,Java
+1303-05-,Rausu,Japan,Radiocarbon,44.07333333,145.1263889,1660,Stratovolcano,1800,Hokkaido-Japan
+1303-06-,Recheschnoi,Aleutian Islands,Holocene,53.15666667,-168.5388889,1984,Stratovolcano,unknown,Aleutian is
+1304-02-,Reclus,Chile,Historical,-50.96388889,-73.58472222,1000,Cinder cone,1908,Chile-S
+1304-021,Redoubt,Alaska,Historical,60.48527778,-152.7419444,3108,Stratovolcano,2009,Alaska-SW
+1304-07-,Reporoa,New Zealand,Tephrochronology,-38.41666667,176.3333333,592,Caldera,1180,New Zealand
+1304-12-,Resago,Chile,Holocene,-36.45,-70.91666667,1890,Cinder cone,unknown,Chile-C
+1304-13-,Reventador,Ecuador,Historical,-0.0775,-77.65583333,3562,Stratovolcano,2011,Ecuador
+1304-14-,Reykjanes,Iceland,Historical,63.88333333,-22.5,230,Crater rows,1926,Iceland-SW
+1305-01-,Rincon de la Vieja,Costa Rica,Historical,10.83,-85.32388889,1916,Complex volcano,1998,Costa Rica
+1401-00-,Rinjani,Indonesia,Historical,-8.416666667,116.4666667,3726,Stratovolcano,2010,Lesser Sunda Islands
+1401-001,Rio Murta,Chile,Holocene,-46.16666667,-72.66666667,,Pyroclastic cone,unknown,Chile-S
+1401-002,Risco Plateado,Argentina,Holocene,-34.93333333,-70,4999,Stratovolcano,unknown,Argentina
+1401-003,Rishiri,Japan,Radiocarbon,45.18333333,141.25,1721,Stratovolcano,-5830,Hokkaido-Japan
+1401-004,Ritter island,Papua New Guinea,Historical,-5.516666667,148.1208333,140,Stratovolcano,2007,New Guinea-NE of
+1401-005,Robinson Crusoe,Chile,Historical,-33.65833333,-78.85,922,Shield volcano,1835,Chile-is
+1401-006,Robledo,Argentina,Holocene,-26.76666667,-67.71666667,4400,Caldera,unknown,Argentina
+1401-007,Rocard,Pacific Ocean,Seismicity,-17.64166667,-148.6,-2100,Submarine volcano,1972,Society is-C Pacific
+1401-011,Romanovka,Russia,Holocene,55.65,158.8,1442,Stratovolcano,unknown,Kamchatka
+1401-012,Romeral,Colombia,Radiocarbon,5.205833333,-75.36416667,3858,Stratovolcano,-5950,Colombia
+1401-01=,Rota,Nicaragua,Holocene,12.55,-86.75,832,Stratovolcano,unknown,Nicaragua
+1401-021,Roundtop,Aleutian Islands,Radiocarbon,54.8,-163.5888889,1871,Stratovolcano,-7600,Aleutian is
+1401-022,Royal Society Range,Antarctica,Holocene,-78.25,163.3333333,3000,Cinder cone,unknown,Antarctica
+1401-023,Ruang,Indonesia,Historical,2.3,125.3666667,725,Stratovolcano,2002,Sangihe is-indonesia
+1401-024,Ruapehu,New Zealand,Historical,-39.28333333,175.5666667,2797,Stratovolcano,2007,New Zealand
+1401-02=,Ruby,Pacific Ocean,Historical,15.61666667,145.5666667,-230,Submarine volcano,1995,Mariana is-C Pacific
+1401-031,Rudakov,Russia,Holocene,45.88333333,149.8333333,542,Stratovolcano,unknown,Kuril is
+1401-03=,Ruiz  Nevado del,Colombia,Historical,4.895277778,-75.3225,5321,Stratovolcano,unknown,Colombia
+1401-04=,Rumble ii West,New Zealand,Fumarolic,-35.35333333,178.5266667,1200,Submarine volcano,unknown,New Zealand
+1401-061,Rumble iii,New Zealand,Historical,-35.745,178.4783333,-220,Submarine volcano,2008,New Zealand
+1401-062,Rumble iV,New Zealand,Fumarolic,-36.13333333,178.05,500,Submarine volcano,unknown,New Zealand
+1401-06=,Rumble V,New Zealand,Fumarolic,-36.14166667,178.1958333,400,Submarine volcano,unknown,New Zealand
+1401-07-,Rungwe,Africa,Radiocarbon,-9.133333333,33.66666667,2961,Stratovolcano,1250,Africa-E
+1401-081,Saba,British West Indies,Historical,17.63333333,-63.23333333,887,Stratovolcano,1640,British West Indies
+1401-082,Sabalan,Iran,Holocene,38.25,47.91666667,4811,Stratovolcano,unknown,Iran
+1401-08=,Sabancaya,Peru,Historical,-15.78333333,-71.85,5967,Stratovolcano,2003,Peru
+1401-091,Sahand,Iran,Holocene,37.75,46.43333333,3707,Stratovolcano,unknown,Iran
+1401-092,Sairecabur,Chile,Holocene,-22.71666667,-67.89166667,5971,Stratovolcano,unknown,Chile-N
+1401-093,Sakar,Papua New Guinea,Holocene,-5.413888889,148.0944444,992,Stratovolcano,unknown,New Guinea-NE of
+1401-094,Sakura-jima,Japan,Historical,31.585,130.6569444,1117,Stratovolcano,2011,Kyushu-Japan
+1401-095,Salak,Indonesia,Historical,-6.716666667,106.7333333,2211,Stratovolcano,1938,Java
+1401-096,Salton Buttes,United States,Hydration Rind,33.2,-115.6166667,-40,Lava dome,-6450,US-California
+1401-097,San Borja Volcano Field,Mexico,Holocene,28.5,-113.75,1360,Cinder cone,unknown,Mexico
+1401-098,San Carlos,Africa,Holocene,3.35,8.516666667,2260,Shield volcano,unknown,Africa-W
+1401-09=,San Cristobal,Nicaragua,Historical,12.70166667,-87.00361111,1745,Stratovolcano,2011,Nicaragua
+1401-10=,San Cristobal,Galapagos,Holocene,-0.883333333,-89.5,759,Shield volcano,unknown,Galapagos
+1401-11=,San Diego,El Salvador,Holocene,14.26666667,-89.48333333,781,Volcano field,unknown,El Salvador
+1401-12=,San Felix,Chile,Holocene,-26.28333333,-80.11666667,193,Shield volcano,unknown,Chile-is
+1401-13=,San Joaquin,Africa,Holocene,3.35,8.633333333,2009,Shield volcano,unknown,Africa-W
+1402-02=,San Jorge,Portugal,Historical,38.65,-28.08333333,1053,Fissure vent,1907,Azores
+1402-03=,San Jose,Chile,Historical,-33.78166667,-69.89722222,5856,Stratovolcano,1960,Chile-C
+1402-04=,San Luis  isla,Mexico,Holocene,29.96666667,-114.4,180,Tuff cone,unknown,Mexico
+1402-06=,San Martin,Mexico,Historical,18.56666667,-95.2,1650,Shield volcano,1796,Mexico
+1402-07=,San Miguel,El Salvador,Historical,13.43388889,-88.26916667,2130,Stratovolcano,2002,El Salvador
+1402-08=,San Pablo Volcano Field,Philippines,Anthropology,14.11666667,121.3,1090,Stratovolcano,1350,Luzon-Philippines
+1402-09=,San Pedro,Chile,Historical,-21.88333333,-68.4,6145,Stratovolcano,1960,Chile-N
+1402-10=,San Pedro-Pellado,Chile,Holocene,-35.98916667,-70.84944444,3621,Stratovolcano,unknown,Chile-C
+1402-111,San Quintin Volcano Field,Mexico,Holocene,30.46777778,-115.9963889,260,Cinder cone,unknown,Mexico
+1402-11=,San Salvador,El Salvador,Historical,13.73416667,-89.29388889,1893,Stratovolcano,unknown,El Salvador
+1402-121,San Vicente,El Salvador,Holocene,13.59527778,-88.8375,2182,Stratovolcano,unknown,El Salvador
+1402-12=,Sanbe,Japan,Radiocarbon,35.13333333,132.6166667,1126,Stratovolcano,-650,Honshu-Japan
+1402-13-,Sand Mountain Field,United States,Radiocarbon,44.38333333,-121.9333333,1664,Cinder cone,-70,US-Oregon
+1402-14-,Sanford,Alaska,Holocene,62.21666667,-144.1333333,4949,Shield volcano,unknown,Alaska-E
+1402-141,Sanganguey,Mexico,Holocene,21.45,-104.7333333,2340,Stratovolcano,unknown,Mexico
+1402-15-,Sangay,Ecuador,Historical,-2.0025,-78.34083333,5230,Stratovolcano,2011,Ecuador
+1402-16-,Sangeang Api,Indonesia,Historical,-8.2,119.0666667,1949,Complex volcano,1999,Lesser Sunda Islands
+1402-17-,Sano  Wai,Indonesia,Holocene,-8.716666667,120.0166667,903,Caldera,unknown,Lesser Sunda Islands
+1402-18-,Santa Ana,El Salvador,Historical,13.85333333,-89.63,2381,Stratovolcano,unknown,El Salvador
+1402-19-,Santa Clara,United States,Holocene,37.25694444,-113.625,1465,Volcano field,unknown,US-Utah
+1402-20-,Santa Cruz,Galapagos,Holocene,-0.616666667,-90.33333333,864,Shield volcano,unknown,Galapagos
+1402-21-,Santa isabel,Africa,Historical,3.583333333,8.75,3007,Shield volcano,1923,Africa-W
+1403-001,Santa isabel,Colombia,Radiocarbon,4.816666667,-75.36666667,4950,Shield volcano,1923,Colombia
+1403-002,Santa Maria,Guatemala,Historical,14.75583333,-91.55166667,3772,Stratovolcano,2011,Guatemala
+1403-01=,Santiago,Galapagos,Historical,-0.216666667,-90.76666667,920,Shield volcano,1906,Galapagos
+1403-02=,Santiago  Cerro,Guatemala,Holocene,14.33333333,-89.86666667,1192,Volcano field,unknown,Guatemala
+1403-03=,Santo Tomas,Philippines,Uncertain,16.33333333,120.55,2260,Stratovolcano,unknown,Luzon-Philippines
+1403-041,Santorini,Greece,Historical,36.40361111,25.39638889,367,Shield volcano,1950,Greece
+1403-051,Sao Tome,Africa,Holocene,0.2,6.583333333,2024,Shield volcano,unknown,Africa-W
+1403-052,Sao Vicente,Cape Verde,Holocene,16.85,-24.96666667,725,Stratovolcano,unknown,Cape Verde is
+1403-05=,Sara Sara,Peru,Holocene,-15.33333333,-73.45,5522,Stratovolcano,unknown,Peru
+1403-06=,Sarigan,Pacific Ocean,Holocene,16.70833333,145.7833333,538,Stratovolcano,unknown,Mariana is-C Pacific
+1403-071,Sarik-Gajah,Indonesia,Holocene,0.083333333,100.2,,Pyroclastic cone,unknown,Sumatra
+1403-072,Sarychev Peak,Russia,Historical,48.09166667,153.2,1496,Stratovolcano,2009,Kuril is
+1403-07=,Satah Mountain,Canada,Holocene,52.46666667,-124.7,1921,Volcano field,unknown,Canada
+1403-081,Savai'i,Pacific Ocean,Historical,-13.61166667,-172.525,1858,Shield volcano,1911,Samoa-SW Pacific
+1403-082,Savo,Pacific Ocean,Historical,-9.133333333,159.8166667,485,Stratovolcano,1847,Solomon is-SW Pacific
+1403-08=,Sawad  Harra es-,Arabia,Historical,13.58333333,46.11666667,1737,Volcano field,1253,Arabia-S
+1403-09=,Schmidt,Russia,Holocene,54.91666667,160.6333333,2020,Shield volcano,unknown,Kamchatka
+1403-101,Seal Nunataks Group,Antarctica,Uncertain,-65.03333333,-60.05,368,Pyroclastic cone,unknown,Antarctica
+1403-10=,Seamount X,Pacific Ocean,Fumarolic,13.25,144.0166667,-1230,Submarine volcano,1690,Mariana is-C Pacific
+1403-11=,Sedankinsky,Russia,Radiocarbon,57.26666667,160.0833333,1241,Shield volcano,-7050,Kamchatka
+1403-12=,Segererua Plateau,Africa,Holocene,1.566666667,37.9,699,Pyroclastic cone,unknown,Africa-E
+1403-13-,Seguam,Aleutian Islands,Historical,52.31527778,-172.5097222,1054,Stratovolcano,1993,Aleutian is
+1403-14-,Segula,Aleutian Islands,Holocene,52.01527778,178.1355556,1160,Stratovolcano,unknown,Aleutian is
+1403-15-,Sekincau Belirang,Indonesia,Fumarolic,-5.116666667,104.3166667,1719,Caldera,unknown,Sumatra
+1403-16-,Semeru,Indonesia,Historical,-8.108333333,112.9166667,3676,Stratovolcano,2011,Java
+1404-01=,Semisopochnoi,Aleutian Islands,Historical,51.93333333,179.5833333,1221,Stratovolcano,1873,Aleutian is
+1404-02=,Sempu,Indonesia,Fumarolic,1.133333333,124.7583333,1549,Caldera,unknown,Sulawesi-indonesia
+1404-04=,Serdan-Oriental,Mexico,Holocene,19.26666667,-97.46666667,3485,Tuff cone,unknown,Mexico
+1404-06-,Sergief,Aleutian Islands,Uncertain,52.05,-174.95,560,Stratovolcano,unknown,Aleutian is
+1404-07=,Serua,Indonesia,Historical,-6.3,130,641,Stratovolcano,1921,Banda Sea
+1404-08=,Sessagara,New Guinea,Holocene,-9.483333333,149.1333333,370,Pyroclastic cone,unknown,New Guinea
+1404-091,Sete Cidades,Portugal,Historical,37.86666667,-25.78333333,856,Stratovolcano,1880,Azores
+1404-092,Seulawah Agam,Indonesia,Historical,5.4475,95.65777778,1810,Stratovolcano,1839,Sumatra
+1404-09=,Severny,Russia,Radiocarbon,58.28333333,160.8666667,1936,Shield volcano,-1550,Kamchatka
+1404-101,Sharat Kovakab,Syria,Holocene,36.53333333,40.85,534,Volcano field,unknown,Syria
+1404-10=,Shasta,United States,Historical,41.40888889,-122.1933333,4317,Stratovolcano,1786,US-California
+1404-111,Shiga,Japan,Holocene,36.6875,138.5191667,2041,Shield volcano,unknown,Honshu-Japan
+1404-11=,Shikaribetsu Group,Japan,Holocene,43.31222222,143.0955556,1401,Lava dome,unknown,Hokkaido-Japan
+1404-12=,Shikotsu,Japan,Historical,42.68805556,141.3802778,1320,Caldera,1981,Hokkaido-Japan
+1404-13-,Shiretoko-iwo-zan,Japan,Historical,44.13083333,145.1652778,1563,Stratovolcano,1936,Hokkaido-Japan
+1404-131,Shirinki,Russia,Holocene,50.2,154.9833333,761,Stratovolcano,unknown,Kuril is
+1404-132,Shishaldin,Aleutian Islands,Historical,54.75555556,-163.9666667,2857,Stratovolcano,2004,Aleutian is
+1404-133,Shisheika,Russia,Radiocarbon,57.15,161.0833333,379,Lava dome,-2242,Kamchatka
+1404-14-,Shishel,Russia,Holocene,57.45,160.3666667,2525,Shield volcano,unknown,Kamchatka
+1405-01=,Shiveluch,Russia,Historical,56.65333333,161.36,3283,Stratovolcano,2011,Kamchatka
+1405-02=,Shoshone Lava Field,United States,Holocene,43.18333333,-114.35,1478,Shield volcano,-8400,US-idaho
+1405-031,Sibayak,Indonesia,Historical,3.233333333,98.51666667,2212,Stratovolcano,1881,Sumatra
+1405-033,Sibualbuali,Indonesia,Holocene,1.555555556,99.25527778,1819,Stratovolcano,unknown,Sumatra
+1405-034,Sikhote-Alin,Russia,Holocene,47,137.5,,Volcano field,unknown,Russia-SE
+1405-03=,Silali,Africa,Ar/Ar,1.15,36.23333333,1528,Shield volcano,-5050,Africa-E
+1405-04=,Silay,Philippines,Fumarolic,10.76666667,123.2333333,1510,Stratovolcano,unknown,Philippines-C
+1405-05=,Silver Lake,United States,Holocene,40.73055556,-121.8408333,1535,Cinder cone,unknown,US-California
+1405-06=,Silverthrone,Canada,Holocene,51.43333333,-126.3,3160,Caldera,unknown,Canada
+1405-07=,Simbo,Pacific Ocean,Anthropology,-8.291666667,156.5166667,335,Stratovolcano,1910,Solomon is-SW Pacific
+1406-01-,Sinabung,Indonesia,Holocene,3.166666667,98.39166667,2460,Stratovolcano,2010,Sumatra
+1406-03-,Sinarka,Russia,Historical,48.875,154.175,934,Stratovolcano,1878,Kuril is
+1501-011,Singu Plateau,Myanmar,Holocene,22.7,95.98333333,507,Fissure vent,unknown,Myanmar
+1501-012,Singuil  Cerro,El Salvador,Holocene,14.05,-89.65,957,Cinder cone,unknown,El Salvador
+1501-021,Siple,Antarctica,Holocene,-73.43333333,-126.6666667,3110,Shield volcano,unknown,Antarctica
+1501-02=,Sirung,Indonesia,Historical,-8.508333333,124.1333333,862,Complex volcano,1970,Lesser Sunda Islands
+1501-03=,Slamet,Indonesia,Historical,-7.241666667,109.2083333,3428,Stratovolcano,2009,Java
+1501-04=,Smirnov,Russia,Holocene,44.41972222,146.1347222,1189,Stratovolcano,unknown,Kuril is
+1501-05=,Smith Rock,Japan,Historical,31.43583333,140.0536111,136,Submarine volcano,1916,izu is-Japan
+1501-061,Snaefellsjokull,Iceland,Radiocarbon,64.8,-23.78333333,1448,Stratovolcano,-200,Iceland-W
+1501-062,Snegovoy,Russia,Holocene,58.2,160.9666667,2169,Shield volcano,unknown,Kamchatka
+1501-06=,Snezhniy,Russia,Holocene,58.01666667,160.8,2169,Shield volcano,unknown,Kamchatka
+1501-07=,Snowy Mountain,Alaska,Radiocarbon,58.33555556,-154.6819444,2162,Stratovolcano,1710,Alaska Peninsula
+1501-08=,Soche,Ecuador,Radiocarbon,0.552222222,-77.57972222,3955,Stratovolcano,-6650,Ecuador
+1501-09=,Socompa,Chile,Radiocarbon,-24.4,-68.25,6051,Stratovolcano,unknown,Chile-N
+1501-10=,Socorro,Mexico,Historical,18.78333333,-110.95,1050,Shield volcano,1994,Mexico-is
+1501-11=,Soda Lakes,United States,Holocene,39.53333333,-118.8666667,1251,Maar,unknown,US-Nevada
+1502-001,Sodore,Ethiopia,Holocene,8.433333333,39.35,1765,Pyroclastic cone,unknown,Ethiopia
+1502-002,Sofugan,Japan,Uncertain,29.78944444,140.3452778,99,Stratovolcano,unknown,izu is-Japan
+1502-003,Sollipulli,Chile,Radiocarbon,-38.96666667,-71.51666667,2282,Caldera,1240,Chile-C
+1502-004,Solo  El,Chile,Holocene,-27.10833333,-68.71666667,6190,Stratovolcano,unknown,Chile-N
+1502-005,Soputan,Indonesia,Historical,1.108333333,124.7333333,1784,Stratovolcano,2011,Sulawesi-indonesia
+1502-006,Sorikmarapi,Indonesia,Historical,0.685833333,99.53944444,2145,Stratovolcano,1986,Sumatra
+1502-011,Sork Ale,Ethiopia,Holocene,13.18333333,41.725,1611,Stratovolcano,unknown,Ethiopia
+1502-01=,Sotara,Colombia,Holocene,2.108333333,-76.59166667,4400,Stratovolcano,unknown,Colombia
+1502-021,Soufriere Guadeloupe,British West Indies,Historical,16.05,-61.66666667,1467,Stratovolcano,1977,British West Indies
+1502-022,Soufriere Hills,British West Indies,Historical,16.71666667,-62.18333333,915,Stratovolcano,1630,British West Indies
+1502-02=,Soufriere St. Vincent,British West Indies,Historical,13.33333333,-61.18333333,1220,Stratovolcano,unknown,British West Indies
+1502-03=,South island,Africa,Historical,2.633333333,36.6,800,Stratovolcano,1888,Africa-E
+1502-041,South Sister,United States,Radiocarbon,44.10277778,-121.7683333,3157,Complex volcano,-50,US-Oregon
+1502-04=,Southern EPR-Segment I,Pacific Ocean,Magnetism,-18.53333333,-113.4166667,-2600,Submarine volcano,1915,Pacific-E
+1502-05=,Southern EPR-Segment J,Pacific Ocean,Magnetism,-18.175,-113.35,-2650,Submarine volcano,1890,Pacific-E
+1502-06=,Southern EPR-Segment K,Pacific Ocean,Historical,-17.43611111,-113.2061111,-2566,Submarine volcano,1990,Pacific-E
+1502-071,Spectrum Range,Canada,Holocene,57.43333333,-130.6833333,2430,Shield volcano,unknown,Canada
+1502-081,Spokoiny,Russia,Radiocarbon,58.13333333,160.8166667,2171,Stratovolcano,-3450,Kamchatka
+1502-08=,Spurr,Alaska,Historical,61.29944444,-152.2511111,3374,Stratovolcano,1992,Alaska-SW
+1502-09=,Squaw Ridge Lava Field,United States,Holocene,43.47222222,-120.7536111,1711,Volcano field,unknown,US-Oregon
+1503-011,Srednii,Russia,Holocene,47.6,152.9166667,36,Submarine volcano,unknown,Kuril is
+1503-01=,St. Andrew Strait,Pacific Ocean,Historical,-2.383333333,147.35,270,Complex volcano,1957,Admiralty is-SW Pacific
+1503-02=,St. Catherine,British West Indies,Holocene,12.15,-61.66666667,840,Stratovolcano,unknown,British West Indies
+1503-03=,St. Helens,United States,Historical,46.2,-122.1833333,2549,Stratovolcano,2008,US-Washington
+1503-04=,St. Michael,Alaska,Anthropology,63.45,-162.1166667,715,Shield volcano,unknown,Alaska-W
+1503-05=,St. Paul,Indian Ocean,Historical,-38.71666667,77.53333333,268,Stratovolcano,1793,Indian O.-S
+1503-06=,St. Paul island,Alaska,Radiocarbon,57.18333333,-170.3,203,Shield volcano,-1280,Alaska-W
+1503-07=,Steller,Alaska,Holocene,58.43333333,-154.4,2272,Stratovolcano,unknown,Alaska Peninsula
+1503-081,Stepovak Bay 2,Alaska,Holocene,55.9125,-160.0408333,1323,Cinder cone,unknown,Alaska Peninsula
+1503-08=,Stepovak Bay 3,Alaska,Holocene,55.92916667,-160.0019444,1555,Cinder cone,unknown,Alaska Peninsula
+1503-091,Stepovak Bay 4,Alaska,Pleistocene,55.95416667,-159.9541667,1557,Stratovolcano,unknown,Alaska Peninsula
+1503-09=,Stromboli,Italy,Historical,38.78944444,15.21305556,924,Stratovolcano,2011,Italy
+1503-12-,Sturge island,Antarctica,Uncertain,-67.4,164.8333333,1167,Stratovolcano,unknown,Antarctica
+1504-00-,Suchitan,Guatemala,Holocene,14.4,-89.78333333,2042,Stratovolcano,unknown,Guatemala
+1504-001,Suiyo Seamount,Japan,Fumarolic,28.6,140.6333333,-1418,Submarine volcano,unknown,izu is-Japan
+1504-002,Sukaria Caldera,Indonesia,Fumarolic,-8.791666667,121.7666667,1500,Caldera,unknown,Lesser Sunda Islands
+1504-003,Sulu Range,Papua New Guinea,Fumarolic,-5.5,150.9416667,610,Stratovolcano,unknown,New Britain-SW Pac
+1504-004,Sumaco,Ecuador,Historical,-0.538055556,-77.62583333,3990,Stratovolcano,1895,Ecuador
+1504-005,Sumbing,Indonesia,Historical,-2.414166667,101.7275,2507,Stratovolcano,1921,Sumatra
+1504-006,Sumbing,Indonesia,Historical,-7.384166667,110.0702778,3371,Stratovolcano,1730,Java
+1504-007,Sumiyoshi-ike,Japan,Radiocarbon,31.76833333,130.5941667,15,Maar,-6200,Kyushu-Japan
+1504-008,Sundoro,Indonesia,Historical,-7.3,109.9916667,3136,Stratovolcano,1971,Java
+1504-01=,Sunset Crater,United States,Dendrochronology,35.36666667,-111.5,2447,Cinder cone,1075,US-Arizona
+1504-02=,Suoh,Indonesia,Historical,-5.25,104.2666667,1000,Caldera,1933,Sumatra
+1504-031,Suphan Dagi,Turkey,Holocene,38.91666667,42.81666667,4158,Stratovolcano,-8050,Turkey
+1504-03=,Supply Reef,Pacific Ocean,Hydrophonic,20.13333333,145.1,-8,Submarine volcano,1989,Mariana is-C Pacific
+1504-04=,Suretamatai,Pacific Ocean,Historical,-13.8,167.4666667,921,Complex volcano,1966,Vanuatu-SW Pacific
+1504-05-,Suswa,Africa,Holocene,-1.175,36.35,2356,Shield volcano,unknown,Africa-E
+1504-06-,Suwanose-jima,Japan,Historical,29.63472222,129.7161111,799,Stratovolcano,2011,Ryukyu is
+1505-011,SW Usangu Basin,Africa,Holocene,-8.75,33.8,2179,Lava dome,unknown,Africa-E
+1505-012,Taal,Philippines,Historical,14.00166667,120.9933333,311,Caldera,1977,Luzon-Philippines
+1505-01=,Taapaca,Chile,Radiocarbon,-18.1,-69.5,5860,Complex volcano,-320,Chile-N
+1505-021,Taburete,El Salvador,Holocene,13.435,-88.53194444,1172,Stratovolcano,unknown,El Salvador
+1505-02=,Tacana,Mexico,Historical,15.13,-92.1125,4060,Stratovolcano,1986,Mexico
+1505-032,Tacora,Chile,Fumarolic,-17.71666667,-69.76666667,5980,Stratovolcano,unknown,Chile-N
+1505-035,Tafahi,Pacific Ocean,Holocene,-15.85,-173.7166667,560,Stratovolcano,unknown,Tonga-SW Pacific
+1505-036,Taftan,Iran,Holocene,28.6,61.13333333,3940,Stratovolcano,unknown,Iran
+1505-03=,Tafu-Maka,Pacific Ocean,Historical,-15.36666667,-174.2333333,-1400,Submarine volcano,2008,Tonga-SW Pacific
+1505-042,Tahalra Volcano Field,Africa,Holocene,22.66666667,5,1467,Pyroclastic cone,unknown,Africa-N
+1505-04=,Tahual,Guatemala,Holocene,14.43333333,-89.9,1716,Stratovolcano,unknown,Guatemala
+1505-05=,Tair  Jebel at,Red Sea,Historical,15.55,41.83333333,244,Stratovolcano,2008,Red Sea
+1505-061,Tajumulco,Guatemala,Holocene,15.03444444,-91.90333333,4220,Stratovolcano,unknown,Guatemala
+1505-06=,Takahara,Japan,Holocene,36.89694444,139.78,1795,Stratovolcano,-4570,Honshu-Japan
+1505-07=,Takahe,Antarctica,ice Core,-76.28333333,-112.0833333,3460,Shield volcano,-5550,Antarctica
+1505-091,Takawangha,Aleutian Islands,Radiocarbon,51.87277778,-178.0055556,1449,Stratovolcano,1550,Aleutian is
+1505-092,Takuan Group,Pacific Ocean,Holocene,-6.441666667,155.6083333,2210,Compound volcano,unknown,Bougainville-SW Pacific
+1505-093,Talagabodas,Indonesia,Fumarolic,-7.208333333,108.0666667,2201,Stratovolcano,unknown,Java
+1505-094,Talakmau,Indonesia,Holocene,0.079166667,99.98333333,2919,Complex volcano,unknown,Sumatra
+1505-095,Talang,Indonesia,Historical,-0.978333333,100.6794444,2597,Stratovolcano,2007,Sumatra
+1505-096,Tambo Quemado,Bolivia,Holocene,-18.61666667,-68.75,4215,Pyroclastic shield,unknown,Bolivia
+1505-097,Tambora,Indonesia,Historical,-8.25,118,2850,Stratovolcano,1967,Lesser Sunda Islands
+1505-098,Tampomas,Indonesia,Holocene,-6.766666667,107.95,1684,Stratovolcano,unknown,Java
+1505-09=,Tana,Aleutian Islands,Holocene,52.83333333,-169.7666667,1170,Stratovolcano,unknown,Aleutian is
+1505-101,Tanaga,Aleutian Islands,Historical,51.885,-178.1458333,1806,Stratovolcano,1914,Aleutian is
+1505-102,Tandikat,Indonesia,Historical,-0.432777778,100.3172222,2438,Stratovolcano,1924,Sumatra
+1505-103,Tangaroa,New Zealand,Fumarolic,-36.32083333,178.0283333,600,Submarine volcano,unknown,New Zealand
+1505-104,Tangkubanparahu,Indonesia,Historical,-6.766666667,107.6,2084,Stratovolcano,1983,Java
+1505-105,Tao-Rusyr Caldera,Russia,Historical,49.35,154.7,1325,Stratovolcano,1952,Kuril is
+1505-106,Tara  Batu,Indonesia,Historical,-7.791666667,123.5791667,748,Stratovolcano,2010,Lesser Sunda Islands
+1505-107,Tarakan,Indonesia,Holocene,1.833333333,127.8333333,318,Pyroclastic cone,unknown,Halmahera-indonesia
+1505-108,Taranaki [Egmont],New Zealand,Historical,-39.3,174.0666667,2518,Stratovolcano,1854,New Zealand
+1505-109,Taryatu-Chulutu,Mongolia,Radiocarbon,48.16666667,99.7,2400,Volcano field,-2980,Mongolia
+1505-10=,Tat Ali,Ethiopia,Holocene,13.28333333,41.06666667,700,Shield volcano,unknown,Ethiopia
+1505-112,Tata Sabaya,Bolivia,Holocene,-19.13333333,-68.53333333,5430,Stratovolcano,unknown,Bolivia
+1505-11=,Tate-yama,Japan,Historical,36.56805556,137.5927778,2621,Stratovolcano,1839,Honshu-Japan
+1505-121,Tatun Group,Taiwan,Radiocarbon,25.16666667,121.5166667,1120,Lava dome,-4100,Taiwan
+1505-122,Ta'u,Pacific Ocean,Holocene,-14.23333333,-169.4541667,931,Shield volcano,unknown,Samoa-SW Pacific
+1505-123,Taunshits,Russia,Radiocarbon,54.53333333,159.8,2353,Stratovolcano,-550,Kamchatka
+1505-124,Taupo,New Zealand,Radiocarbon,-38.81666667,176,760,Caldera,-260,New Zealand
+1505-125,Taveuni,Pacific Ocean,Radiocarbon,-16.81666667,-179.9666667,1241,Shield volcano,1550,Fiji is-SW Pacific
+1505-12=,Tavui,Papua New Guinea,Radiocarbon,-4.116666667,152.2,200,Caldera,-5150,New Britain-SW Pac
+1505-131,Teahitia,Pacific Ocean,Seismicity,-17.56666667,-148.85,-1400,Submarine volcano,1985,Society is-C Pacific
+1505-13=,Tecapa,El Salvador,Holocene,13.49388889,-88.50222222,1593,Stratovolcano,unknown,El Salvador
+1505-14-,Tecuamburro,Guatemala,Radiocarbon,14.15611111,-90.40694444,1845,Stratovolcano,-960,Guatemala
+1505-15-,Telica,Nicaragua,Historical,12.6025,-86.845,1061,Stratovolcano,2011,Nicaragua
+1505-16-,Telomoyo,Indonesia,Holocene,-7.366666667,110.4,1894,Stratovolcano,unknown,Java
+1505-18-,Telong  Bur ni,Indonesia,Historical,4.768888889,96.82111111,2617,Stratovolcano,1937,Sumatra
+1505-19-,Tendurek Dagi,Turkey,Historical,39.36666667,43.86666667,3584,Shield volcano,1855,Turkey
+1505-20-,Tenerife,Canary Islands,Historical,28.27138889,-16.64083333,3715,Stratovolcano,1909,Canary is
+1505-21-,Tengchong,China,Uranium-series,25.23333333,98.5,2865,Pyroclastic cone,-5750,China
+1505-22-,Tengger Caldera,Indonesia,Historical,-7.941666667,112.95,2329,Stratovolcano,2011,Java
+1506-011,Tenorio,Costa Rica,Holocene,10.67277778,-85.015,1916,Stratovolcano,unknown,Costa Rica
+1506-01=,Teon,Indonesia,Historical,-6.916666667,129.125,655,Stratovolcano,1904,Banda Sea
+1506-02=,Tepi,Ethiopia,Holocene,7.416666667,35.43333333,2728,Shield volcano,unknown,Ethiopia
+1507-01=,Terceira,Portugal,Historical,38.73333333,-27.31666667,1023,Stratovolcano,2000,Azores
+1507-021,Terpuk,Russia,Radiocarbon,57.2,159.8333333,765,Shield volcano,-800,Kamchatka
+1507-022,Theistareykjarbunga,Iceland,Tephrochronology,65.88333333,-16.83333333,564,Shield volcano,-900,Iceland-NE
+1507-023,Thompson island,Atlantic Ocean,Uncertain,-53.93333333,5.5,,Submarine volcano,unknown,Atlantic-S
+1507-024,Thule islands,Antarctica,Historical,-59.45,-27.36666667,1075,Stratovolcano,1975,Antarctica
+1507-02=,Tianshan Volcano Group,China,Historical,42.5,82.5,,Volcano field,unknown,China-W
+1507-03=,Tiatia,Russia,Historical,44.35083333,146.2563889,1819,Stratovolcano,1981,Kuril is
+1507-041,Ticsani,Peru,Tephrochronology,-16.755,-70.595,5408,Lava dome,1800,Peru
+1507-042,Tidore,Indonesia,Holocene,0.658333333,127.4,1730,Stratovolcano,unknown,Halmahera-indonesia
+1507-04=,Tigalalu,Indonesia,Holocene,0.066666667,127.4166667,422,Stratovolcano,unknown,Halmahera-indonesia
+1507-05=,Tigre  El,El Salvador,Holocene,13.46666667,-88.43333333,1640,Stratovolcano,unknown,El Salvador
+1507-061,Tigre  isla el,Honduras,Holocene,13.27222222,-87.64055556,783,Stratovolcano,unknown,Honduras
+1507-062,Tilocalar,Chile,Holocene,-23.96666667,-68.13333333,3116,Stratovolcano,unknown,Chile-N
+1507-063,Tin Zaouatene Volcano Field,Africa,Holocene,19.83333333,2.833333333,,Volcano field,unknown,Africa-N
+1507-064,Tinakula,Pacific Ocean,Historical,-10.38333333,165.8,851,Stratovolcano,2011,Santa Cruz is-SW Pacific
+1507-065,Tindfjallajokull,Iceland,Holocene,63.78333333,-19.56666667,1463,Stratovolcano,unknown,Iceland-S
+1507-066,Tinguiririca,Chile,Historical,-34.81361111,-70.35194444,4280,Stratovolcano,1917,Chile-C
+1507-067,Tipas,Argentina,Holocene,-27.2,-68.55,6660,Complex volcano,unknown,Argentina
+1507-06=,Titila,Russia,Radiocarbon,57.4,160.1,1559,Shield volcano,-550,Kamchatka
+1507-071,Tjornes Fracture Zone,Iceland,Historical,66.3,-17.1,,Submarine volcano,1868,Iceland-N
+1507-072,Tlevak Strait-Suemez is.,Alaska,Holocene,55.25,-133.3,50,Volcano field,unknown,Alaska-E
+1507-073,Toba,Indonesia,Holocene,2.583333333,98.83333333,2157,Caldera,unknown,Sumatra
+1507-07=,Todoko-Ranu,Indonesia,Holocene,1.25,127.4666667,979,Caldera,unknown,Halmahera-indonesia
+1507-081,Todra Volcano Field,Africa,Holocene,17.68333333,8.5,1780,Cinder cone,unknown,Africa-N
+1507-08=,Tofua,Pacific Ocean,Historical,-19.75,-175.0666667,515,Caldera,2011,Tonga-SW Pacific
+1507-091,Toh  Tarso,Africa,Holocene,21.33333333,16.33333333,2000,Volcano field,unknown,Africa-N
+1507-092,Tokachi,Japan,Historical,43.41555556,142.6902778,2077,Stratovolcano,2004,Hokkaido-Japan
+1507-093,Tolbachik,Russia,Historical,55.83,160.33,3682,Shield volcano,1976,Kamchatka
+1507-09=,Tolguaca,Chile,Holocene,-38.31,-71.645,2806,Stratovolcano,unknown,Chile-C
+1507-101,Tolima  Nevado del,Colombia,Historical,4.666666667,-75.33333333,5200,Stratovolcano,unknown,Colombia
+1507-10=,Toliman,Guatemala,Holocene,14.6125,-91.18916667,3158,Stratovolcano,unknown,Guatemala
+1507-111,Tolmachev Dol,Russia,Radiocarbon,52.63333333,157.5833333,1021,Cinder cone,-300,Kamchatka
+1507-112,Toluca  Nevado de,Mexico,Radiocarbon,19.10833333,-99.75833333,4680,Stratovolcano,-1350,Mexico
+1507-11=,Tombel Graben,Africa,Holocene,4.75,9.666666667,500,Cinder cone,unknown,Africa-W
+1507-121,Tondano Caldera,Indonesia,Fumarolic,1.233333333,124.8333333,1202,Caldera,unknown,Sulawesi-indonesia
+1507-122,Toney Mountain,Antarctica,Holocene,-75.8,-115.8333333,3595,Shield volcano,unknown,Antarctica
+1507-123,Tongariro,New Zealand,Historical,-39.13333333,175.6416667,1978,Stratovolcano,1977,New Zealand
+1507-12=,Tongkoko,Indonesia,Historical,1.516666667,125.2,1149,Stratovolcano,1880,Sulawesi-indonesia
+1507-13=,Tore,Pacific Ocean,Holocene,-5.833333333,154.9333333,2200,Lava cone,unknown,Bougainville-SW Pacific
+1507-14=,Torfajokull,Iceland,Historical,63.91666667,-19.16666667,1259,Stratovolcano,1477,Iceland-S
+1507-152,Tori-shima,Japan,Historical,30.48,140.3061111,394,Stratovolcano,2002,izu is-Japan
+1507-153,Toroeng Prong,Vietnam,Holocene,14.93333333,108,800,Cinder cone,unknown,Vietnam
+1507-15=,Tortuga  isla,Mexico,Holocene,27.43333333,-111.8833333,210,Shield volcano,unknown,Mexico
+1507-16-,Tosa Sucha,Ethiopia,Holocene,5.933333333,37.56666667,1650,Cinder cone,unknown,Ethiopia
+1508-011,To-shima,Japan,Tephrochronology,34.51694444,139.2825,508,Stratovolcano,-4550,izu is-Japan
+1508-012,Tousside  Tarso,Africa,Holocene,21.03333333,16.45,3265,Stratovolcano,unknown,Africa-N
+1508-01=,Towada,Japan,Historical,40.46666667,140.9166667,1159,Caldera,-915,Honshu-Japan
+1508-021,Traitor's Head,Pacific Ocean,Historical,-18.75,169.2333333,837,Stratovolcano,1881,Vanuatu-SW Pacific
+1508-022,Tralihue,Argentina,Holocene,-38.51666667,-70.9,,Stratovolcano,unknown,Argentina
+1508-023,Tres Virgenes,Mexico,Holocene,27.46972222,-112.5911111,1940,Stratovolcano,unknown,Mexico
+1508-024,Tri Sestry,Russia,Holocene,45.93333333,149.9166667,998,Stratovolcano,unknown,Kuril is
+1508-025,Trident,Alaska,Historical,58.23555556,-155.1,1864,Stratovolcano,1974,Alaska Peninsula
+1508-02=,Trindade,Atlantic Ocean,Holocene,-20.51444444,-29.33055556,600,Stratovolcano,unknown,Atlantic-C
+1508-03=,Tristan da Cunha,Atlantic Ocean,Historical,-37.09166667,-12.28333333,2060,Shield volcano,1962,Atlantic-S
+1508-041,Trocon,Argentina,Holocene,-37.73333333,-70.9,2500,Lava dome,unknown,Argentina
+1508-04=,Trois Pitons  Morne,British West Indies,Radiocarbon,15.36666667,-61.33333333,1387,Complex volcano,-920,British West Indies
+1508-050,Tromen,Argentina,Historical,-37.14166667,-70.03333333,3978,Stratovolcano,1822,Argentina
+1508-051,Tronador,Chile,Holocene,-41.15694444,-71.88472222,3491,Stratovolcano,unknown,Chile-S
+1508-052,Tseax River Cone,Canada,Radiocarbon,55.11666667,-128.9,609,Pyroclastic cone,1690,Canada
+1508-053,Tshibinda,Africa,Holocene,-2.316666667,28.75,1460,Cinder cone,unknown,Africa-C
+1508-054,Tskhouk-Karckar,Armenia,Tephrochronology,39.73333333,46.01666667,3000,Pyroclastic cone,-3000,Armenia
+1508-055,Tsurumi,Japan,Historical,33.28333333,131.4322222,1584,Lava dome,-867,Kyushu-Japan
+1508-056,Tujle  Cerro,Chile,Holocene,-23.83333333,-67.95,3550,Maar,unknown,Chile-N
+1508-057,Tullu Moje,Ethiopia,Anthropology,8.158333333,39.13333333,2349,Pumice cone,1900,Ethiopia
+1508-058,Tumble Buttes,United States,Holocene,40.68333333,-121.55,2191,Cinder cone,unknown,US-California
+1508-059,Tungnafellsjokull,Iceland,Holocene,64.73333333,-17.91666667,1535,Stratovolcano,unknown,Iceland-NE
+1508-05=,Tungurahua,Ecuador,Historical,-1.466944444,-78.44166667,5023,Stratovolcano,2011,Ecuador
+1508-061,Tunkin Depression,Russia,Holocene,51.5,102.5,1200,Volcano field,unknown,Russia-SE
+1508-062,Tupungatito,Chile,Historical,-33.4,-69.8,6000,Stratovolcano,1987,Chile-C
+1508-063,Turfan,China,Historical,42.9,89.25,,Cone,unknown,China-W
+1508-06=,Turrialba,Costa Rica,Historical,10.025,-83.76694444,3340,Stratovolcano,2011,Costa Rica
+1508-07=,Tutuila,Pacific Ocean,Holocene,-14.295,-170.7,653,Tuff cone,unknown,Samoa-SW Pacific
+1508-08-,Tutupaca,Peru,Holocene,-17.02527778,-70.35833333,5815,Stratovolcano,unknown,Peru
+1508-09-,Tuya Volcano Field,Canada,Holocene,59.36666667,-130.5833333,2123,Volcano field,unknown,Canada
+1600-01=,Tuzgle  Cerro,Argentina,Holocene,-24.05,-66.48333333,5500,Stratovolcano,unknown,Argentina
+1600-02=,Tuzovsky,Russia,Holocene,57.31666667,159.9666667,1533,Shield volcano,unknown,Kamchatka
+1600-03=,Twin Buttes,United States,Holocene,40.7775,-121.5905556,1631,Cinder cone,unknown,US-California
+1600-04=,Ubehebe Craters,United States,Anthropology,37.01666667,-117.45,752,Maar,-4050,US-California
+1600-05=,Ubinas,Peru,Historical,-16.355,-70.90305556,5672,Stratovolcano,2009,Peru
+1600-06=,Udina,Russia,Holocene,55.755,160.5266667,2923,Stratovolcano,unknown,Kamchatka
+1600-08=,Udokan Plateau,Russia,Radiocarbon,56.28333333,117.7666667,2180,Pyroclastic cone,-220,Russia-SE
+1600-09=,Ugashik-Peulik,Alaska,Historical,57.75083333,-156.3680556,1474,Stratovolcano,1814,Alaska Peninsula
+1600-101,Uinkaret Field,United States,Anthropology,36.38333333,-113.1333333,1555,Volcano field,1100,US-Arizona
+1600-10=,Uka,Russia,Holocene,57.7,160.5833333,1643,Shield volcano,unknown,Kamchatka
+1600-11=,Ukinrek Maars,Alaska,Historical,57.83166667,-156.5097222,91,Maar,1977,Alaska Peninsula
+1600-12=,Uksichan,Russia,Holocene,56.08333333,158.3833333,1692,Shield volcano,unknown,Kamchatka
+1600-14=,Ulawun,Papua New Guinea,Historical,-5.05,151.3333333,2334,Stratovolcano,2011,New Britain-SW Pac
+1600-15=,Uliaga,Aleutian Islands,Holocene,53.065,-169.7666667,888,Stratovolcano,unknown,Aleutian is
+1600-16=,Ulreung,Korea,Radiocarbon,37.5,130.8666667,984,Stratovolcano,-2990,Korea
+1600-17=,Umboi,Papua New Guinea,Holocene,-5.588888889,147.875,1548,Complex volcano,unknown,New Guinea-NE of
+1700-01=,Umm Arafieb  Jebel,Africa,Holocene,18.16666667,33.83333333,,Shield volcano,unknown,Africa-N
+1700-02=,Ungaran,Indonesia,Holocene,-7.183333333,110.3333333,2050,Stratovolcano,unknown,Java
+1700-03=,Unzen,Japan,Historical,32.75666667,130.2944444,1500,Complex volcano,1996,Kyushu-Japan
+1701-02=,Upolu,Pacific Ocean,Holocene,-13.935,-171.7166667,1100,Shield volcano,unknown,Samoa-SW Pacific
+1701-03=,Urataman,Russia,Holocene,47.11666667,152.25,678,Somma volcano,unknown,Kuril is
+1701-04=,Ushishur,Russia,Historical,47.51666667,152.8,401,Caldera,1884,Kuril is
+1701-051,Ushkovsky,Russia,Historical,56.07027778,160.47,3943,Compound volcano,1890,Kamchatka
+1701-05=,Usu,Japan,Historical,42.54138889,140.8427778,737,Stratovolcano,2001,Hokkaido-Japan
+1701-06=,Usulutan,El Salvador,Holocene,13.41888889,-88.47055556,1449,Stratovolcano,unknown,El Salvador
+1701-07=,Utila island,Honduras,Holocene,16.1,-86.9,74,Pyroclastic cone,unknown,Honduras
+1701-08=,Uwayrid  Harrat,Arabia,Anthropology,27.08333333,37.25,1920,Volcano field,-640,Arabia-W
+1701-09=,Uzon,Russia,Radiocarbon,54.5,159.9666667,1617,Caldera,-200,Kamchatka
+1702-01=,Vailulu'u,Pacific Ocean,Historical,-14.215,-169.0583333,-592,Submarine volcano,2003,Samoa-SW Pacific
+1702-02=,Vakak Group,Afghanistan,Holocene,34.25,67.96666667,3190,Volcano field,unknown,Afghanistan
+1702-03=,Valle  El,Panama,Holocene,8.583333333,-80.16666667,1185,Stratovolcano,unknown,Panama
+1702-04=,Veer,Russia,Tephrochronology,53.75,158.45,520,Cinder cone,-390,Kamchatka
+1702-05=,Veniaminof,Alaska,Historical,56.16666667,-159.3833333,2507,Stratovolcano,2008,Alaska Peninsula
+1702-07=,Verkhovoy,Russia,Holocene,56.51666667,159.5333333,1400,Shield volcano,unknown,Kamchatka
+1703-01=,Vernadskii Ridge,Russia,Holocene,50.55,155.9666667,1183,Cinder cone,unknown,Kuril is
+1703-03=,Vestmannaeyjar,Iceland,Historical,63.43333333,-20.28333333,279,Submarine volcano,1973,Iceland-S
+1703-04=,Vesuvius,Italy,Historical,40.82138889,14.42611111,1281,Somma volcano,1944,Italy
+1703-05=,Veteran,Vietnam,Fumarolic,9.833333333,109.05,,Submarine volcano,unknown,Vietnam
+1703-06=,Victory,New Guinea,Historical,-9.2,149.0666667,1925,Stratovolcano,1935,New Guinea
+1703-07=,Viedma,Argentina,Historical,-49.35833333,-73.28333333,1500,Subglacial volcano,1988,Argentina
+1703-08=,Villarrica,Chile,Historical,-39.41666667,-71.93333333,2847,Stratovolcano,2011,Chile-C
+1703-09=,Vilyuchik,Russia,Tephrochronology,52.7,158.2833333,2173,Stratovolcano,-8050,Kamchatka
+1703-10=,Visoke,Africa,Historical,-1.466666667,29.49166667,3711,Stratovolcano,1957,Africa-C
+1704-01=,Visokiy,Russia,Holocene,52.43333333,157.9333333,1234,Stratovolcano,unknown,Kamchatka
+1704-02=,Vitim Plateau,Russia,Holocene,53.7,113.3,1250,Cinder cone,unknown,Russia-SE
+1705-01=,Voon  Tarso,Africa,Fumarolic,20.91666667,17.28333333,3100,Stratovolcano,unknown,Africa-N
+1706-01=,Voyampolsky,Russia,Holocene,58.36666667,160.6166667,1225,Shield volcano,unknown,Kamchatka
+1802-001,Vsevidof,Aleutian Islands,Historical,53.13,-168.6930556,2149,Stratovolcano,1878,Aleutian is
+1802-002,Vulcano,Italy,Historical,38.40361111,14.96166667,500,Stratovolcano,1890,Italy
+1802-01=,Vulsini,Italy,Historical,42.6,11.93333333,800,Caldera,-104,Italy
+1802-02=,Vysoky,Russia,Radiocarbon,55.06666667,160.7666667,2161,Stratovolcano,-550,Kamchatka
+1802-03=,Waesche,Antarctica,Holocene,-77.16666667,-126.8833333,3292,Shield volcano,unknown,Antarctica
+1802-04=,Waiowa,New Guinea,Historical,-9.566666667,149.075,640,Pyroclastic cone,1944,New Guinea
+1802-05=,Wallis islands,Pacific Ocean,Holocene,-13.3,-176.1666667,143,Shield volcano,unknown,SW Pacific
+1802-07=,Wapi Lava Field,United States,Radiocarbon,42.88333333,-113.2166667,1604,Shield volcano,-300,US-idaho
+1802-081,Washiba-Kumonotaira,Japan,Holocene,36.40805556,137.5941667,2924,Shield volcano,unknown,Honshu-Japan
+1802-08=,Watt  Morne,British West Indies,Historical,15.30666667,-61.305,1224,Stratovolcano,1997,British West Indies
+1802-09=,Wau-en-Namus,Africa,Holocene,25.05,17.55,547,Caldera,unknown,Africa-N
+1802-10=,Wayang-Windu,Indonesia,Fumarolic,-7.208333333,107.6333333,2182,Lava dome,unknown,Java
+1802-11=,Wells Gray-Clearwater,Canada,Dendrochronology,52.33333333,-120.5666667,2015,Cinder cone,1550,Canada
+1802-12-,West Crater,United States,Radiocarbon,45.88333333,-122.0833333,1329,Volcano field,-5750,US-Washington
+1803-01-,West Eifel Volcano Field,Germany,Radiocarbon,50.16666667,6.85,600,Maar,-8300,Germany
+1803-02-,West Mata,Pacific Ocean,Historical,-15.1,-173.75,-1174,Submarine volcano,2009,Tonga-SW Pacific
+1803-03-,Westdahl,Aleutian Islands,Historical,54.51833333,-164.65,1654,Stratovolcano,1992,Aleutian is
+1803-04-,Whangarei,New Zealand,Holocene,-35.75,174.2666667,397,Cinder cone,unknown,New Zealand
+1803-05-,White island,New Zealand,Historical,-37.51666667,177.1833333,321,Stratovolcano,2001,New Zealand
+1803-06-,Wilis,Indonesia,Holocene,-7.808333333,111.7583333,2563,Stratovolcano,unknown,Java
+1804-01=,Wolf,Galapagos,Historical,0.016666667,-91.35,1710,Shield volcano,1982,Galapagos
+1804-02-,Wrangell,Alaska,Historical,62,-144.0166667,4317,Shield volcano,2002,Alaska-E
+1804-03-,Wudalianchi,China,Historical,48.71666667,126.1166667,597,Volcano field,1776,China-E
+1805-05-,Wurlali,Indonesia,Historical,-7.125,128.675,868,Stratovolcano,1892,Banda Sea
+1805-051,Yake-dake,Japan,Historical,36.22361111,137.59,2455,Stratovolcano,1995,Honshu-Japan
+1806-011,Yali,Greece,Holocene,36.67055556,27.13972222,180,Lava dome,unknown,Greece
+1806-01=,Yangudi,Ethiopia,Holocene,10.58333333,41.04166667,1383,Complex volcano,unknown,Ethiopia
+1806-02-,Yantarni,Alaska,Tephrochronology,57.01861111,-157.185,1345,Stratovolcano,-800,Alaska Peninsula
+1806-03-,Yanteles,Chile,Radiocarbon,-43.5,-72.8,2042,Stratovolcano,-6650,Chile-S
+1900-011,Yar  Jabal,Arabia,Historical,17.05,42.83333333,305,Volcano field,1810,Arabia-W
+1900-012,Yasur,Pacific Ocean,Historical,-19.53333333,169.4416667,361,Stratovolcano,2011,Vanuatu-SW Pacific
+1900-013,Yate,Chile,Holocene,-41.75472222,-72.39638889,2187,Stratovolcano,unknown,Chile-S
+1900-015,Yavinsky,Russia,Tephrochronology,51.56666667,156.6,705,Stratovolcano,-4050,Kamchatka
+1900-01=,Yelia,New Guinea,Holocene,-7.05,145.8583333,3384,Stratovolcano,unknown,New Guinea
+1900-020,Yellowstone,United States,Tephrochronology,44.43333333,-110.6666667,2805,Caldera,-1350,US-Wyoming
+1900-021,Yersey,Indonesia,Uncertain,-7.533333333,123.95,-3800,Submarine volcano,unknown,Lesser Sunda Islands
+1900-022,Yojoa  Lake,Honduras,Holocene,14.98333333,-87.98333333,1090,Volcano field,unknown,Honduras
+1900-023,Yokoate-jima,Japan,Historical,28.79694444,128.9969444,495,Stratovolcano,1835,Ryukyu is
+1900-024,Yomba,Papua New Guinea,Uncertain,-4.9,146.75,,Submarine volcano,unknown,New Guinea-NE of
+1900-025,Yotei,Japan,Tephrochronology,42.82972222,140.815,1898,Stratovolcano,-1050,Hokkaido-Japan
+1900-026,Young island,Antarctica,Fumarolic,-66.41666667,162.4666667,1340,Stratovolcano,unknown,Antarctica
+1900-027,Yucamane,Peru,Historical,-17.18333333,-70.2,5550,Stratovolcano,1902,Peru
+1900-028,Yunaska,Aleutian Islands,Historical,52.64277778,-170.6286111,550,Shield volcano,1937,Aleutian is
+1900-029,Zacate Grande  isla,Honduras,Holocene,13.33333333,-87.63333333,640,Stratovolcano,unknown,Honduras
+1900-02=,Zao,Japan,Historical,38.14055556,140.4427778,1841,Complex volcano,1940,Honshu-Japan
+1900-031,Zaozerny,Russia,Holocene,56.88333333,159.95,1349,Shield volcano,unknown,Kamchatka
+1900-03=,Zapatera,Nicaragua,Holocene,11.73333333,-85.81666667,629,Shield volcano,unknown,Nicaragua
+1900-041,Zavaritsky,Russia,Radiocarbon,53.905,158.385,1567,Cinder cone,-800,Kamchatka
+1900-04=,Zavaritzki Caldera,Russia,Historical,46.925,151.95,624,Caldera,1957,Kuril is
+1900-05=,Zavodovski,Antarctica,Historical,-56.3,-27.56666667,551,Stratovolcano,1819,Antarctica
+1900-07=,Zealandia Bank,Pacific Ocean,Fumarolic,16.88333333,145.85,0,Stratovolcano,unknown,Mariana is-C Pacific
+1900-081,Zengyu,Taiwan,Uncertain,26.18333333,122.4583333,-418,Submarine volcano,unknown,Taiwan-N of
+1900-08=,Zheltovsky,Russia,Historical,51.56666667,157.3233333,1953,Stratovolcano,1923,Kamchatka
+1900-09=,Zhupanovsky,Russia,Historical,53.59,159.1466667,2958,Compound volcano,1959,Kamchatka
+1900-10=,Zimina,Russia,Holocene,55.86166667,160.6033333,3081,Stratovolcano,unknown,Kamchatka
+1900-11=,Zitacuaro-Valle de Bravo,Mexico,Ar/Ar,19.4,-100.25,3500,Caldera,unknown,Mexico
+1900-12=,Zubair Group,Red Sea,Historical,15.05,42.18333333,191,Shield volcano,1824,Red Sea
+1900-13=,Zukur,Red Sea,Holocene,14.01666667,42.75,624,Shield volcano,unknown,Red Sea
+1900-14-,Zuni-Bandera,United States,Anthropology,34.8,-108,2550,Volcano field,-1170,US-New Mexico
