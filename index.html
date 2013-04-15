@@ -154,6 +154,7 @@
 									var statusSelected = $("#selectStatus").val();
 									var yearEruptedSelected = $('#scale').slider('values');
 									var showNotNumberAlert = false;
+									var showInvalidYears = false;
 									g.selectAll(".volcano").attr("visibility", function(d) {
 
 										var active = $("#tabs").tabs("option", "active");
@@ -180,8 +181,10 @@
 											g.attr("transform", "scale(" + 0 + ")translate(null)");
 											if($("#startYear").val() == '' || $("#endYear").val() == ''){
 												showNotNumberAlert = true;
+											}else if ( parseInt($("#startYear").val()) >  parseInt($("#endYear").val())){
+												showInvalidYears = true;
 											}else{
-												if(d.properties.YEAR < $("#startYear").val() || d.properties.YEAR > $("#endYear").val()){
+												if(d.properties.YEAR === "unknown" || !(d.properties.YEAR >= parseInt($("#startYear").val()) && d.properties.YEAR <= parseInt($("#endYear").val()))){
 													return 'hidden';
 												}
 											}
@@ -197,8 +200,11 @@
 									});
 									
 									if(showNotNumberAlert){
-										alert("Please input a numeral into Start and End Year input box");
+										alert("Please input a numeral into Start and End Year input box.");
+									}else if(showInvalidYears){
+										alert("Please ensure that the end year is later or equal to the start year.");
 									}
+									
 								});
 								
 								
