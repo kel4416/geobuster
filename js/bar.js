@@ -40,10 +40,9 @@ d3.csv("data/eruption-count.csv", function(error, data) {
 		return height - y(d.frequency);
 	}).on("mouseover", function(d) {
 		if (d.range !="<1500") {
-			var yearLimits = d.range
-			yearLimits1 = yearLimits;
+			var yearLimits = d.range	
+			yearLimits1 = yearLimits;			
 			yearLimits2 = parseInt(yearLimits) + 25;
-
 			d3.selectAll('.volcano').attr("display", function(d) {
 				if(d.properties.YEAR === 'unknown'){
 					return "none";
